@@ -1,4 +1,4 @@
-import HeaderBlockUI from "../comps/CustomComponent1"
+import HeaderBlockUI from "../comps/CustomComponent3"
 
 function Home() {
   return (
