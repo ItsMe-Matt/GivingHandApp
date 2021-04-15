@@ -1,9 +1,13 @@
 
-function HeaderBlockUI({title="placeholder"},{R1="Yes"},{R2="No"},{text="lorem ipsum"}, {bgcolor="white"}){
-
-
+function HeaderBlockUI({
+    title="placeholder",
+    R1="Yes",
+    R2="No",
+    text="lorem ipsum",
+    bgcolor="red",
+}){
     return <div style={{
-        backgroundColor:{bgcolor},
+        backgroundColor: "white",
         display: "flex",
         flexDirection: "column",
         width: "fit-content",
