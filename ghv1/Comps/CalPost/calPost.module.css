@@ -1,0 +1,23 @@
+.container {
+    background-color: white;
+    border: black solid 1px;
+    padding: 16px;
+
+    width: 400px;
+}
+.header {
+    text-align: center;
+
+    font-family: Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #6B5DA9;
+
+    margin: 32px;
+}
+
+.bold {
+    font-weight: 700;
+    font-family: Helvetica, sans-serif;
+}
+
