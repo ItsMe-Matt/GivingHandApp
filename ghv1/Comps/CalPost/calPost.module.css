@@ -1,9 +1,10 @@
 .container {
     background-color: white;
     border: black solid 1px;
-    padding: 16px;
+    margin: 16px;
 
-    width: 400px;
+    width: 95%;
+    border-radius: 32px 32px 0px 0px;
 }
 .header {
     text-align: center;
@@ -19,5 +20,13 @@
 .bold {
     font-weight: 700;
     font-family: Helvetica, sans-serif;
+}
+
+.wordContainer {
+    padding: 32px;
+}
+
+.lineContainer {
+    margin-bottom: 16px;
 }
 

@@ -4,24 +4,28 @@ import ButtonUI from '../Comps/ButtonUI'
 import MissionUI from '../Comps/OurMission'
 import NavbarUI from '../Comps/NavBar'
 import CalPostUI from '../Comps/CalPost'
+import Background from '../Comps/Background'
 
-
+import styles from '../styles/main.module.css'
 
 
 function Home() {
-  return (<div>
-    homepage
+  return (<div className={styles.main}>
+    <div className={styles.bg}>
 
-    <HeaderBlockUI />
-    <ButtonUI />
-    <MissionUI />
-    <NavbarUI />
 
-    homepage
-    <CalPostUI />
+
+      <ButtonUI />
+      <MissionUI />
+      <CalPostUI />
+      <ButtonUI />
+      <NavbarUI />
+
+
 
     </div>
-    
+  </div>
+
     
   )
   }
