@@ -1,4 +1,7 @@
+
 function HeaderBlockUI({title="placeholder"},{R1="Yes"},{R2="No"},{text="lorem ipsum"}, {bgcolor="white"}){
+
+
     return <div style={{
         backgroundColor:{bgcolor},
         display: "flex",
@@ -16,5 +19,6 @@ function HeaderBlockUI({title="placeholder"},{R1="Yes"},{R2="No"},{text="lorem i
 
         </div>
 }
+
 
 export default HeaderBlockUI;
