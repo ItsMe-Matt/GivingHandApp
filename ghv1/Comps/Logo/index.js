@@ -3,7 +3,7 @@ function LogoUI({
     return <div>
 
       
-        <img src="../static/logo.svg"/>
+        <img height="215px" width="215px" src="/static/logo.svg"/>
 
     
     </div>

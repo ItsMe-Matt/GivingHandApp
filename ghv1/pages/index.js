@@ -49,16 +49,11 @@ function Home() {
     <div className={styles.bg}>
 
 
-      <br></br>
-      <br></br>
+      
       <br></br>
       <br></br>
       <br></br>
       <LogoUI/>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
       <br></br>
       <br></br>
       <br></br>
@@ -72,9 +67,9 @@ function Home() {
         <br></br>
         nuturing the homeless.
       </p>
-      <ButtonUI/>
+      <ButtonUI title="Let's Get Started"/>
       <br></br>
-      <ButtonUI/>
+      <ButtonUI title="Our Mission"/>
 
 
     </div>
