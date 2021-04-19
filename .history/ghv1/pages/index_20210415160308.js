@@ -7,7 +7,7 @@ function Home() {
     <div className={styles.bg}>
 
       <h1>LOCATIONS</h1>
-      <h1>Shelter</h1>
+      
       <LocationUI 
       header="Covenant House Vancouver"
       address="326 W Pender St, Vancouver, BC V6B 1T1"
@@ -32,6 +32,9 @@ function Home() {
       status="Open 24 hours"
       status2="(604) 428-8252"
       />
+
+      
+      
       <NavbarUI />
 
 

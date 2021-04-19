@@ -14,7 +14,7 @@
     font-family: Helvetica, sans-serif;
     font-size: 18px;
     font-weight: 700;
-    color: #F5F5F5;
+    color: #009966;
 }
 
 .continue {
@@ -24,7 +24,7 @@
 
     text-align: center;
     border-radius: 20px;
-    background-color: white;
+    background-color: black;
     border: solid 2px #009966;
 
 
@@ -35,16 +35,16 @@
 }
 
 .select {
-    width: 201px;
+    width: 180px;
     padding: 16px 0px;
     margin: 8px;
 
     text-align: center;
-    border-radius: 15px;
-    background-color: #F5F5F5;
+    border-radius: 32px;
+    background-color: #009966;
 
     font-family: Helvetica, sans-serif;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 700;
-    color: #009966;
+    color: #FFFFFF;
 }

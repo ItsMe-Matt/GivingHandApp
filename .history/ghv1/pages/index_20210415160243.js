@@ -32,6 +32,9 @@ function Home() {
       status="Open 24 hours"
       status2="(604) 428-8252"
       />
+
+      
+      
       <NavbarUI />
 
 

@@ -21,17 +21,15 @@ function Home() {
       status2="(604) 682-5556"
       />
       <LocationUI 
-      header="Lookout Emergency Aid"
-      address="832 E Pender St, Vancouver, BC V6A 1W1"
-      status="Open 24 hours"
-      status2="(604) 215-2445"
+      header=""
+      address=""
+      status=""
+      status2=""
       />
-      <LocationUI 
-      header="Rancity Housing & Support Society"
-      address="1648 Commercial Dr, Vancouver, BC V5N 4A4"
-      status="Open 24 hours"
-      status2="(604) 428-8252"
-      />
+      <LocationUI />
+
+      
+      
       <NavbarUI />
 
 
