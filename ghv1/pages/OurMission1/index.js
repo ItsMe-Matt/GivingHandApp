@@ -13,9 +13,9 @@ function OurMission() {
   return (<div className={styles.main}>
     <div className={styles.bg}>
 
-      <MissionUI/>
+      <MissionUI header="Select Donation" body="Choose between donating time (volunteer hours) and a money donation!"/>
 
-      <ButtonUI />
+      <ButtonUI title="Next"/>
 
 
 
