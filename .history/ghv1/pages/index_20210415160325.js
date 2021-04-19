@@ -1,21 +1,13 @@
 import NavbarUI from '../Comps/NavBar'
-
-import CalPostUI from '../Comps/CalPost'
-import Background from '../Comps/Background'
-import Images from '../Comps/Image'
-
 import styles from '../styles/main.module.css'
 import LocationUI from '../Comps/location/index.js'
-
-
-
 
 function Home() {
   return (<div className={styles.main}>
     <div className={styles.bg}>
 
       <h1>LOCATIONS</h1>
-      <h1>Shelter</h1>
+      <h2>Shelter</h2>
       <LocationUI 
       header="Covenant House Vancouver"
       address="326 W Pender St, Vancouver, BC V6B 1T1"
@@ -41,10 +33,14 @@ function Home() {
       status2="(604) 428-8252"
       />
 
+      
+      
       <NavbarUI />
+
 
     </div>
   </div>
+
     
   )
   }

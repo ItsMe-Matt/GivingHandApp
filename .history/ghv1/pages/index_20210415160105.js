@@ -1,14 +1,6 @@
 import NavbarUI from '../Comps/NavBar'
-
-import CalPostUI from '../Comps/CalPost'
-import Background from '../Comps/Background'
-import Images from '../Comps/Image'
-
 import styles from '../styles/main.module.css'
 import LocationUI from '../Comps/location/index.js'
-
-
-
 
 function Home() {
   return (<div className={styles.main}>
@@ -30,21 +22,20 @@ function Home() {
       />
       <LocationUI 
       header="Lookout Emergency Aid"
-      address="832 E Pender St, Vancouver, BC V6A 1W1"
-      status="Open 24 hours"
-      status2="(604) 215-2445"
+      address=""
+      status=""
+      status2=""
       />
-      <LocationUI 
-      header="Rancity Housing & Support Society"
-      address="1648 Commercial Dr, Vancouver, BC V5N 4A4"
-      status="Open 24 hours"
-      status2="(604) 428-8252"
-      />
+      <LocationUI />
 
+      
+      
       <NavbarUI />
+
 
     </div>
   </div>
+
     
   )
   }

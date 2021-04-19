@@ -1,14 +1,6 @@
 import NavbarUI from '../Comps/NavBar'
-
-import CalPostUI from '../Comps/CalPost'
-import Background from '../Comps/Background'
-import Images from '../Comps/Image'
-
 import styles from '../styles/main.module.css'
 import LocationUI from '../Comps/location/index.js'
-
-
-
 
 function Home() {
   return (<div className={styles.main}>
@@ -41,10 +33,14 @@ function Home() {
       status2="(604) 428-8252"
       />
 
+      
+      
       <NavbarUI />
+
 
     </div>
   </div>
+
     
   )
   }
