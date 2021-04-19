@@ -6,12 +6,11 @@
 }
 
 .header {
+    justify-content: flex-start;
     font-family: Helvetica, sans-serif;
     font-size: 36px;
     font-weight: 700;
     color: #6B5DA9;
-
-    margin: 32px;
     padding-bottom: 60px;
 }
 
