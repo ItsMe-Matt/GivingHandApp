@@ -48,3 +48,33 @@
     font-weight: 700;
     color: #009966;
 }
+
+.mission {
+    width: 300px;
+    padding: 16px 0px;
+    margin: 4px;
+
+    text-align: center;
+    border-radius: 12px;
+    border: solid 2px #FFFFFF;
+
+
+    font-family: Helvetica, sans-serif;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+.start {
+    width: 300px;
+    padding: 16px 0px;
+    margin: 4px;
+
+    text-align: center;
+    border-radius: 12px;
+    background-color: #009966;
+
+    font-family: Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: #FFFFFF;
+}

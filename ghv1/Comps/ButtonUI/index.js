@@ -26,6 +26,23 @@ function buttonUI({
       </div>
     }
 
+    else if (type == "mission") {
+      return <div className={styles.mission} style={{
+        userSelect: "none"
+      }}>
+       {title}
+      </div>
+    }
+
+    else if (type == "start") {
+      return <div className={styles.start} style={{
+        userSelect: "none"
+      }}>
+       {title}
+      </div>
+    }
+
+
 
 }
 
