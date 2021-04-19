@@ -1,6 +1,6 @@
-import NavbarUI from '../Comps/NavBar'
-import styles from '../styles/main.module.css'
-import LocationUI from '../Comps/location/index.js'
+import NavbarUI from '../../../Comps/NavBar'
+import styles from '../../../styles/main.module.css'
+import LocationUI from '../../../Comps/location/index.js'
 
 function Home() {
   return (<div className={styles.main}>

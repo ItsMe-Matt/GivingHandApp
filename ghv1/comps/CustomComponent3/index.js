@@ -7,7 +7,7 @@ function HeaderBlockUI({
     bgcolor="red",
 }){
     return <div style={{
-        backgroundColor: "white",
+        backgroundColor: bgcolor,
         display: "flex",
         flexDirection: "column",
         width: "fit-content",
