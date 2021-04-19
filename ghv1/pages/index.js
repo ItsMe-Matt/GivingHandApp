@@ -5,7 +5,7 @@ import MissionUI from '../Comps/OurMission'
 import NavbarUI from '../Comps/NavBar'
 import CalPostUI from '../Comps/CalPost'
 import Background from '../Comps/Background'
-import Images from '../Comps/Image'
+
 
 import styles from '../styles/main.module.css'
 
@@ -15,11 +15,10 @@ function Home() {
     <div className={styles.bg}>
 
 
-      <ButtonUI />
+      <ButtonUI title="no" type="continue"/>
       <MissionUI />
       <CalPostUI />
-      <ButtonUI />
-      <Images />
+      <ButtonUI title="jk lol" type="support"/>
       <NavbarUI />
 
 

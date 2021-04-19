@@ -6,19 +6,17 @@ import NavbarUI from '../../Comps/NavBar'
 import CalPostUI from '../../Comps/CalPost'
 import Background from '../../Comps/Background'
 
-import styles from '../../styles/main.module.css'
+import styles from '../../styles/OurMission.module.css'
 
 
 function OurMission() {
   return (<div className={styles.main}>
     <div className={styles.bg}>
 
+      <MissionUI/>
 
-      <ButtonUI/>
-      <MissionUI />
-      <CalPostUI />
       <ButtonUI />
-      <NavbarUI />
+
 
 
     </div>
