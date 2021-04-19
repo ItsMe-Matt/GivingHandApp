@@ -1,4 +1,5 @@
 function MoneyButtonUI({
+    header="placeholderTitle"
 }){
     return <button style= {{
         display: "flex",
@@ -19,7 +20,7 @@ function MoneyButtonUI({
             backgroundColor: "gray",
         }}>image</div>
         <div>
-            <h3>Money Donation</h3>
+            <h3>{header}</h3>
             <span style = {{
                 color: "#686666",
                 fontSize: 14,
