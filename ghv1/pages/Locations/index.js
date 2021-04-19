@@ -1,6 +1,6 @@
-import ButtonUI from '../Comps/ButtonUI'
-import NavbarUI from '../Comps/NavBar'
-import styles from '../styles/main.module.css'
+import ButtonUI from '../../Comps/ButtonUI'
+import NavbarUI from '../../Comps/NavBar'
+import styles from '../../styles/main.module.css'
 
 
 function Home() {

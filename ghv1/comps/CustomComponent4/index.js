@@ -1,5 +1,7 @@
 function MoneyButtonUI({
-    header = "Money Donation"
+
+    header="placeholderTitle"
+
 }){
     return <button style= {{
         display: "flex",
