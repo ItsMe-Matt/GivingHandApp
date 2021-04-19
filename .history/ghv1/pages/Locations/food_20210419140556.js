@@ -30,7 +30,7 @@ function Home() {
       header="Aboriginal Front Door Society"
       address="384 Main St, Vancouver, BC V6A 2T1"
       status="Opens 8 a.m. - 4 p.m."
-      status2="(604) 697-5662"
+      status2=""
       />
 
       

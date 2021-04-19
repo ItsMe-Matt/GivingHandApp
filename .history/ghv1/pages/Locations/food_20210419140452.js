@@ -17,20 +17,21 @@ function Home() {
       <LocationUI  
       header="Greater Vancouver Food Bank"
       address="1428 Charles St, Vancouver, BC V5L 2S8"
-      status="Open 7 p.m."
-      status2="(604) 876 3601"
+      status="Open 7 p.m.
+      "
+      status2=""
       />
       <LocationUI 
-      header="Quest Food Exchange"
-      address="2020 Dundas St, Vancouver, BC V5L 1J4"
-      status="Open 9 a.m. - 5:45 p.m."
-      status2="(604) 602-0186"
+      header=""
+      address=""
+      status=""
+      status2=""
       />
       <LocationUI 
-      header="Aboriginal Front Door Society"
-      address="384 Main St, Vancouver, BC V6A 2T1"
-      status="Opens 8 a.m. - 4 p.m."
-      status2="(604) 697-5662"
+      header=""
+      address=""
+      status=""
+      status2=""
       />
 
       
