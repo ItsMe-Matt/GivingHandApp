@@ -1,6 +1,6 @@
 function MoneyButtonUI({
 
-    header="placeholderTitle"
+    header = "placeholder"
 
 }){
     return <button style= {{
