@@ -6,13 +6,12 @@
 }
 
 .header {
+    justify-content: flex-start;
     font-family: Helvetica, sans-serif;
     font-size: 36px;
     font-weight: 700;
     color: #6B5DA9;
-
-    margin: 32px;
-    padding-bottom: 60px;
+    padding-bottom: 20px;
 }
 
 .h2 {
@@ -23,6 +22,7 @@
     font-size: 18px;
     color: #6B5DA9;
     margin: 50;
+    padding-top: 30px;
 }
 
 .h3 {
@@ -32,3 +32,39 @@
     padding-bottom: 20px;
 }
 
+.bar {
+    background-color: #F8F8F8;
+    display: flex; 
+    min-height: 12px;
+    min-width: 250px;
+    border: 1px solid #DFDFDF;
+}
+
+.box1 {
+    border: 1px solid #DFDFDF;
+    min-width: 50px;
+}
+
+.box2 {
+    border: 1px solid #DFDFDF;
+    min-width: 50px;
+}
+
+.box3 {
+    border: 1px solid #DFDFDF;
+    min-width: 50px;
+}
+
+.box4 {
+    border: 1px solid #DFDFDF;
+    min-width: 50px;
+}
+
+.box5 {
+    border: 1px solid #DFDFDF;
+    min-width: 50px;
+}
+
+.backButton {
+    
+}

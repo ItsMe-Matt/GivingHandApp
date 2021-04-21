@@ -1,0 +1,36 @@
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #444f42;
+    padding: 100px;
+}
+
+.bg {
+    background-color: aqua;
+    max-width: 720px;
+    max-height: 1280px;
+
+    min-width: 375px;
+    min-height: 667px;
+
+    margin: 0;
+    padding: 0;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+bod {
+    position: absolute;
+    width: 375px;
+    height: 593px;
+    left: 0px;
+    top: 74px;
+
+    background: #DAD4E5;
+border-radius: 40px;
+}

@@ -7,17 +7,22 @@ import CalPostUI from '../../Comps/CalPost'
 import Background from '../../Comps/Background'
 import MoneyButtonUI from '../../Comps/CustomComponent4'
 
-import styles from '../../styles/OurMission.module.css'
+
+import styles from './tester.module.css'
 
 
 function Tester() {
-  return (<div className={styles.main}>
+  return (<div className={styles.main}
+ >
     <div className={styles.bg}>
 
-    <ButtonUI type="continue" />
-    <ButtonUI type="select" />
+    
 
-    <ButtonUI />
+<p>sjkdakshdkajshdjashdjk</p>
+
+    <ButtonUI title="Let's Get Started" type="start"/>
+
+    <ButtonUI title="Our Mission" type="mission"/>
 
 
     </div>

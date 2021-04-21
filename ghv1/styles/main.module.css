@@ -7,7 +7,8 @@
 }
 
 .bg {
-    background-color: aqua;
+    background-color: #fff;
+
     max-width: 720px;
     max-height: 1280px;
 
@@ -21,6 +22,7 @@
     flex-direction: column;
     align-items: center;
 }
+
 
 .landingPage {
     background-color: rgb(245, 245, 245);
@@ -38,5 +40,21 @@
     flex-direction: column;
     align-items: center;
 
+.box {
 
+    position: absolute;
+    width: 375px;
+    height: 580px;
+    left: px;
+    bottom: 185px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #DAD4E5;
+    border-radius: 40px;
+    border: black 2px solid;
 }
+
+
+
+
