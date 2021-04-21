@@ -15,31 +15,32 @@ function Home() {
     <div className={styles.bg}>
 
       <h1>LOCATIONS</h1>
-      <h1>Shelter</h1>
+      <h1>Food</h1>
       <LocationUI 
-      header="Covenant House Vancouver"
-      address="326 W Pender St, Vancouver, BC V6B 1T1"
-      status="Open 24 hours"
-      status2="(604) 685-7474"
+      header="Helping Families in Need Society"
+      address="1679 Gilmore Ave, Burnaby, BC V5C 5V9"
+      status="24 hours"
+      status2="(604) 294-3087"
       />
       <LocationUI  
-      header="Aboriginal Shelter Vancouver"
-      address="201 Central St, Vancouver, BC V6A 4A9"
-      status="Opens 4:30 p.m. - 10 am"
-      status2="(604) 682-5556"
+      header="Greater Vancouver Food Bank"
+      address="1428 Charles St, Vancouver, BC V5L 2S8"
+      status="Open 7 p.m."
+      status2="(604) 876 3601"
       />
       <LocationUI 
-      header="Lookout Emergency Aid"
-      address="832 E Pender St, Vancouver, BC V6A 1W1"
-      status="Open 24 hours"
-      status2="(604) 215-2445"
+      header="Quest Food Exchange"
+      address="2020 Dundas St, Vancouver, BC V5L 1J4"
+      status="Open 9 a.m. - 5:45 p.m."
+      status2="(604) 602-0186"
       />
       <LocationUI 
-      header="Rancity Housing & Support Society"
-      address="1648 Commercial Dr, Vancouver, BC V5N 4A4"
-      status="Open 24 hours"
-      status2="(604) 428-8252"
+      header="Aboriginal Front Door Society"
+      address="384 Main St, Vancouver, BC V6A 2T1"
+      status="Opens 8 a.m. - 4 p.m."
+      status2="(604) 697-5662"
       />
+      
 
 
       <NavbarUI />
