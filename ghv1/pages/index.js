@@ -46,8 +46,10 @@ function Home() {
       <NavbarUI />
 
     </div>
-  </div>
     
+  </div>
+
+
   )
   }
 

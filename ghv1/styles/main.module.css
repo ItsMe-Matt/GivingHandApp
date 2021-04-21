@@ -23,6 +23,23 @@
     align-items: center;
 }
 
+
+.landingPage {
+    background-color: rgb(245, 245, 245);
+    background-image: url("/static/bgimages/buildings.svg");
+    max-width: 720px;
+    max-height: 1280px;
+
+    min-width: 375px;
+    min-height: 667px;
+
+    margin: 0;
+    padding: 0;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
 .box {
 
     position: absolute;
@@ -37,6 +54,7 @@
     border-radius: 40px;
     border: black 2px solid;
 }
+
 
 
 
