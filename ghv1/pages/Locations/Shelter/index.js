@@ -5,6 +5,7 @@ import LocationUI from '../../../Comps/location/index.js'
 function Home() {
   return (<div className={styles.main}>
     <div className={styles.bg}>
+
      <h1>LOCATIONS</h1>
       <div className={styles.box}>
 
@@ -39,6 +40,7 @@ function Home() {
        <NavbarUI />
 
       </div>
+
     </div>
   </div>
 
