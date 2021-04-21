@@ -2,14 +2,15 @@ function BackButtonUI({
 
 }){
     return <button style= {{
-        display: "flex",
-        alignItems: "flex-start",
         color: "#A9A9A9",
         backgroundColor: "transparent",
         border: "none",
-        fontSize: "50px",
+        fontSize: "30px",
     }}>
-        ‹
+        <div style= {{
+            maxHeight: "60px",
+            fontSize: "30px"
+        }}>‹</div>
     </button>
   }
   

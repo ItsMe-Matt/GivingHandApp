@@ -4,6 +4,7 @@ import SupportUI from '../../Comps/SupportUs'
 import BackButtonUI from '../../Comps/BackButton'
 import styles from '../../styles/main.module.css'
 import ExitButtonUI from '../../Comps/ExitButton'
+import OrganizationCardsUI from '../../Comps/OrganizationCards'
 
 
 function SupportUs() {
