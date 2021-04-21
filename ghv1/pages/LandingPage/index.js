@@ -30,14 +30,14 @@ function Home() {
       <br></br>
       <br></br>
       <br></br>
+      <br></br>
       <p>
         Helping, providing for, and
         <br></br>
         nuturing the homeless.
       </p>
-      <ButtonUI title="Let's Get Started"/>
-      <br></br>
-      <ButtonUI title="Our Mission"/>
+      <ButtonUI title="Let's Get Started" type="start" />
+      <ButtonUI title="Our Mission" type="mission" />
 
 
     </div>

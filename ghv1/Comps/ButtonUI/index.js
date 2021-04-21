@@ -42,6 +42,14 @@ function buttonUI({
       </div>
     }
 
+    else if (type == "next") {
+      return <div className={styles.next} style={{
+        userSelect: "none"
+      }}>
+       {title}
+      </div>
+    }
+
 
 
 }

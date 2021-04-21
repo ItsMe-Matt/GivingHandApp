@@ -6,7 +6,7 @@ import NavbarUI from '../../Comps/NavBar'
 import CalPostUI from '../../Comps/CalPost'
 import Background from '../../Comps/Background'
 
-import styles from '../../styles/OurMission.module.css'
+import styles from '../../styles/ourMission.module.css'
 
 
 function OurMission() {
@@ -20,9 +20,9 @@ function OurMission() {
       <br></br>
       <br></br>
       <br></br>
-      <MissionUI header="Choose a Category" body="Select which sector you would like to volunteer at, or the category of items you want to donate."/>
+      <MissionUI header="Choose a Category" url="/static/categoryPic.svg" body="Select which sector you would like to volunteer at, or the category of items you want to donate."/>
 
-      <ButtonUI title="Next"/>
+      <ButtonUI title="Next" type="next" />
 
 
 
