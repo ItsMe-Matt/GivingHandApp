@@ -12,10 +12,15 @@ import styles from '../../styles/OurMission.module.css'
 function OurMission() {
   return (<div className={styles.main}>
     <div className={styles.bg}>
-
-      <MissionUI header="Pick an Organization" body="Choose the organization that you want to volunteer at or want your donation to go toward. More information will then be sent via email.
-	  
-	  You're all set!"/>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <MissionUI header="Pick an Organization" body="Choose the organization that you want to volunteer at or want your donation to go toward. More information will then be sent via email. You're all set!"/>
 	
       <ButtonUI title="Let's Get Started"/>
 

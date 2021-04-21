@@ -12,7 +12,14 @@ import styles from '../../styles/OurMission.module.css'
 function OurMission() {
   return (<div className={styles.main}>
     <div className={styles.bg}>
-
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
       <MissionUI header="Choose a Category" body="Select which sector you would like to volunteer at, or the category of items you want to donate."/>
 
       <ButtonUI title="Next"/>
