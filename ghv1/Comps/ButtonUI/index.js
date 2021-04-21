@@ -2,14 +2,31 @@ import styles from './button.module.css'
 
 function buttonUI({
   title="placeholderText",
+  type="continue"
 }){
-    return <div className={styles.select} style={{
-      userSelect: "none",
-    }}
->
-     
-     {title}
-   </div>
+    if (type == "support") {
+      return <div className={styles.support} style={{
+        userSelect: "none"
+      }}>
+       {title}
+      </div>
+    }
+    else if (type == "continue") {
+      return <div className={styles.continue} style={{
+        userSelect: "none"
+      }}>
+       {title}
+      </div>
+    }
+    else if (type == "select") {
+      return <div className={styles.select} style={{
+        userSelect: "none"
+      }}>
+       {title}
+      </div>
+    }
+
+
 }
 
 

@@ -1,5 +1,7 @@
 function MoneyButtonUI({
+
     header = "placeholder"
+
 }){
     return <button style= {{
         display: "flex",
