@@ -4,6 +4,7 @@ function buttonUI({
   title="placeholderText",
   type="continue"
 }){
+  // if the type is support, the style is support and vice versa for everything else
     if (type == "support") {
       return <div className={styles.support} style={{
         userSelect: "none"

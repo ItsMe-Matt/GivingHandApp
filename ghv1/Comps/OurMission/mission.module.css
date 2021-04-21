@@ -11,6 +11,8 @@
     font-size: 36px;
     font-weight: 700;
     color: #6B5DA9;
+    max-width: 300px;
+    text-align: center;
 
     margin: 32px;
 }
