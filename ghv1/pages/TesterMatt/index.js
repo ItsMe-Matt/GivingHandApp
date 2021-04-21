@@ -6,6 +6,7 @@ import NavbarUI from '../../Comps/NavBar'
 import CalPostUI from '../../Comps/CalPost'
 import Background from '../../Comps/Background'
 import MoneyButtonUI from '../../Comps/CustomComponent4'
+import SupportUI from '../../Comps/SupportUs'
 
 
 import styles from './tester.module.css'
@@ -17,9 +18,9 @@ function Tester() {
     <div className={styles.bg}>
 
     
-
-<p>sjkdakshdkajshdjashdjk</p>
-
+    <MissionUI header="Ending Vancouver's homelessness one step at a time" url="/static/Bubbles.svg" width="100px"/>
+    
+    <SupportUI />
     <ButtonUI title="Let's Get Started" type="start"/>
 
     <ButtonUI title="Our Mission" type="mission"/>
