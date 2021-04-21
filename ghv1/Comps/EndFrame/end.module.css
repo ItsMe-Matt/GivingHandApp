@@ -2,7 +2,16 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    
+    padding-top: 50px; 
+    padding-bottom: 10px;
+    min-width: 375px;
+    max-width: 375px;
+}
+
+.image {
+    width: 150px;
+    height: 150px;
+    padding-top: 50px;
 }
 
 .header {
@@ -22,18 +31,36 @@
     font-size: 18px;
     color: #6B5DA9;
     margin: 50;
-    padding-top: 30px;
+    padding-top: 50px;
 }
 
 .h3 {
     font-family: Helvetica, sans-serif;
-    font-size: 12px;
-    color: grey;
+    font-size: 18px;
+    font-weight: 700;
+    color: #009966;
     padding-bottom: 20px;
 }
 
+.description {
+    font-family: Helvetica, sans-serif;
+    font-size: 12px;
+    color: grey;
+    padding-left: 15px;
+    margin: 50px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.givethanks {
+    font-family: Helvetica, sans-serif;
+    font-size: 12px;
+    color: grey;
+    margin-top: 0px;
+}
+
 .bar {
-    background-color: #F8F8F8;
+    background-color: #C4C4C4;
     display: flex; 
     min-height: 12px;
     min-width: 250px;
