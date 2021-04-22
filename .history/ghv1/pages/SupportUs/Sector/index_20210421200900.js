@@ -3,17 +3,12 @@ import styles from '../../../styles/SupportUs.module.css'
 import SupportUs from '../../../Comps/SupportUs/index'
 import BackButtonUI from '../../../Comps/BackButton/index'
 
-
 function Home() {
   return (<div className={styles.SupportUs}>
     <div className={styles.bg}>
 
-       <BackButtonUI />
-       <SupportUs 
-       header="Support Us"
-       subheader="Which Organization do you want to help?"
-       supportingtext="(please select one)"
-       />
+       
+    can you merge everything please? so we can continue to route shit
        <ButtonUI title= "Food" routeTo="/SupportUs/Food" />
 
        <br></br><br></br>

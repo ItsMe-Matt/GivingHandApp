@@ -8,7 +8,7 @@ function Home() {
   return (<div className={styles.SupportUs}>
     <div className={styles.bg}>
 
-       <BackButtonUI />
+       <BackButtonUI
        <SupportUs 
        header="Support Us"
        subheader="Which Organization do you want to help?"

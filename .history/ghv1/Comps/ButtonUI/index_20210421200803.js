@@ -65,7 +65,7 @@ function buttonUI({
         userSelect: "none"
       }}>
        {title}
-      </div>
+      </button>
     }
 }
 

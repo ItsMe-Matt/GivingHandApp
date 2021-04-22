@@ -40,7 +40,7 @@ function buttonUI({
         userSelect: "none"
       }}>
        {title}
-      </div>
+      </button>
     }
 
     else if (type == "start") {
@@ -65,7 +65,7 @@ function buttonUI({
         userSelect: "none"
       }}>
        {title}
-      </div>
+      </button>
     }
 }
 

@@ -3,13 +3,12 @@ import styles from '../../../styles/SupportUs.module.css'
 import SupportUs from '../../../Comps/SupportUs/index'
 import BackButtonUI from '../../../Comps/BackButton/index'
 
-
 function Home() {
   return (<div className={styles.SupportUs}>
     <div className={styles.bg}>
 
-       <BackButtonUI />
-       <SupportUs 
+       
+    <SupportUs 
        header="Support Us"
        subheader="Which Organization do you want to help?"
        supportingtext="(please select one)"
