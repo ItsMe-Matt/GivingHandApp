@@ -13,11 +13,11 @@ function SupportUs() {
 
       <BackButtonUI/>
 
-      {/* <SupportUs 
+      <SupportUI 
        header="Support Us"
        subheader="Which Organization do you want to help?"
        supportingtext="(please select one)"
-       /> */}
+       />
       <MoneyButtonUI header="Money Donation" routeTo="/SupportUs/Amount" />
       <MoneyButtonUI header="Time (Volunteer)" routeTo="/SupportUs/Volunteer.hours" />
 
