@@ -1,12 +1,12 @@
 import ButtonUI from '../../../Comps/ButtonUI'
 import Button4UI from '../../../Comps/CustomComponent2/Button4'
 import SupportUs from '../../../Comps/SupportUs/index'
-import styles from '../../../styles/SupportUs.module.css'
+import styles from '../../../styles/organ.module.css'
 import BackButtonUI from '../../../Comps/BackButton/index'
 import OrganizationCards from '../../../Comps/OrganizationCards/index'
 
 function Home() {
-  return (<div className={styles.SupportUs}>
+  return (<div className={styles.organ}>
     <div className={styles.bg}>
        <BackButtonUI />
     <SupportUs 

@@ -14,7 +14,7 @@
     align-items: center;
     justify-content: space-evenly;
     padding-top: 60px;
-    
+    opacity: none;
 }
 .image {
     width: 100px;

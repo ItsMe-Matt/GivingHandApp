@@ -18,7 +18,7 @@ function Home() {
        <ButtonUI title= "Dress for Success" type="shadow" />
        <br></br>
        <ButtonUI  title= "Big Brothers Vancouver" type="shadow" />
-       <br></br> 
+       <br></br> <OrganizationCards />
        <ButtonUI  title= "Downtown Eastside Women’s Centre" type="shadow" />
        <br></br>
        <ButtonUI  title= "Union Gospel Mission" type="shadow" />

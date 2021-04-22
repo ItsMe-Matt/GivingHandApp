@@ -6,7 +6,7 @@ import BackButtonUI from '../../../Comps/BackButton/index'
 import OrganizationCards from '../../../Comps/OrganizationCards/index'
 
 function Home() {
-  return (<div className={styles.SupportUs}>
+  return (<div className={styles.organ}>
     <div className={styles.bg}>
        <BackButtonUI />
     <SupportUs 
