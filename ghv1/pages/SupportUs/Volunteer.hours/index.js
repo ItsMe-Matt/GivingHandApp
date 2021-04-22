@@ -14,10 +14,10 @@ function Home() {
        />
     
 
-       <ButtonUI title= "1 Hour per day" type="shadow" />
-       <ButtonUI  title= "2 Hour per day" type="shadow" />
-       <ButtonUI  title= "3 Hour per day" type="shadow" />
-       <ButtonUI  title= "Other" type="shadow" />
+       <ButtonUI title= "1 Hour per day" type="shadow" routeTo="/SupportUs/Sector" />
+       <ButtonUI  title= "2 Hours per day" type="shadow" routeTo="/SupportUs/Sector" />
+       <ButtonUI  title= "3 Hours per day" type="shadow" routeTo="/SupportUs/Sector" />
+       <ButtonUI  title= "6 Hours per day" type="shadow" routeTo="/SupportUs/Sector" />
 
        <br></br><br></br><br></br><br></br>
     </div>
