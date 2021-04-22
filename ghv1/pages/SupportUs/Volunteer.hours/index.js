@@ -11,13 +11,10 @@ function Home() {
        <h3>Select volunteer hours</h3>
         <p>(Please select one)</p>
     
-       <ButtonUI title= "1 Hour per day" />
-       <br></br><br></br>
-       <ButtonUI  title= "2 Hour per day" />
-       <br></br><br></br>
-       <ButtonUI  title= "3 Hour per day" />
-       <br></br><br></br>
-       <ButtonUI  title= "Other"/>
+       <ButtonUI title= "1 Hour per day" type="shadow" />
+       <ButtonUI  title= "2 Hour per day" type="shadow" />
+       <ButtonUI  title= "3 Hour per day" type="shadow" />
+       <ButtonUI  title= "Other" type="shadow" />
        <br></br><br></br><br></br><br></br>
     </div>
   </div>

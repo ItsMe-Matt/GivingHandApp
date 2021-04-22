@@ -54,6 +54,14 @@ function buttonUI({
       </div>
     }
 
+    else if (type == "shadow") {
+      return <div onClick={()=>router.push(routeTo)} className={styles.shadow} style={{
+        userSelect: "none"
+      }}>
+       {title}
+      </div>
+    }
+
 
 
 }

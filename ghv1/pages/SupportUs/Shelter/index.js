@@ -12,15 +12,15 @@ function Home() {
        <h3>What Organization do you want to help?</h3>
         <p>(Please select one)</p>
     
-       <ButtonUI title= "Covenant House Vancouver" />
+       <ButtonUI title= "Covenant House Vancouver" type="shadow" />
        <br></br>
-       <ButtonUI  title= "Aboriginal Shelter Vancouver" />
+       <ButtonUI  title= "Aboriginal Shelter Vancouver" type="shadow" />
        <br></br>
-       <ButtonUI  title= "Lookout Emergency Aid" />
+       <ButtonUI  title= "Lookout Emergency Aid" type="shadow" />
        <br></br>
-       <ButtonUI  title= "Rancity Housing & Support Society"/>
+       <ButtonUI  title= "Rancity Housing & Support Society" type="shadow" />
        <br></br><br></br>
-       <Button4UI/>
+       <ButtonUI title="Continue" type="start" />
        <br></br>
     </div>
   </div>

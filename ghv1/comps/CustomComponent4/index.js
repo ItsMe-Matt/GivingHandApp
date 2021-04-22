@@ -1,9 +1,13 @@
+import {useRouter} from 'next/router'
+
 function MoneyButtonUI({
 
-    header = "placeholder"
+    header = "placeholder",
+    routeTo="/LandingPage"
 
 }){
-    return <button style= {{
+    const router = useRouter();
+    return <button onClick={()=>router.push(routeTo)} style= {{
         display: "flex",
         width: 250,
         height: 150,
