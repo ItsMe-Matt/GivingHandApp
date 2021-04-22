@@ -36,8 +36,8 @@ function Home() {
         <br></br>
         nuturing the homeless.
       </p>
-      <ButtonUI title="Let's Get Started" type="start" />
-      <ButtonUI title="Our Mission" type="mission" />
+      <ButtonUI title="Let's Get Started" type="start" routeTo="/SupportUs" />
+      <ButtonUI title="Our Mission" type="mission" routeTo="/OurMission" />
 
 
     </div>

@@ -22,7 +22,7 @@ function OurMission() {
       <br></br>
       <MissionUI header="Select Donation" url="/static/donationPic.svg" body="Choose between donating time (volunteer hours) and a money donation!"/>
 
-      <ButtonUI title="Next" type="next" /> 
+      <ButtonUI title="Next" type="next" routeTo="/OurMission2" /> 
 
 
 

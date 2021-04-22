@@ -10,13 +10,13 @@ function Home() {
       <div className={styles.box}>
        <br></br><br></br><br></br>
     
-       <ButtonUI title= "Shelter" />
+       <ButtonUI title= "Shelter" routeTo="/Locations/Shelter" />
        <br></br><br></br>
-       <ButtonUI  title= "Clothing" />
+       <ButtonUI  title= "Clothing" routeTo="/Locations/Clothing" />
        <br></br><br></br>
-       <ButtonUI  title= "Hygiene Products" />
+       <ButtonUI  title= "Hygiene Products" routeTo="/Locations/Hygiene" />
        <br></br><br></br>
-       <ButtonUI  title= "Food"/>
+       <ButtonUI  title= "Food" routeTo="/Locations/Food" />
        <br></br><br></br><br></br><br></br>
 
        <NavbarUI />
