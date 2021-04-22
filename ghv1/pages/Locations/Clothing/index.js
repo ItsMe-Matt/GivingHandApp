@@ -7,9 +7,9 @@ function Home() {
   
   return (<div className={styles.main}>
     <div className={styles.bg}>
+     <div className={styles.box}>
       <BackButtonUI />
      <h1>LOCATIONS</h1>
-     <div className={styles.box}>
 
       
       <h1>Clothing</h1>
