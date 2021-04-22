@@ -6,7 +6,7 @@ function BackButtonUI({
         backgroundColor: "transparent",
         border: "none",
         fontSize: "30px",
-        outline: "none"
+        outline: 
         
     }}>
         <div style= {{
