@@ -1,4 +1,6 @@
 
+import Link from 'next/link'
+
 import HeaderBlockUI from '../../Comps/CustomComponent3'
 import ButtonUI from '../../Comps/ButtonUI'
 import MissionUI from '../../Comps/OurMission'
@@ -21,10 +23,12 @@ function Tester() {
     <MissionUI header="Ending Vancouver's homelessness one step at a time" url="/static/Bubbles.svg" width="100px"/>
     
     <SupportUI />
+
+
+    <Link href='/Locations/Clothing'>
     <ButtonUI title="Let's Get Started" type="start"/>
-
+    </Link>
     <ButtonUI title="Our Mission" type="mission"/>
-
 
     </div>
   </div>
