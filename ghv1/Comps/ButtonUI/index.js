@@ -14,14 +14,14 @@ function buttonUI({
         userSelect: "none"
       }}>
        {title}
-      </button>
+      </div>
     }
     else if (type == "continue") {
       return <div onClick={()=>router.push(routeTo)} className={styles.continue} style={{
         userSelect: "none"
       }}>
        {title}
-      </button>
+      </div>
     }
     else if (type == "select") {
 
@@ -30,7 +30,7 @@ function buttonUI({
         userSelect: "none"
       }}>
        {title}
-      </button>
+      </div>
     }
 
     else if (type == "mission") {
@@ -40,7 +40,7 @@ function buttonUI({
         userSelect: "none"
       }}>
        {title}
-      </button>
+      </div>
     }
 
     else if (type == "start") {
@@ -65,7 +65,7 @@ function buttonUI({
         userSelect: "none"
       }}>
        {title}
-      </button>
+      </div>
     }
 }
 
