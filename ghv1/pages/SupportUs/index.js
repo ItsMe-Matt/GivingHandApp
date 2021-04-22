@@ -12,9 +12,17 @@ function SupportUs() {
     <div className={styles.bg}>
 
       <BackButtonUI/>
-      <SupportUI/>
-      <MoneyButtonUI header="Money Donation"/>
-      <MoneyButtonUI header="Time (Volunteer)"/>
+
+
+      <SupportUI 
+       header="Support Us"
+       subheader="Which Organization do you want to help?"
+       supportingtext="(please select one)"
+       />
+      <MoneyButtonUI header="Money Donation" routeTo="/SupportUs/Amount" />
+      <MoneyButtonUI header="Time (Volunteer)" routeTo="/SupportUs/Volunteer.hours" />
+
+
 
     </div>
   </div>

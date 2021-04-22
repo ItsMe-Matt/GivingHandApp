@@ -1,49 +1,39 @@
-import NavbarUI from '../Comps/NavBar'
-
-import CalPostUI from '../Comps/CalPost'
-import Background from '../Comps/Background'
-
+import ButtonUI from '../Comps/ButtonUI'
+import LogoUI from '../Comps/Logo'
 
 import styles from '../styles/main.module.css'
-import LocationUI from '../Comps/location/index.js'
-
-
 
 
 function Home() {
   return (<div className={styles.main}>
-    <div className={styles.bg}>
-
-      <h1>LOCATIONS</h1>
-      <h1>Food</h1>
-      <LocationUI 
-      header="Helping Families in Need Society"
-      address="1679 Gilmore Ave, Burnaby, BC V5C 5V9"
-      status="24 hours"
-      status2="(604) 294-3087"
-      />
-      <LocationUI  
-      header="Greater Vancouver Food Bank"
-      address="1428 Charles St, Vancouver, BC V5L 2S8"
-      status="Open 7 p.m."
-      status2="(604) 876 3601"
-      />
-      <LocationUI 
-      header="Quest Food Exchange"
-      address="2020 Dundas St, Vancouver, BC V5L 1J4"
-      status="Open 9 a.m. - 5:45 p.m."
-      status2="(604) 602-0186"
-      />
-      <LocationUI 
-      header="Aboriginal Front Door Society"
-      address="384 Main St, Vancouver, BC V6A 2T1"
-      status="Opens 8 a.m. - 4 p.m."
-      status2="(604) 697-5662"
-      />
-      
+    <div className={styles.landingPage}>
 
 
-      <NavbarUI />
+      <br></br>
+      <br></br>
+      <br></br>
+      <LogoUI/>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <p>
+        Helping, providing for, and
+        <br></br>
+        nuturing the homeless.
+      </p>
+      <ButtonUI title="Let's Get Started" type="start" routeTo="/SupportUs" />
+      <ButtonUI title="Our Mission" type="mission" routeTo="/OurMission" />
+
 
     </div>
     

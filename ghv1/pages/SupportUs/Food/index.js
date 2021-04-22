@@ -17,14 +17,11 @@ function Home() {
         
     
        <ButtonUI title= "Helping Families in Need Society" type="shadow" />
-       <br></br>
        <ButtonUI  title= "Greater Vancouver Food Bank" type="shadow" />
-       <br></br>
        <ButtonUI  title= "Quest Food Exchange" type="shadow" />
-       <br></br>
        <ButtonUI  title= "Aboriginal Front Door Society" type="shadow" />
-       <br></br><br></br>
-       <ButtonUI title="Continue" type="start" />
+       <br></br><br></br> 
+       <ButtonUI title="Continue" type="start" routeTo="/ThankYou" />
        <br></br>
     </div>
   </div>

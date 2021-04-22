@@ -9,8 +9,8 @@ function ThankYou()
     <div className={styles.bg}>
 
       <ThanksUI/>
-      <ButtonUI title="Donate Again" type="start"/>
-      <ButtonUI title="Go to Home" type="continue"/>
+      <ButtonUI title="Donate Again" type="start" routeTo="/SupportUs" />
+      <ButtonUI title="Go to Home" type="continue" routeTo="/LandingPage" />
       <br></br>
       <br></br>
 

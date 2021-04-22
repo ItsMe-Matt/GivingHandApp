@@ -1,7 +1,10 @@
-function BackButtonUI({
+import {useRouter} from 'next/router'
 
+function BackButtonUI({
+    routeTo="/LandingPage"
 }){
-    return <button style= {{
+    const router = useRouter();
+    return <button onClick={()=>router.push(routeTo)} style= {{
         color: "#A9A9A9",
         backgroundColor: "transparent",
         border: "none",

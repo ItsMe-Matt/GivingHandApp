@@ -8,8 +8,9 @@ function Home() {
     <div className={styles.bg}>
       
 
-    <BackButtonUI /> <h1>LOCATIONS</h1>
       <div className={styles.box}>
+        <BackButtonUI />
+        <h1>LOCATIONS</h1>
 
        <h1>Shelter</h1>
        <LocationUI 
