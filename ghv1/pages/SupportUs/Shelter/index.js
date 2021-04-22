@@ -1,16 +1,18 @@
 import ButtonUI from '../../../Comps/ButtonUI'
 import Button4UI from '../../../Comps/CustomComponent2/Button4'
+import SupportUs from '../../../Comps/SupportUs/index'
 import styles from '../../../styles/SupportUs.module.css'
-
+import BackButtonUI from '../../../Comps/BackButton/index'
 
 function Home() {
   return (<div className={styles.SupportUs}>
     <div className={styles.bg}>
-       
-       <h1>Support Us</h1>
-       <br></br>
-       <h3>What Organization do you want to help?</h3>
-        <p>(Please select one)</p>
+       <BackButtonUI/>
+       <SupportUs 
+       header="Support Us"
+       subheader="Which Organization do you want to help?"
+       supportingtext="(please select one)"
+       />
     
        <ButtonUI title= "Covenant House Vancouver" type="shadow" />
        <br></br>
