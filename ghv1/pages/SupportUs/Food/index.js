@@ -16,15 +16,15 @@ function Home() {
        
         
     
-       <ButtonUI title= "Helping Families in Need Society" />
+       <ButtonUI title= "Helping Families in Need Society" type="shadow" />
        <br></br>
-       <ButtonUI  title= "Greater Vancouver Food Bank" />
+       <ButtonUI  title= "Greater Vancouver Food Bank" type="shadow" />
        <br></br>
-       <ButtonUI  title= "Quest Food Exchange" />
+       <ButtonUI  title= "Quest Food Exchange" type="shadow" />
        <br></br>
-       <ButtonUI  title= "Aboriginal Front Door Society"/>
+       <ButtonUI  title= "Aboriginal Front Door Society" type="shadow" />
        <br></br><br></br>
-       <Button4UI />
+       <ButtonUI title="Continue" type="start" />
        <br></br>
     </div>
   </div>

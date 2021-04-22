@@ -15,15 +15,15 @@ function Home() {
        />
        
     
-       <ButtonUI title= "Donation Circle Society" />
+       <ButtonUI title= "Donation Circle Society" type="shadow" />
        <br></br>
-       <ButtonUI  title= "Wish Drop In Centre" />
+       <ButtonUI  title= "Wish Drop In Centre" type="shadow" />
        <br></br>
-       <ButtonUI  title= "Directions Youth Services" />
+       <ButtonUI  title= "Directions Youth Services" type="shadow" />
        <br></br>
-       <ButtonUI  title= "Union Gospel Mission"/>
+       <ButtonUI  title= "Union Gospel Mission" type="shadow" />
        <br></br><br></br>
-       <Button4UI/>
+       <ButtonUI title="Continue" type="start" />
        <br></br>
     </div>
   </div>

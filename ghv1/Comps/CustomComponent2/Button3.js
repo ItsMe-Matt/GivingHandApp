@@ -7,7 +7,7 @@ function Button3UI({
     borderRadius: 15,
     color: "white",
     fontSize: 10,
-    
+    border: "none"
 
    }} >
      <h1>Let's Get Started</h1>

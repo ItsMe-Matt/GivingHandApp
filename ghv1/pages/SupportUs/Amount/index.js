@@ -13,13 +13,12 @@ function Home() {
        supportingtext="(please select one)"
        />
     
-       <ButtonUI title= "$10" />
-       <br></br><br></br>
-       <ButtonUI  title= "$25" />
-       <br></br><br></br>
-       <ButtonUI  title= "$50" />
-       <br></br><br></br>
-       <ButtonUI  title= "$100"/>
+
+       <ButtonUI title= "$10" routeTo="/SupportUs/Sector" type="shadow" />
+       <ButtonUI  title= "$25" routeTo="/SupportUs/Sector" type="shadow" />
+       <ButtonUI  title= "$50" routeTo="/SupportUs/Sector" type="shadow" />
+       <ButtonUI  title= "$100" routeTo="/SupportUs/Sector" type="shadow" />
+
        <br></br><br></br><br></br><br></br>
     </div>
   </div>

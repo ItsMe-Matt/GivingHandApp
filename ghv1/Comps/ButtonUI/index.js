@@ -1,26 +1,32 @@
 import styles from './button.module.css'
+import {useRouter} from 'next/router'
 
 
 function buttonUI({
   title="placeholderText",
-  type="continue"
+  type="continue",
+  routeTo="/LandingPage"
 }){
+  const router = useRouter();
     if (type == "support") {
-      return <button className={styles.support} style={{
+      return <div onClick={()=>router.push(routeTo)} className={styles.support} style={{
+
         userSelect: "none"
       }}>
        {title}
       </button>
     }
     else if (type == "continue") {
-      return <button className={styles.continue} style={{
+      return <div onClick={()=>router.push(routeTo)} className={styles.continue} style={{
         userSelect: "none"
       }}>
        {title}
       </button>
     }
     else if (type == "select") {
-      return <button className={styles.select} style={{
+
+      return <div onClick={()=>router.push(routeTo)} className={styles.select} style={{
+
         userSelect: "none"
       }}>
        {title}
@@ -28,7 +34,9 @@ function buttonUI({
     }
 
     else if (type == "mission") {
-      return <button className={styles.mission} style={{
+
+      return <div onClick={()=>router.push(routeTo)} className={styles.mission} style={{
+
         userSelect: "none"
       }}>
        {title}
@@ -36,16 +44,29 @@ function buttonUI({
     }
 
     else if (type == "start") {
-      return <button className={styles.start} style={{
+
+      return <div onClick={()=>router.push(routeTo)} className={styles.start} style={{
+        userSelect: "none"
+      }}>
+       {title}
+      </div>
+    }
+
+    else if (type == "next") {
+      return <div onClick={()=>router.push(routeTo)} className={styles.next} style={{
+        userSelect: "none"
+      }}>
+       {title}
+      </div>
+    }
+    
+    else if (type == "shadow") {
+      return <div onClick={()=>router.push(routeTo)} className={styles.shadow} style={{
         userSelect: "none"
       }}>
        {title}
       </button>
     }
-
-
-
 }
-
 
 export default buttonUI;

@@ -11,13 +11,15 @@ function Home() {
       <div className={styles.box}>
        <br></br><br></br><br></br>
     
-       <ButtonUI title= "Shelter"></ButtonUI>
+
+       <ButtonUI title= "Shelter" routeTo="/Locations/Shelter" />
        <br></br><br></br>
-       <ButtonUI  title= "Clothing"></ButtonUI>
+       <ButtonUI  title= "Clothing" routeTo="/Locations/Clothing" />
        <br></br><br></br>
-       <ButtonUI  title= "Hygiene Products"></ButtonUI>
+       <ButtonUI  title= "Hygiene Products" routeTo="/Locations/Hygiene" />
        <br></br><br></br>
-       <ButtonUI  title= "Food"></ButtonUI>
+       <ButtonUI  title= "Food" routeTo="/Locations/Food" />
+
        <br></br><br></br><br></br><br></br>
 
        <NavbarUI />

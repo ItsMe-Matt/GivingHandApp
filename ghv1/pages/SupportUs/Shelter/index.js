@@ -14,15 +14,15 @@ function Home() {
        supportingtext="(please select one)"
        />
     
-       <ButtonUI title= "Covenant House Vancouver" />
+       <ButtonUI title= "Covenant House Vancouver" type="shadow" />
        <br></br>
-       <ButtonUI  title= "Aboriginal Shelter Vancouver" />
+       <ButtonUI  title= "Aboriginal Shelter Vancouver" type="shadow" />
        <br></br>
-       <ButtonUI  title= "Lookout Emergency Aid" />
+       <ButtonUI  title= "Lookout Emergency Aid" type="shadow" />
        <br></br>
-       <ButtonUI  title= "Rancity Housing & Support Society"/>
+       <ButtonUI  title= "Rancity Housing & Support Society" type="shadow" />
        <br></br><br></br>
-       <Button4UI/>
+       <ButtonUI title="Continue" type="start" />
        <br></br>
     </div>
   </div>
