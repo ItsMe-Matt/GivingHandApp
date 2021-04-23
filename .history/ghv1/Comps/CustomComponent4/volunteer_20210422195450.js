@@ -1,6 +1,6 @@
 import {useRouter} from 'next/router'
 
-function MoneyButtonUI({
+function VolunteerUI({
 
     header = "placeholder",
     routeTo="/LandingPage"
@@ -17,7 +17,7 @@ function MoneyButtonUI({
         border: "none",
         fontSize: 18,
         margin: 10,
-        padding: 10
+        padding: 8
         // boxshadow: 0, 8 15, rgba(0, 0, 0, 0.1);
     }}>
         <div>

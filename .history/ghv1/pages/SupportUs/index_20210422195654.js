@@ -19,8 +19,8 @@ function SupportUs() {
        subheader="Which Organization do you want to help?"
        supportingtext="(please select one)"
        />
-      <VolunteerButtonUI header="Time (Volunteer)"routeTo="/SupportUs/Volunteer.hours" />
       <MoneyButtonUI header="Money Donation" routeTo="/SupportUs/Amount" />
+      <VolunteerButtonUI header="Time Volunteer"routeTo="/SupportUs/Volunteer.hours" />
 
 
 

@@ -17,22 +17,22 @@ function MoneyButtonUI({
         border: "none",
         fontSize: 18,
         margin: 10,
-        padding: 10
+        padding: 8
         // boxshadow: 0, 8 15, rgba(0, 0, 0, 0.1);
     }}>
-        <div>
-            <img src="money.svg"></img>
-        </div>
+        <div style = {{
+            <img src=""
+        }}></div>
         <div>
             <h3>{header}</h3>
             <span style = {{
                 color: "#686666",
                 fontSize: 12,
             }}
-            >Donate your time and help volunteer at your chosen organization</span>
+            >Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
             </div>
     </button>
   }
   
 
-  export default MoneyButtonUI;    
+  export default MoneyButtonUI;
