@@ -7,7 +7,7 @@ import BackButtonUI from '../../../Comps/BackButton/index'
 function Home() {
   return (<div className={styles.SupportUs}>
     <div className={styles.bg}>
-       <BackButtonUI />
+       <BackButtonUI routeTo="/SupportUs/Sector" />
        <SupportUs 
        header="Support Us"
        subheader="Which Organization do you want to help?"
@@ -16,12 +16,12 @@ function Home() {
        
         
     
-       <ButtonUI title= "Helping Families in Need Society" type="shadow" />
-       <ButtonUI  title= "Greater Vancouver Food Bank" type="shadow" />
-       <ButtonUI  title= "Quest Food Exchange" type="shadow" />
-       <ButtonUI  title= "Aboriginal Front Door Society" type="shadow" />
+       <ButtonUI title= "Helping Families in Need Society" type="shadow" routeTo="/Organization" />
+       <ButtonUI  title= "Greater Vancouver Food Bank" type="shadow" routeTo="/Organization" />
+       <ButtonUI  title= "Quest Food Exchange" type="shadow" routeTo="/Organization" />
+       <ButtonUI  title= "Aboriginal Front Door Society" type="shadow" routeTo="/Organization" />
        <br></br><br></br> 
-       <ButtonUI title="Continue" type="start" routeTo="/ThankYou" />
+       <ButtonUI title="Continue" type="start" routeTo="/Organization" />
        <br></br>
     </div>
   </div>

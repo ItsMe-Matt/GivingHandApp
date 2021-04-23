@@ -1,7 +1,7 @@
 import {useRouter} from 'next/router'
 
 function BackButtonUI({
-    routeTo="/LandingPage"
+    routeTo="/HomePage"
 }){
     const router = useRouter();
     return <button onClick={()=>router.push(routeTo)} style= {{
