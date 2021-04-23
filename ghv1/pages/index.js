@@ -26,17 +26,21 @@ function Home() {
       <br></br>
       <br></br>
       <br></br>
-      <p>
-        Helping, providing for, and
-        <br></br>
-        nuturing the homeless.
+      <p className={styles.caption}> 
+ajklsdaksdadalsdasdkadjalk
       </p>
       <ButtonUI title="Let's Get Started" type="start" routeTo="/SupportUs" />
       <ButtonUI title="Our Mission" type="mission" routeTo="/OurMission" />
 
 
     </div>
-    
+      <style jsx>{`
+      .caption {
+        font-family: 'Rajdhani', sans-serif;
+        color: green;
+        font-size: 30px;
+      }
+      `}</style>
   </div>
 
 

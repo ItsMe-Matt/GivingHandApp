@@ -9,15 +9,16 @@ function Home() {
     <div className={styles.bg}>
 
 
+    <SupportUs 
+       header="Support Us"
+       subheader="Choose a sector to help"
+       supportingtext="(please select one)"
+       />
        
-       <h1>Support Us</h1>
-       <br></br><br></br><br></br>
-       <h3>Choose a sector to help</h3>
-        <p>(Please select one)</p>
        <ButtonUI title= "Food" type="shadow" routeTo="/SupportUs/Food" />
-       <ButtonUI  title= "Hygiene Products" type="shadow" routeTo="/SupportUs/Hygiene" />
-       <ButtonUI  title= "Clothing" type="shadow" routeTo="/SupportUs/Clothing" />
-       <ButtonUI  title= "Shelter" type="shadow" routeTo="/SupportUs/Shelter" />
+       <ButtonUI title= "Hygiene Products" type="shadow" routeTo="/SupportUs/Hygiene" />
+       <ButtonUI title= "Clothing" type="shadow" routeTo="/SupportUs/Clothing" />
+       <ButtonUI title= "Shelter" type="shadow" routeTo="/SupportUs/Shelter" />
        <br></br><br></br><br></br><br></br>
     </div>
   </div>
