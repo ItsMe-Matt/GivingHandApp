@@ -3,7 +3,7 @@ import NavbarUI from '../../Comps/NavBar'
 import styles from '../../styles/main.module.css'
 import BackButtonUI from '../../Comps/BackButton/index'
 
-function Home() {
+function Locations() {
   return (<div className={styles.main}>
     <div className={styles.bg}>
       <BackButtonUI />
@@ -26,4 +26,4 @@ function Home() {
   )
   }
 
-export default Home;
+export default Locations;
