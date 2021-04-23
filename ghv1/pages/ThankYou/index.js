@@ -10,7 +10,7 @@ function ThankYou()
 
       <ThanksUI/>
       <ButtonUI title="Donate Again" type="start" routeTo="/SupportUs" />
-      <ButtonUI title="Go to Home" type="continue" routeTo="/LandingPage" />
+      <ButtonUI title="Go to Home" type="continue" routeTo="/HomePage" />
       <br></br>
       <br></br>
 
