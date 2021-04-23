@@ -22,6 +22,7 @@ function MoneyButtonUI({
     }}>
         <div>
             <img src="money.svg"></img>
+            text
         </div>
         <div>
             <h3>{header}</h3>

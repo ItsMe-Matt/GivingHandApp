@@ -15,7 +15,6 @@ function Home() {
        subheader="Which Organization do you want to help?"
        supportingtext="(please select one)"
        />
-       
        <ButtonUI title= "Food" type="shadow" routeTo="/SupportUs/Food" />
        <ButtonUI  title= "Hygiene Products" type="shadow" routeTo="/SupportUs/Hygiene" />
        <ButtonUI  title= "Clothing" type="shadow" routeTo="/SupportUs/Clothing" />

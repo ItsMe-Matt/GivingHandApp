@@ -20,7 +20,6 @@ function SupportUs() {
        supportingtext="(please select one)"
        />
       <VolunteerButtonUI header="Time (Volunteer)"routeTo="/SupportUs/Volunteer.hours" />
-      <MoneyButtonUI header="Money Donation" routeTo="/SupportUs/Amount" />
 
 
 
