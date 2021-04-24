@@ -31,12 +31,11 @@ function Home() {
       <br></br>
       <br></br>
       <br></br>
-      <p>
-        Helping, providing for, and
-        <br></br>
-        nuturing the homeless.
-      </p>
-      <ButtonUI title="Let's Get Started" type="start" routeTo="/HomePage" />
+          <div className={styles.caption}>
+        Helping, providing for, and nuturing the homeless.
+      </div>
+      <ButtonUI title="Let's Get Started" type="start" routeTo="/SupportUs" />
+
       <ButtonUI title="Our Mission" type="mission" routeTo="/OurMission" />
 
 

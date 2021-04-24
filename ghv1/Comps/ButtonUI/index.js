@@ -7,7 +7,9 @@ function buttonUI({
   type="continue",
   routeTo="/LandingPage"
 }){
-  const router = useRouter();
+
+const router = useRouter();
+  // if the type is support, the style is support and vice versa for everything else
     if (type == "support") {
       return <div onClick={()=>router.push(routeTo)} className={styles.support} style={{
 

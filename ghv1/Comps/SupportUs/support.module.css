@@ -13,6 +13,7 @@
     color: #6B5DA9;
     padding-bottom: 20px;
     padding-top: 20px;
+    
 }
 
 .h2 {
@@ -39,29 +40,4 @@
     min-height: 12px;
     min-width: 250px;
     border: 1px solid #DFDFDF;
-}
-
-.box1 {
-    border: 1px solid #DFDFDF;
-    min-width: 50px;
-}
-
-.box2 {
-    border: 1px solid #DFDFDF;
-    min-width: 50px;
-}
-
-.box3 {
-    border: 1px solid #DFDFDF;
-    min-width: 50px;
-}
-
-.box4 {
-    border: 1px solid #DFDFDF;
-    min-width: 50px;
-}
-
-.box5 {
-    border: 1px solid #DFDFDF;
-    min-width: 50px;
 }
