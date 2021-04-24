@@ -18,17 +18,13 @@ function Tester() {
   return (<div className={styles.main}
  >
     <div className={styles.bg}>
-
-    
-    <MissionUI header="Ending Vancouver's homelessness one step at a time" url="/static/Bubbles.svg" width="100px"/>
-    
-    <SupportUI />
-
-
-    <Link href='/Locations/Clothing'>
-    <ButtonUI title="Let's Get Started" type="start"/>
-    </Link>
-    <ButtonUI title="Our Mission" type="mission"/>
+    <SupportUI 
+       header="Support Us"
+       subheader="Which Organization do you want to help?"
+       supportingtext="(please select one)"
+       boxC1="#FFFFFF"
+       boxC2="#94855d"
+       />
 
     </div>
   </div>
