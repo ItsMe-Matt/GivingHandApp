@@ -3,12 +3,12 @@ import styles from '../../../styles/main.module.css'
 import LocationUI from '../../../Comps/location/index.js'
 import BackButtonUI from '../../../Comps/BackButton/index'
 
-function Home() {
+function Locations() {
   return (<div className={styles.main}>
     <div className={styles.bg}>
-     <div className={styles.box}>
-      <BackButtonUI />
+      <BackButtonUI routeTo="/Locations" />
       <h1>LOCATIONS</h1>
+     <div className={styles.box}>
       
       
       <h1>Hygiene</h1>
@@ -49,4 +49,4 @@ function Home() {
   )
   }
 
-export default Home;
+export default Locations;

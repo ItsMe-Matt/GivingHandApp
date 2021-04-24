@@ -8,19 +8,19 @@ import OrganizationCards from '../../../Comps/OrganizationCards/index'
 function Home() {
   return (<div className={styles.SupportUs}>
     <div className={styles.bg}>
-       <BackButtonUI />
+       <BackButtonUI routeTo="/SupportUs/Sector" />
     <SupportUs 
        header="Support Us"
        subheader="Which Organization do you want to help?"
        supportingtext="(please select one)"
        />
 
-       <ButtonUI title= "Dress for Success" type="shadow" />
-       <ButtonUI  title= "Big Brothers Vancouver" type="shadow" />
-       <ButtonUI  title= "Downtown Eastside Women’s Centre" type="shadow" />
-       <ButtonUI  title= "Union Gospel Mission" type="shadow" />
+       <ButtonUI title= "Dress for Success" type="shadow" routeTo="/Organization" />
+       <ButtonUI  title= "Big Brothers Vancouver" type="shadow" routeTo="/Organization" />
+       <ButtonUI  title= "Downtown Eastside Women’s Centre" type="shadow" routeTo="/Organization" />
+       <ButtonUI  title= "Union Gospel Mission" type="shadow" routeTo="/Organization" />
        <br></br><br></br>
-       <ButtonUI title="Continue" type="start" />
+       <ButtonUI title="Continue" type="start" routeTo="/Organization" />
        <br></br>
     </div>
   </div>

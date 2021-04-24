@@ -31,10 +31,11 @@ function Home() {
       <br></br>
       <br></br>
       <br></br>
-      <div className={styles.caption}>
+          <div className={styles.caption}>
         Helping, providing for, and nuturing the homeless.
       </div>
       <ButtonUI title="Let's Get Started" type="start" routeTo="/SupportUs" />
+
       <ButtonUI title="Our Mission" type="mission" routeTo="/OurMission" />
 
 

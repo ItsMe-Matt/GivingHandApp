@@ -29,7 +29,7 @@ function Home() {
       <p className={styles.caption}> 
 ajklsdaksdadalsdasdkadjalk
       </p>
-      <ButtonUI title="Let's Get Started" type="start" routeTo="/SupportUs" />
+      <ButtonUI title="Let's Get Started" type="start" routeTo="/HomePage" />
       <ButtonUI title="Our Mission" type="mission" routeTo="/OurMission" />
 
 
