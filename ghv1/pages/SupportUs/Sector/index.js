@@ -8,20 +8,12 @@ function Home() {
   return (<div className={styles.SupportUs}>
     <div className={styles.bg}>
 
-
+    <BackButtonUI routeTo="/SupportUs/Volunteer.hours" />
     <SupportUs 
        header="Support Us"
        subheader="Choose a sector to help"
        supportingtext="(please select one)"
-       />
-       
-
-    <SupportUs 
-       header="Support Us"
-       subheader="Which Organization do you want to help?"
-       supportingtext="(please select one)"
-       />
-       
+       />   
 
        <ButtonUI title= "Food" type="shadow" routeTo="/SupportUs/Food" />
        <ButtonUI title= "Hygiene Products" type="shadow" routeTo="/SupportUs/Hygiene" />
