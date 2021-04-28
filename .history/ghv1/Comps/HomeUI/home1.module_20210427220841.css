@@ -1,0 +1,19 @@
+.container {
+    position: fixed;
+    left: 170px;
+    top: 400px;
+    width: 170px;
+    height: 125px;
+    background-color: #E6E6E6;
+    border: 3px solid #FFDF00;
+    border-radius: 15px;
+    margin: 20px;
+}
+
+.lineContainer {
+    text-align: center;
+    color: black;
+    font-size: 14px;
+    position:absolute;
+    top: 40px;
+}

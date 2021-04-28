@@ -1,0 +1,18 @@
+.center {
+  position: relative;
+  top: 35px;
+}
+
+.header {
+  text-align: center;
+  left: 10px;
+  font-weight: bold;
+}
+
+.paragraph {
+  position: absolute;
+  bottom: 350px;
+  right: 400px;
+  font-size: 12px;
+  color: black;
+}
