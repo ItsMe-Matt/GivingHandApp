@@ -11,7 +11,7 @@ function SupportUs() {
   return (<div className={styles.main}>
     <div className={styles.bg}>
 
-      <BackButtonUI/>
+      <BackButtonUI routeTo="/HomePage" />
 
 
       <SupportUI 

@@ -7,7 +7,7 @@ import BackButtonUI from '../../Comps/BackButton/index'
 function home() {
   return (<div className={styles.main}>
     <div className={styles.bg}>
-      <BackButtonUI routeTo="/LandingPage"/>
+      <BackButtonUI routeTo="/"/>
       <h1>HOME</h1>
       <div className={styles.box}>
         <br></br>

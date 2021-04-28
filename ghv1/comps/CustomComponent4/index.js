@@ -3,7 +3,7 @@ import {useRouter} from 'next/router'
 function MoneyButtonUI({
 
     header = "placeholder",
-    routeTo="/LandingPage"
+    routeTo="/"
 
 }){
     const router = useRouter();
