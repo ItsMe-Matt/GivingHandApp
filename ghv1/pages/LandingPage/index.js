@@ -34,9 +34,9 @@ function Home() {
           <div className={styles.caption}>
         Helping, providing for, and nuturing the homeless.
       </div>
-      <ButtonUI title="Let's Get Started" type="start" routeTo="/SupportUs" />
+      <ButtonUI title="Our Mission" type="start" routeTo="/OurMission" />
 
-      <ButtonUI title="Our Mission" type="mission" routeTo="/OurMission" />
+      <ButtonUI title="Let's Get Started" type="mission" routeTo="/SupportUs" />
 
 
     </div>

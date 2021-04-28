@@ -14,9 +14,7 @@ function NavBarUI({
       
       <div className={styles.container}>
         <img src="/static/home.svg" className={styles.icon} onClick={()=>router.push(routeTo="/HomePage")} />
-        <img src="/static/calendar.svg" className={styles.icon}/>
         <img src="/static/donate.svg" className={styles.donate} onClick={()=>router.push(routeTo="/SupportUs")} />
-        <img src="/static/list.svg" className={styles.icon}/>
         <img src="/static/location.svg" className={styles.icon} onClick={()=>router.push(routeTo="/Locations")} />
       </div>
 
