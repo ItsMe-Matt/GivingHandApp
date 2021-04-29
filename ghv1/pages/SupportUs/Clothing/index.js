@@ -4,11 +4,13 @@ import SupportUs from '../../../Comps/SupportUs/index'
 import styles from '../../../styles/SupportUs.module.css'
 import BackButtonUI from '../../../Comps/BackButton/index'
 import OrganizationCards from '../../../Comps/OrganizationCards/index'
+import HomeSvgUI from '../../../Comps/Homesvg'
 
 function Home() {
   return (<div className={styles.SupportUs}>
     <div className={styles.bg}>
        <BackButtonUI routeTo="/SupportUs/Sector" />
+       <HomeSvgUI />
     <SupportUs 
        header="Support Us"
        subheader="Which Organization do you want to help?"
