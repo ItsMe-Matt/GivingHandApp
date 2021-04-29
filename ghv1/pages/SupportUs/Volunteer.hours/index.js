@@ -11,7 +11,7 @@ function Home() {
        <HomeSvgUI />
        <SupportUs 
        header="Support Us"
-       subheader="Which Organization do you want to help?"
+       subheader="Select volunteer hours"
        supportingtext="(please select one)"
        page="SecondSupport"
        />

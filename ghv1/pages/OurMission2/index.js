@@ -25,7 +25,7 @@ function OurMission() {
       <br></br>
       <MissionUI header="Choose a Category" url="/static/categoryPic.svg" body="Select which sector you would like to volunteer at, or the category of items you want to donate."/>
 
-      <ButtonUI title="Next" type="next" routeTo="/OurMission3" />
+      <ButtonUI title="Continue" type="next" routeTo="/OurMission3" />
 
 
 

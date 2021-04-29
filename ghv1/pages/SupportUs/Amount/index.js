@@ -12,7 +12,7 @@ function Home() {
 
      <SupportUs 
        header="Support Us"
-       subheader="Which Organization do you want to help?"
+       subheader="Select an amount"
        supportingtext="(please select one)"
        page="SecondSupport"
        />
