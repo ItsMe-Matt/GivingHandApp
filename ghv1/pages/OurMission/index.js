@@ -15,6 +15,7 @@ function OurMission() {
   return (<div className={styles.main}>
     <div className={styles.bg}>
       <TopNavUI />
+
       <br></br>
       <br></br>
       <br></br>

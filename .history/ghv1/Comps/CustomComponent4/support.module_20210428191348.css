@@ -1,0 +1,11 @@
+.center {
+  position: relative;
+  top: 35px;
+}
+
+.header {
+  position: absolute;
+  left:315px;
+  font-weight: bold;
+}
+
