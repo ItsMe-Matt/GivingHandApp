@@ -15,8 +15,8 @@
     min-width: 375px;
     min-height: 667px;
 
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
 
     display: flex;
     flex-direction: column;
@@ -43,15 +43,13 @@
 }
 
 .box {
-
+    padding-top: 16px;
     position: absolute;
     width: 375px;
-    margin-top: 80px;
     display: flex;
     flex-direction: column;
     align-items: center;
     background: #DAD4E5;
-    border-radius: 40px;
     text-align: center;
     font-size: 14px;
 }
@@ -62,9 +60,31 @@
     max-width: 250px;
     margin-bottom: 32px;
     text-align: center;
-
     font-family: 'Rajdhani', sans-serif;
 
 }
 
+.subtitle {
+    font-family: sans-serif;
+}
 
+.postCont {
+    width: 356px;
+}
+
+.nav {
+    width: 100%;
+    position: sticky;
+    bottom: 0px;
+}
+
+
+@media screen and (max-width: 500px) {
+    .main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #444f42;
+        padding: 0px;
+    }
+}

@@ -1,18 +1,24 @@
-import ButtonUI from '../Comps/ButtonUI'
-import LogoUI from '../Comps/Logo'
-
 import styles from '../styles/main.module.css'
+import ButtonUI from '../Comps/ButtonUI'
 
 
 function Home() {
   return (<div className={styles.main}>
     <div className={styles.landingPage}>
 
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      
 
       <br></br>
       <br></br>
       <br></br>
-      <LogoUI/>
       <br></br>
       <br></br>
       <br></br>

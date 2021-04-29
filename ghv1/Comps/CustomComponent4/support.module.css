@@ -5,6 +5,8 @@
 
 .header {
   position: absolute;
-  left:315px;
+
+  text-align: center;
+
   font-weight: bold;
 }

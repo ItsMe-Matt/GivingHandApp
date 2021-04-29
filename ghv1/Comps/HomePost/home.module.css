@@ -1,0 +1,30 @@
+.container {
+    background-color: hotpink;
+    width: 100%;
+    min-height: 100px;
+    display:flex;
+    justify-content: space-between;
+    border-radius: 8px;
+    margin-bottom: 4px;
+}
+
+.left {
+    padding-left: 24px;
+    display: flex;
+    align-items: center;
+    width: 190px;
+}
+
+.body {
+    max-width: 190px;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    hyphens: auto;
+    font-family: sans-serif;
+}
+
+
+
+.right {
+    padding: 16px;
+}

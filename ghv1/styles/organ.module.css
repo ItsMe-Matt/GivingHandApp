@@ -44,3 +44,13 @@
  top: 325px;
 }
 
+@media screen and (max-width: 500px) {
+    .organ {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #444f42;
+        padding: 0px;
+    }
+}
+
