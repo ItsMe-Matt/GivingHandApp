@@ -8,9 +8,9 @@ function Locations() {
     <div className={styles.bg}>
       
      <div className={styles.box}>
-     <BackButtonUI routeTo="/Locations" />
+      
+      
       <h1>Hygiene</h1>
-      <br></br><br></br>
       <LocationUI 
       header="Donation Circle Society"
       address="2487 Adanac St, Vancouver, BC V5K 2M3"

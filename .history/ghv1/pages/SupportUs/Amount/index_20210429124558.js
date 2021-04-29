@@ -9,7 +9,7 @@ function Home() {
     <div className={styles.bg}>
 
      <BackButtonUI routeTo="/SupportUs"/>
-     <HomeSvgUI />
+     
 
      <SupportUs 
        header="Support Us"
