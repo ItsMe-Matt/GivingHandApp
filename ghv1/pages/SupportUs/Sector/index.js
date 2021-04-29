@@ -11,7 +11,6 @@ function Home() {
       <BackButtonUI />
       <HomeSvgUI />
 
-    <BackButtonUI routeTo="/SupportUs/Volunteer.hours" />
     <SupportUs 
        header="Support Us"
        subheader="Choose a sector to help"

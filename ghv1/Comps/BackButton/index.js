@@ -9,7 +9,8 @@ function BackButtonUI({
         backgroundColor: "transparent",
         border: "none",
         fontSize: "30px",
-        outline: "none"
+        outline: "none",
+        fontStyle: "san-serif"
         
     }}>
         <div style= {{

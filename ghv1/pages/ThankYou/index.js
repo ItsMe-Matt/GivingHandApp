@@ -1,5 +1,5 @@
 import styles from '../../styles/main.module.css'
-import ThanksUI from '../../Comps/EndFrame'
+import ThanksUI from '../../Comps/ThanksUI'
 import ButtonUI from '../../Comps/ButtonUI'
 
 function ThankYou() 

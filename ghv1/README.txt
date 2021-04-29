@@ -1,0 +1,1 @@
+Created for iPhone 6/7/8 with a width of 375px and 667px
