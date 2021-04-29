@@ -11,7 +11,7 @@ import TopNavUI from '../../Comps/TopNavUI'
 function SupportUs() {
   return (<div className={styles.main}>
     <div className={styles.bg}>
-      <TopNavUI routeTo="/" />
+      <TopNavUI routeTo="/HomePage" />
 
       <SupportUI 
        header="Support Us"
