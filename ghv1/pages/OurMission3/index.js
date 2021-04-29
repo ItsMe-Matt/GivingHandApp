@@ -5,7 +5,9 @@ import MissionUI from '../../Comps/MissionUI'
 import NavbarUI from '../../Comps/NavBar'
 import CalPostUI from '../../Comps/CalPost'
 import Background from '../../Comps/Background'
+
 import TopNavUI from '../../Comps/TopNavUI'
+
 
 
 import styles from '../../styles/ourMission.module.css'
@@ -14,6 +16,7 @@ import styles from '../../styles/ourMission.module.css'
 function OurMission() {
   return (<div className={styles.main}>
     <div className={styles.bg}>
+
       <TopNavUI routeTo="/OurMission2"/>
 
       <br></br>

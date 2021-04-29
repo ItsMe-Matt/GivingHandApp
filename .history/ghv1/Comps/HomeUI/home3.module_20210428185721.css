@@ -1,0 +1,18 @@
+.container {
+    position: relative;
+    left: 95px;
+    bottom: 101px;
+    width: 170px;
+    height: 125px;
+    background: linear-gradient(180deg, #FFDF00 35.42%, #FFFFFF 100%);
+    border: 3px solid black;
+    border-radius: 20px;
+}
+
+.lineContainer {
+    text-align: center;
+    color: black;
+    font-size: 14px;
+    position:absolute;
+    top: 35px;
+}

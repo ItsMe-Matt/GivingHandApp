@@ -5,14 +5,8 @@
 
 .header {
   position: absolute;
-  text-align: center;
-  font-weight: bold;
-}
 
-.paragraph {
-  position: absolute;
-  bottom: 350px;
-  right: 400px;
-  font-size: 12px;
-  color: black;
+  text-align: center;
+
+  font-weight: bold;
 }
