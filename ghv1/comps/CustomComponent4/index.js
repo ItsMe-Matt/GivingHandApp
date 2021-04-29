@@ -1,9 +1,10 @@
 import {useRouter} from 'next/router'
+import styles from './support.module.css'
 
-function MoneyButtonUI({
+function VolunteerButtonUI({
 
     header = "placeholder",
-    routeTo="/LandingPage"
+    routeTo="/"
 
 }){
     const router = useRouter();
@@ -14,25 +15,29 @@ function MoneyButtonUI({
         borderRadius: 15,
         color: "#009966",
         backgroundColor: "#DFDEDE",
-        border: "none",
         fontSize: 18,
         margin: 10,
         padding: 10
         // boxshadow: 0, 8 15, rgba(0, 0, 0, 0.1);
     }}>
-        <div>
+        <div className={styles.center}>
             <img src="money.svg"></img>
         </div>
+        <div className={styles.header}>
+            {header} 
+        </div>
+        <br></br>
         <div>
-            <h3>{header}</h3>
             <span style = {{
                 color: "#686666",
                 fontSize: 12,
+                position: "relative",
+                top:40,
             }}
-            >Donate your time and help volunteer at your chosen organization</span>
+            >Donate your money and help by choosing an organization</span>
             </div>
     </button>
   }
   
 
-  export default MoneyButtonUI;    
+  export default VolunteerButtonUI;    

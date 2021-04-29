@@ -1,0 +1,24 @@
+.container {
+    position: fixed;
+    left: 300px;
+    bottom: 450px;
+    width: 170px;
+    height: 125px;
+    background: radial-gradient(50% 50% at 50% 50%, #FFDF00 99.99%, rgba(255, 255, 255, 0) 100%);
+
+    border: 3px solid black;
+    border-radius: 20px;
+    margin: 1px;
+}
+
+.lineContainer {
+    text-align: center;
+    color: black;
+    font-size: 14px;
+    position:absolute;
+    top: 40px;
+}
+
+
+
+

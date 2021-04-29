@@ -1,0 +1,36 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 170px;
+    height: 125px;
+    left: 188px;
+    top: 189px;
+    background-color: #E6E6E6;
+    border: 5px solid #FFDF00;
+    border-radius: 15px;
+    margin: 10px;
+}
+.header {
+    text-align: center;
+
+    font-family: Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #6B5DA9;
+
+    margin: 32px;
+}
+
+.bold {
+    font-weight: 700;
+    font-family: Helvetica, sans-serif;
+}
+
+.wordContainer {
+    padding: 32px;
+}
+
+.lineContainer {
+    margin-bottom: 16px;
+}
+

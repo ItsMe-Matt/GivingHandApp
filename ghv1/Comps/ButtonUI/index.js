@@ -5,7 +5,7 @@ import {useRouter} from 'next/router'
 function buttonUI({
   title="placeholderText",
   type="continue",
-  routeTo="/LandingPage"
+  routeTo="/"
 }){
 
 const router = useRouter();

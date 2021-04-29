@@ -1,0 +1,31 @@
+.container {
+    width: 180px;
+    height: 125px;
+    left: 188px;
+    top: 189px;
+    color
+}
+.header {
+    text-align: center;
+
+    font-family: Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #6B5DA9;
+
+    margin: 32px;
+}
+
+.bold {
+    font-weight: 700;
+    font-family: Helvetica, sans-serif;
+}
+
+.wordContainer {
+    padding: 32px;
+}
+
+.lineContainer {
+    margin-bottom: 16px;
+}
+

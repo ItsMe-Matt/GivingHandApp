@@ -24,10 +24,8 @@ function Home() {
       <br></br>
       <br></br>
       <br></br>
-      <br></br>
-      <br></br>
       <p className={styles.caption}> 
-ajklsdaksdadalsdasdkadjalk
+        Helping, providing for, and nuturing the homeless.
       </p>
       <ButtonUI title="Let's Get Started" type="start" routeTo="/HomePage" />
       <ButtonUI title="Our Mission" type="mission" routeTo="/OurMission" />
