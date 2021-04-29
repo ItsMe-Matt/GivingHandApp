@@ -39,13 +39,3 @@
     border: black 2px solid;
 }
 
-@media screen and (max-width: 500px) {
-    .SupportUs {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background-color: #444f42;
-        padding: 0px;
-    }
-}
-
