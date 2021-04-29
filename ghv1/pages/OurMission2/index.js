@@ -14,7 +14,7 @@ import BackButtonUI from '../../Comps/BackButton'
 function OurMission() {
   return (<div className={styles.main}>
     <div className={styles.bg}>
-      <BackButtonUI />
+      <BackButtonUI routeTo="OurMission1" />
       <br></br>
       <br></br>
       <br></br>
