@@ -12,14 +12,16 @@ function SupportUs() {
   return (<div className={styles.main}>
     <div className={styles.bg}>
 
-      <BackButtonUI/>
-      <HomeSvgUI />
+
+      <BackButtonUI routeTo="/HomePage" />
+
 
 
       <SupportUI 
        header="Support Us"
        subheader="Which Organization do you want to help?"
        supportingtext="(please select one)"
+       page="FirstSupport"
        />
        <br></br>
       <VolunteerButtonUI 

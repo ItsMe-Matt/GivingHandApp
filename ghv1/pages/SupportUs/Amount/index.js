@@ -7,12 +7,14 @@ import HomeSvgUI from '../../../Comps/Homesvg'
 function Home() {
   return (<div className={styles.SupportUs}>
     <div className={styles.bg}>
-     <BackButtonUI/> 
-     <HomeSvgUI /> 
+
+     <BackButtonUI routeTo="/SupportUs"/>  
+
      <SupportUs 
        header="Support Us"
        subheader="Which Organization do you want to help?"
        supportingtext="(please select one)"
+       page="SecondSupport"
        />
     
 

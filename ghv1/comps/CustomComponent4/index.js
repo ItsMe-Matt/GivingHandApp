@@ -4,7 +4,7 @@ import styles from './support.module.css'
 function VolunteerButtonUI({
 
     header = "placeholder",
-    routeTo="/LandingPage"
+    routeTo="/"
 
 }){
     const router = useRouter();

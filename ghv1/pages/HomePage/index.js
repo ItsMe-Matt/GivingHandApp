@@ -12,7 +12,7 @@ import Hommes from '../../Comps/HomeUI/box4'
 function home() {
   return (<div className={styles.main}>
     <div className={styles.bg}>
-      <BackButtonUI routeTo="/LandingPage"/>
+      <BackButtonUI routeTo="/"/>
       <h1>HOME</h1>
       <div className={styles.box}>
         <LogoUI/>
