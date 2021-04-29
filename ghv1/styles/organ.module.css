@@ -40,8 +40,8 @@
 }
 
 .OrganizationCards {
- position:absolute;
- top: 325px;
+    position:absolute;
+    top: 25%
 }
 
 @media screen and (max-width: 500px) {
