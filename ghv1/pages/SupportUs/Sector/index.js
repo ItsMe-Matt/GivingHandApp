@@ -13,6 +13,7 @@ function Home() {
        header="Support Us"
        subheader="Choose a sector to help"
        supportingtext="(please select one)"
+       page="ThirdSupport"
        />   
 
        <ButtonUI title= "Food" type="shadow" routeTo="/SupportUs/Food" />
