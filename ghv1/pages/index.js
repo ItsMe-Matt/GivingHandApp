@@ -6,35 +6,7 @@ function Home() {
   return (<div className={styles.main}>
     <div className={styles.landingPage}>
 
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      
-
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <p className={styles.caption}> 
-        Helping, providing for, and nuturing the homeless.
-      </p>
-      <ButtonUI title="Let's Get Started" type="start" routeTo="/HomePage" />
-      <ButtonUI title="Our Mission" type="mission" routeTo="/OurMission" />
+      <ButtonUI title="To the Landing Page" routeTo="/LandingPage"/>
 
 
     </div>

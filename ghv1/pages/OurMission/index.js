@@ -15,11 +15,7 @@ function OurMission() {
   return (<div className={styles.main}>
     <div className={styles.bg}>
       <TopNavUI />
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
+
       <MissionUI 
         header="Ending Vancouver's homelessness one step at a time."
         url="/static/mission0Pic.png"

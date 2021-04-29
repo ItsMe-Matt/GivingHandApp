@@ -15,16 +15,10 @@ function OurMission() {
   return (<div className={styles.main}>
     <div className={styles.bg}>
       <TopNavUI routeTo="/OurMission2"/>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
+
       <br></br>
       <MissionUI header="Pick an Organization" url="/static/organizationPic.svg" body="Choose the organization that you want to volunteer at or want your donation to go toward. More information will then be sent via email. You're all set!"/>
-	
+      <br/>
       <ButtonUI title="Let's Get Started" type="start" routeTo="/HomePage" />
 
 
