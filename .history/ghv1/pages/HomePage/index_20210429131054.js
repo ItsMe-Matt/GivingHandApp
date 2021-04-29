@@ -10,7 +10,7 @@ function HomePage() {
   return (<div className={styles.main}>
     <div className={styles.bg}>
       <div className={styles.box}>
-        <BackButtonUI />
+        <
 
         <Image src="/static/logo.png" width="171px" height="131px" />
         <p className={styles.subtitle}>"Ending Vancouver's homelessness one step at a time."</p>
