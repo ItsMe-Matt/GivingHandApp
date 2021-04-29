@@ -10,7 +10,7 @@ function HomePage() {
   return (<div className={styles.main}>
     <div className={styles.bg}>
       <div className={styles.box}>
-        <BackButtonUI />
+        <
 
         <Image src="/static/logo.png" width="171px" height="131px" />
         <p className={styles.subtitle}>"Ending Vancouver's homelessness one step at a time."</p>
@@ -22,8 +22,7 @@ function HomePage() {
 
         <div className={styles.postCont}>
           <HomePost body="It is estimated that 80% of these homeless people have a chronic health issue." src="/static/heartbeat.svg"/>
-          <HomePost body="70% of people in Vancouver are experiencing chronic homelessness." src="/static/heartbeat.svg" type="right"/>
-          <HomePost body="The 2020 Metro Vancouver count found that in Vancouver, 2,095 residents identified as homeless." />
+          <HomePost body="70% of people in Vancouver are experiencing chronic homelessness" src="/static/heartbeat.svg"/>
         </div>
 
 

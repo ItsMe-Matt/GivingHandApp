@@ -6,10 +6,10 @@ import BackButtonUI from '../../Comps/BackButton/index'
 function Locations() {
   return (<div className={styles.main}>
     <div className={styles.bg}>
+    <h1>LOCATIONS</h1>
       <BackButtonUI />
       
       <div className={styles.box}>
-      <h1>LOCATIONS</h1>
       <h4>Select a sector below to find the "Address, Hours, and Phone Number" of each organization</h4>
        <ButtonUI title= "Shelter" routeTo="/Locations/Shelter" type="shadow" />
        <br></br>

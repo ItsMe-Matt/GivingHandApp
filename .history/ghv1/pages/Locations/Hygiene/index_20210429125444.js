@@ -6,42 +6,41 @@ import BackButtonUI from '../../../Comps/BackButton/index'
 function Locations() {
   return (<div className={styles.main}>
     <div className={styles.bg}>
-    
+      
      <div className={styles.box}>
      <BackButtonUI routeTo="/Locations" />
-      <h1>Food</h1>
-      <br></br><br></br>
+      <h1>Hygiene</h1>
       <LocationUI 
-      header="Helping Families in Need Society"
-      address="1679 Gilmore Ave, Burnaby, BC V5C 5V9"
+      header="Donation Circle Society"
+      address="2487 Adanac St, Vancouver, BC V5K 2M3"
       status="24 hours"
-      status2="(604) 294-3087"
+      status2="(604) 253-7898"
       />
       <br></br>
       <LocationUI  
-      header="Greater Vancouver Food Bank"
-      address="1428 Charles St, Vancouver, BC V5L 2S8"
-      status="Open 7 p.m."
-      status2="(604) 876 3601"
+      header="Wish Drop In Centre"
+      address="334 Alexander St, Vancouver, BC V6A 1C3"
+      status="Opens 12 a.m. - 6 p.m."
+      status2="(604) 669-9474"
       />
       <br></br>
       <LocationUI 
-      header="Quest Food Exchange"
-      address="2020 Dundas St, Vancouver, BC V5L 1J4"
-      status="Open 9 a.m. - 5:45 p.m."
-      status2="(604) 602-0186"
+      header="Directions Youth Services"
+      address="1138 Burrard St, Vancouver, BC"
+      status="24 hours"
+      status2="(604) 669-1472"
       />
       <br></br>
       <LocationUI 
-      header="Aboriginal Front Door Society"
-      address="384 Main St, Vancouver, BC V6A 2T1"
-      status="Opens 8 a.m. - 4 p.m."
-      status2="(604) 697-5662"
+      header="Union Gospel Mission"
+      address="601 E Hastings St, Vancouver, BC V6A 1J7"
+      status="Open 24 hours"
+      status2="(604) 253-3323"
       />
 
       
       <br></br><br></br><br></br>
-      
+      <br></br><br></br>
       <NavbarUI />
 
      </div>

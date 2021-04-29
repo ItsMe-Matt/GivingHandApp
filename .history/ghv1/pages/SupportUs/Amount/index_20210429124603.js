@@ -1,12 +1,16 @@
 import ButtonUI from '../../../Comps/ButtonUI'
 import styles from '../../../styles/SupportUs.module.css'
 import SupportUs from '../../../Comps/SupportUs/index'
-import TopNavUI from '../../../Comps/TopNavUI'
+import BackButtonUI from '../../../Comps/BackButton/index'
+import HomeSvgUI from '../../../Comps/Homesvg'
 
 function Home() {
   return (<div className={styles.SupportUs}>
     <div className={styles.bg}>
-    <TopNavUI routeTo="/SupportUs"/>  
+
+     <BackButtonUI routeTo="/SupportUs"/>
+     <HomeSvgUI />
+
      <SupportUs 
        header="Support Us"
        subheader="Select an amount"
