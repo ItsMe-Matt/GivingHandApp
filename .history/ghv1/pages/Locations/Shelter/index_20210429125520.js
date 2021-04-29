@@ -41,6 +41,7 @@ function Locations() {
 
       
        <br></br><br></br><br></br>
+       <br></br>
        <NavbarUI />
 
       </div>

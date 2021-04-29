@@ -1,0 +1,39 @@
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #444f42;
+    padding: 100px;
+}
+
+.bg {
+    background-image: url("/static/bgimages/OurMission.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* max-width: 720px; */
+    max-height: 1280px;
+    max-width: 375px;
+
+    min-width: 375px;
+    min-height: 667px;
+
+    margin: 0;
+    padding: 0;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+
+}
+
+@media screen and (max-width: 500px) {
+    .main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #444f42;
+        padding: 0px;
+    }
+}
