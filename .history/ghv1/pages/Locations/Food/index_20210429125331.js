@@ -9,8 +9,10 @@ function Locations() {
     
      <div className={styles.box}>
      <BackButtonUI routeTo="/Locations" />
+     <h1>LOCATIONS</h1>
+
+      
       <h1>Food</h1>
-      <br></br><br></br>
       <LocationUI 
       header="Helping Families in Need Society"
       address="1679 Gilmore Ave, Burnaby, BC V5C 5V9"
@@ -41,7 +43,6 @@ function Locations() {
 
       
       <br></br><br></br><br></br>
-      
       <NavbarUI />
 
      </div>

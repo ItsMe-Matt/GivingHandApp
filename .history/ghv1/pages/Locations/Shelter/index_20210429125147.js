@@ -9,8 +9,9 @@ function Locations() {
       
       <div className={styles.box}>
        <BackButtonUI routeTo="/Locations" />
+       <h1>LOCATIONS</h1>
+
        <h1>Shelter</h1>
-       <br></br><br></br>
        <LocationUI 
        header="Covenant House Vancouver"
        address="326 W Pender St, Vancouver, BC V6B 1T1"
