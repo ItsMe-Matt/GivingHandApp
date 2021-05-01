@@ -7,21 +7,21 @@ function HomePost({
 }) {
     if (type == "left") {
         return <div className={styles.container}>
-            <div className={styles.left}>
+            <div className={styles.text}>
                 <div className={styles.body}>{body}</div>
             </div>
 
-            <div className={styles.right}>
+            <div className={styles.image}>
                 <img src={src} width="100px" height="100px" />
             </div>
         </div>
     }
     if (type == "right") {
         return <div className={styles.container}>
-        <div className={styles.right}>
+        <div className={styles.image}>
             <img src={src} width="100px" height="100px" />
         </div>
-        <div className={styles.left}>
+        <div className={styles.text}>
             <div className={styles.body}>{body}</div>
         </div>
     </div>

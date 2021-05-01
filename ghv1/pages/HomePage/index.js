@@ -18,7 +18,7 @@ function HomePage() {
         <ButtonUI title="Donate Now!" type="start" routeTo="/SupportUs"/>
         <ButtonUI title="Our Mission" type="shadow" routeTo="/OurMission"/>
 
-        <br/>
+
 
         <div className={styles.postCont}>
           <HomePost body="It is estimated that 80% of these homeless people have a chronic health issue." src="/static/heartbeat.svg"/>
