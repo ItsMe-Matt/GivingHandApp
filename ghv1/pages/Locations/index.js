@@ -8,7 +8,7 @@ function Locations() {
     <div className={styles.bg}>
       <BackButtonUI />
       
-      <div className={styles.box}>
+      <div className={styles.boxLocation}>
       <h1>LOCATIONS</h1>
       <h4>Select a sector below to find the "Address, Hours, and Phone Number" of each organization</h4>
        <ButtonUI title= "Shelter" routeTo="/Locations/Shelter" type="shadow" />

@@ -1,8 +1,10 @@
 import ButtonUI from '../../Comps/ButtonUI'
 import SupportUs from '../../Comps/SupportUs/index'
-import styles from '../../styles/organ.module.css'
-import BackButtonUI from '../../Comps/BackButton/index'
 import OrganizationCards from '../../Comps/OrganizationCards/index'
+import TopNavUI from '../../Comps/TopNavUI'
+
+import styles from '../../styles/organ.module.css'
+
 
 function Home() {
   return (<div className={styles.organ}>
@@ -10,7 +12,7 @@ function Home() {
        <div className={styles.OrganizationCards}>
            <OrganizationCards />
        </div>
-       <BackButtonUI routeTo="/SupportUs" />
+       <TopNavUI routeTo="/SupportUs" />
     <SupportUs 
        header="Support Us"
        subheader="Which Organization do you want to help?"
