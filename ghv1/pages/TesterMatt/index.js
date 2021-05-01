@@ -1,22 +1,27 @@
-import Link from 'next/link'
-import HomePost from '../../Comps/HomePost'
-import TopNavUI from '../../Comps/TopNavUI'
-import Player from '../../Comps/Player'
+import HeaderBlockUI from '../../Comps/CustomComponent3'
+import ButtonUI from '../../Comps/ButtonUI'
+import MissionUI from '../../Comps/MissionUI'
+import NavbarUI from '../../Comps/NavBar'
+import CalPostUI from '../../Comps/CalPost'
+import Background from '../../Comps/Background'
+import Image from '../../Comps/Image'
 
 import styles from './tester.module.css'
 
 
-function Tester() {
+function Home() {
   return (<div className={styles.main}>
     <div className={styles.bg}>
-    
-    <Player />
+
+    <ButtonUI />
+     
 
     </div>
+    
   </div>
 
-    
+
   )
   }
 
-export default Tester;
+export default Home;
