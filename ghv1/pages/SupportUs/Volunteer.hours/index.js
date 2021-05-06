@@ -10,7 +10,8 @@ function Home() {
        <TopNavUI routeTo="/SupportUs" />
        <SupportUs 
        header="Support Us"
-       subheader="Select volunteer hours"
+       subheader="Donation Type: Time"
+       infoheader="Select volunteer hours"
        supportingtext="(please select one)"
        page="SecondSupport"
        />
