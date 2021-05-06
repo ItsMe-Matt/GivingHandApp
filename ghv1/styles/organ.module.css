@@ -24,12 +24,22 @@
     background-repeat: no-repeat;
 }
 
+.overlay {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    min-width: 375px;
+    min-height: 667px;
+
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
 .box {
 
     position: absolute;
     width: 375px;
     height: 580px;
-    left: px;
     bottom: 185px;
     display: flex;
     flex-direction: column;
@@ -41,7 +51,7 @@
 
 .OrganizationCards {
     position:absolute;
-    top: 25%
+    top: 38.5%;
 }
 
 @media screen and (max-width: 500px) {
