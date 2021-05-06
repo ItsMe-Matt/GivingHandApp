@@ -13,7 +13,7 @@ function Home() {
        <div className={styles.OrganizationCards}>
            <OrganizationCards organizationText="Union Gospel Mission " />
        </div>
-       <TopNavUI routeTo="/SupportUs" />
+       <TopNavUI routeTo="/SupportUs/Hygiene" />
     <SupportUs 
        header="Support Us"
        subheader="Which Organization do you want to help?"
@@ -24,9 +24,6 @@ function Home() {
        <ButtonUI  title= "Wish Drop in Centre" type="shadow" />
        <ButtonUI  title= "Directions Youth Services" type="shadow" />
        <ButtonUI  title= "Union Gospel Mission" type="shadow" />
-       <br></br><br></br>
-       <ButtonUI title="Continue" type="start" routeTo="/ThankYou" />
-       <br></br>
       </div>
     </div>
   </div>

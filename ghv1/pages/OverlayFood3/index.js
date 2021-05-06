@@ -13,7 +13,7 @@ function Home() {
        <div className={styles.OrganizationCards}>
            <OrganizationCards organizationText="Quest Food Exchange " />
        </div>
-       <TopNavUI routeTo="/SupportUs" />
+       <TopNavUI routeTo="/SupportUs/Food" />
     <SupportUs 
        header="Support Us"
        subheader="Which Organization do you want to help?"
@@ -24,9 +24,6 @@ function Home() {
        <ButtonUI  title= "Greater Vancouver Food Bank" type="shadow" />
        <ButtonUI  title= "Quest Food Exchange" type="shadow" />
        <ButtonUI  title= "Aboriginal Front Door Society" type="shadow" />
-       <br></br><br></br>
-       <ButtonUI title="Continue" type="start" routeTo="/ThankYou" />
-       <br></br>
       </div>
     </div>
   </div>
