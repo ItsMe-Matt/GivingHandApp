@@ -23,7 +23,7 @@ function HomePage() {
         <div className={styles.postCont}>
           <HomePost body="It is estimated that 80% of these homeless people have a chronic health issue." src="/static/heartbeat.svg"/>
           <HomePost body="70% of people in Vancouver are experiencing chronic homelessness." src="/static/heartbeat.svg" type="right"/>
-          <HomePost body="The 2020 Metro Vancouver count found that in Vancouver, 2,095 residents identified as homeless." />
+          <HomePost body="The 2020 Metro Vancouver count found that in Vancouver, 2,095 residents identified as homeless." src="/static/homeIcon.svg"/>
         </div>
 
         <br></br> 
