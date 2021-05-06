@@ -16,12 +16,12 @@ function Home() {
        page="FourthSupport"
        />
     
-       <ButtonUI title= "Covenant House Vancouver" type="shadow" routeTo="/Organization" />
-       <ButtonUI  title= "Aboriginal Shelter Vancouver" type="shadow"  routeTo="/Organization" />
-       <ButtonUI  title= "Lookout Emergency Aid" type="shadow" routeTo="/Organization" />
-       <ButtonUI  title= "Rancity Housing & Support Society" type="shadow" routeTo="/Organization" />
+       <ButtonUI title= "Covenant House Vancouver" type="shadow" routeTo="/OverlayShelter1" />
+       <ButtonUI  title= "Aboriginal Shelter Vancouver" type="shadow"  routeTo="/OverlayShelter2" />
+       <ButtonUI  title= "Lookout Emergency Aid" type="shadow" routeTo="/OverlayShelter3" />
+       <ButtonUI  title= "Rancity Housing & Support Society" type="shadow" routeTo="/OverlayShelter4" />
        <br></br><br></br>
-       <ButtonUI title="Continue" type="start" routeTo="/Organization" />
+       <ButtonUI title="Continue" type="start" routeTo="/ThankYou" />
        <br></br>
     </div>
   </div>

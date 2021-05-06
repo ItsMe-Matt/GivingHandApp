@@ -17,12 +17,12 @@ function Home() {
        />
        
     
-       <ButtonUI title= "Donation Circle Society" type="shadow" routeTo="/Organization" />
-       <ButtonUI  title= "Wish Drop In Centre" type="shadow" routeTo="/Organization" />
-       <ButtonUI  title= "Directions Youth Services" type="shadow" routeTo="/Organization" />
-       <ButtonUI  title= "Union Gospel Mission" type="shadow" routeTo="/Organization" />
+       <ButtonUI title= "Donation Circle Society" type="shadow" routeTo="/OverlayHygiene1" />
+       <ButtonUI  title= "Wish Drop In Centre" type="shadow" routeTo="/OverlayHygiene2" />
+       <ButtonUI  title= "Directions Youth Services" type="shadow" routeTo="/OverlayHygiene3" />
+       <ButtonUI  title= "Union Gospel Mission" type="shadow" routeTo="/OverlayHygiene4" />
        <br></br><br></br>
-       <ButtonUI title="Continue" type="start" routeTo="/Organization" />
+       <ButtonUI title="Continue" type="start" routeTo="/ThankYou" />
        <br></br>
     </div>
   </div>

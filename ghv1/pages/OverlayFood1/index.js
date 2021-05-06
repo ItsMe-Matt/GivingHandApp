@@ -9,8 +9,9 @@ import styles from '../../styles/organ.module.css'
 function Home() {
   return (<div className={styles.organ}>
     <div className={styles.bg}>
+      <div className={styles.overlay}>
        <div className={styles.OrganizationCards}>
-           <OrganizationCards />
+           <OrganizationCards organizationText="Helping Families in Need Society " />
        </div>
        <TopNavUI routeTo="/SupportUs" />
     <SupportUs 
@@ -19,13 +20,14 @@ function Home() {
        supportingtext="(please select one)"
        page="FourthSupport"
        />
-       <ButtonUI title= "Dress for Success" type="shadow" />
-       <ButtonUI  title= "Big Brothers Vancouver" type="shadow" />
-       <ButtonUI  title= "Downtown Eastside Women’s Centre" type="shadow" />
-       <ButtonUI  title= "Union Gospel Mission" type="shadow" />
+       <ButtonUI title= "Helping Families in Need Society" type="shadow" />
+       <ButtonUI  title= "Greater Vancouver Food Bank" type="shadow" />
+       <ButtonUI  title= "Quest Food Exchange" type="shadow" />
+       <ButtonUI  title= "Aboriginal Front Door Society" type="shadow" />
        <br></br><br></br>
        <ButtonUI title="Continue" type="start" routeTo="/ThankYou" />
        <br></br>
+      </div>
     </div>
   </div>
 
