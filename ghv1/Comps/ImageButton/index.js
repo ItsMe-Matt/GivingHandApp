@@ -22,7 +22,7 @@ function ImageButton({
         padding: 10
     }}>
         <div className={styles.center}>
-            <img src={src}></img>
+            <img src={src} width="100px"></img>
         </div>
         <div className={styles.header}>
             {header} 
