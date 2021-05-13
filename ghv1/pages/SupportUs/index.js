@@ -1,6 +1,6 @@
 import MoneyButtonUI from '../../Comps/CustomComponent4'
 import SupportUI from '../../Comps/SupportUs'
-import VolunteerButtonUI from '../../Comps/CustomComponent4/volunteer'
+import VolunteerButtonUI from '../../Comps/CustomComponent4'
 import TopNavUI from '../../Comps/TopNavUI'
 
 import styles from '../../styles/supportUs.module.css'

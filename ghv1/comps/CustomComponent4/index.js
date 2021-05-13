@@ -4,7 +4,7 @@ import styles from './support.module.css'
 function VolunteerButtonUI({
 
     header = "placeholder",
-    routeTo="/"
+    routeTo="/LandingPage"
 
 }){
     const router = useRouter();
@@ -21,7 +21,7 @@ function VolunteerButtonUI({
         // boxshadow: 0, 8 15, rgba(0, 0, 0, 0.1);
     }}>
         <div className={styles.center}>
-            <img src="money.svg"></img>
+            <img src="volunteer.svg"></img>
         </div>
         <div className={styles.header}>
             {header} 
@@ -34,7 +34,7 @@ function VolunteerButtonUI({
                 position: "relative",
                 top:40,
             }}
-            >Donate your money and help by choosing an organization</span>
+            >Donate your time and help volunteer at your chosen organization</span>
             </div>
     </button>
   }
