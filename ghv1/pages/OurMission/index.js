@@ -3,7 +3,6 @@ import MissionUI from '../../Comps/MissionUI'
 import TopNavUI from '../../Comps/TopNavUI'
 
 import styles from '../../styles/ourMission.module.css'
-import BackButtonUI from '../../Comps/BackButton'
 
 
 function OurMission() {
