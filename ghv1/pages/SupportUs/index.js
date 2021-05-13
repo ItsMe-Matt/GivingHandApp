@@ -1,6 +1,6 @@
 import SupportUI from '../../Comps/SupportUs'
 import TopNavUI from '../../Comps/TopNavUI'
-import VolunteerButtonUI from '../../Comps/CustomComponent4'
+import ImageButton from '../../Comps/ImageButton'
 
 import styles from '../../styles/supportUs.module.css'
 
@@ -17,11 +17,11 @@ function SupportUs() {
        page="FirstSupport"
        />
        <br></br>
-      <VolunteerButtonUI  
+      <ImageButton  
       header="(Time) Volunteer"
       routeTo="/SupportUs/Volunteer.hours" />
 
-      <VolunteerButtonUI 
+      <ImageButton 
       header="(Money) Donation"
       routeTo="/SupportUs/Amount" />
 

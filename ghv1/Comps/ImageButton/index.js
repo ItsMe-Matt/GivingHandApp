@@ -1,14 +1,16 @@
 import {useRouter} from 'next/router'
 import styles from './support.module.css'
 
-function VolunteerButtonUI({
+function ImageButton({
 
     header = "placeholder",
-    routeTo="/"
+    routeTo="/",
+    src="https://wallpapercave.com/wp/wp7151807.jpg",
+    body="the fitness gram pacer test is a multistage aerobic capacity test"
 
 }){
     const router = useRouter();
-    return <button onClick={()=>router.push(routeTo)} style= {{
+    return <div onClick={()=>router.push(routeTo)} style= {{
         display: "flex",
         width: 250,
         height: 150,
@@ -18,10 +20,9 @@ function VolunteerButtonUI({
         fontSize: 18,
         margin: 10,
         padding: 10
-        // boxshadow: 0, 8 15, rgba(0, 0, 0, 0.1);
     }}>
         <div className={styles.center}>
-            <img src="money.svg"></img>
+            <img src={src}></img>
         </div>
         <div className={styles.header}>
             {header} 
@@ -34,10 +35,10 @@ function VolunteerButtonUI({
                 position: "relative",
                 top:40,
             }}
-            >Donate your money and help by choosing an organization</span>
+            > {body} </span>
             </div>
-    </button>
+    </div>
   }
   
 
-  export default VolunteerButtonUI;    
+  export default ImageButton;    
