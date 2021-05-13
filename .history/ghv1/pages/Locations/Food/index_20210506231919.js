@@ -2,7 +2,7 @@ import NavbarUI from '../../../Comps/NavBar'
 import styles from '../../../styles/main.module.css'
 import LocationUI from '../../../Comps/location/index.js'
 import BackButtonUI from '../../../Comps/BackButton/index'
-
+import ButtonHover from '../../../Comps'
 function Locations() {
   return (<div className={styles.main}>
     <div className={styles.bg}>
@@ -38,8 +38,6 @@ function Locations() {
       status="Opens 8 a.m. - 4 p.m."
       status2="(604) 697-5662"
       />
-
-      
 
       
       <br></br><br></br><br></br>
