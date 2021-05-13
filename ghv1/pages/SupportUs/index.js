@@ -1,4 +1,3 @@
-import MoneyButtonUI from '../../Comps/CustomComponent4'
 import SupportUI from '../../Comps/SupportUs'
 import VolunteerButtonUI from '../../Comps/CustomComponent4'
 import TopNavUI from '../../Comps/TopNavUI'
@@ -22,7 +21,7 @@ function SupportUs() {
       header="(Time) Volunteer"
       routeTo="/SupportUs/Volunteer.hours" />
 
-      <MoneyButtonUI 
+      <VolunteerButtonUI 
       header="(Money) Donation"
       routeTo="/SupportUs/Amount" />
 
