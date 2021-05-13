@@ -1,16 +1,14 @@
 import ButtonUI from '../../../Comps/ButtonUI'
-import Button4UI from '../../../Comps/CustomComponent2/Button4'
 import SupportUs from '../../../Comps/SupportUs/index'
 import styles from '../../../styles/SupportUs.module.css'
-import BackButtonUI from '../../../Comps/BackButton/index'
-import HomeSvgUI from '../../../Comps/Homesvg'
+
+import TopNavUI from '../../../Comps/TopNavUI'
 
 
 function Home() {
   return (<div className={styles.SupportUs}>
     <div className={styles.bg}>
-       <BackButtonUI routeTo="/SupportUs/Sector" />
-       <HomeSvgUI />
+       <TopNavUI routeTo="/SupportUs/Sector" />
        <SupportUs 
        header="Support Us"
        subheader="Which Organization do you want to help?"
@@ -18,12 +16,12 @@ function Home() {
        page="FourthSupport"
        />
     
-       <ButtonUI title= "Covenant House Vancouver" type="shadow" routeTo="/Organization" />
-       <ButtonUI  title= "Aboriginal Shelter Vancouver" type="shadow"  routeTo="/Organization" />
-       <ButtonUI  title= "Lookout Emergency Aid" type="shadow" routeTo="/Organization" />
-       <ButtonUI  title= "Rancity Housing & Support Society" type="shadow" routeTo="/Organization" />
+       <ButtonUI title= "Covenant House Vancouver" type="shadow" routeTo="/OverlayShelter1" />
+       <ButtonUI  title= "Aboriginal Shelter Vancouver" type="shadow"  routeTo="/OverlayShelter2" />
+       <ButtonUI  title= "Lookout Emergency Aid" type="shadow" routeTo="/OverlayShelter3" />
+       <ButtonUI  title= "Rancity Housing & Support Society" type="shadow" routeTo="/OverlayShelter4" />
        <br></br><br></br>
-       <ButtonUI title="Continue" type="start" routeTo="/Organization" />
+       <ButtonUI title="Continue" type="start" routeTo="/ThankYou" />
        <br></br>
     </div>
   </div>

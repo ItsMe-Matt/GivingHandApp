@@ -1,15 +1,16 @@
 import HeaderBlockUI from '../../Comps/CustomComponent3'
 import MoneyButtonUI from '../../Comps/CustomComponent4'
 import SupportUI from '../../Comps/SupportUs'
-import styles from '../../styles/main.module.css'
 import ExitButtonUI from '../../Comps/ExitButton'
 import OrganizationCardsUI from '../../Comps/OrganizationCards'
 import VolunteerButtonUI from '../../Comps/CustomComponent4/volunteer'
 import TopNavUI from '../../Comps/TopNavUI'
 
+import styles from '../../styles/SupportUs.module.css'
+
 
 function SupportUs() {
-  return (<div className={styles.main}>
+  return (<div className={styles.SupportUs}>
     <div className={styles.bg}>
       <TopNavUI routeTo="/HomePage" />
 

@@ -1,16 +1,13 @@
 import ButtonUI from '../../../Comps/ButtonUI'
-import Button4UI from '../../../Comps/CustomComponent2/Button4'
 import SupportUs from '../../../Comps/SupportUs/index'
 import styles from '../../../styles/SupportUs.module.css'
-import BackButtonUI from '../../../Comps/BackButton/index'
-import OrganizationCards from '../../../Comps/OrganizationCards/index'
-import HomeSvgUI from '../../../Comps/Homesvg'
+import TopNavUI from '../../../Comps/TopNavUI'
 
 function Home() {
   return (<div className={styles.SupportUs}>
     <div className={styles.bg}>
-       <BackButtonUI routeTo="/SupportUs/Sector" />
-       <HomeSvgUI />
+       <TopNavUI routeTo="/SupportUs/Sector" />
+
     <SupportUs 
        header="Support Us"
        subheader="Which Organization do you want to help?"
@@ -18,12 +15,12 @@ function Home() {
        page="FourthSupport"
        />
 
-       <ButtonUI title= "Dress for Success" type="shadow" routeTo="/Organization" />
-       <ButtonUI  title= "Big Brothers Vancouver" type="shadow" routeTo="/Organization" />
-       <ButtonUI  title= "Downtown Eastside Women’s Centre" type="shadow" routeTo="/Organization" />
-       <ButtonUI  title= "Union Gospel Mission" type="shadow" routeTo="/Organization" />
+       <ButtonUI title= "Dress for Success" type="shadow" routeTo="/OverlayClothing1" />
+       <ButtonUI  title= "Big Brothers Vancouver" type="shadow" routeTo="/OverlayClothing2" />
+       <ButtonUI  title= "Downtown Eastside Women’s Centre" type="shadow" routeTo="/OverlayClothing3" />
+       <ButtonUI  title= "Union Gospel Mission" type="shadow" routeTo="/OverlayClothing4" />
        <br></br><br></br>
-       <ButtonUI title="Continue" type="start" routeTo="/Organization" />
+       <ButtonUI title="Continue" type="start" routeTo="/ThankYou" />
        <br></br>
     </div>
   </div>

@@ -1,14 +1,14 @@
 import ButtonUI from '../../Comps/ButtonUI'
 import NavbarUI from '../../Comps/NavBar'
-import styles from '../../styles/main.module.css'
 import BackButtonUI from '../../Comps/BackButton/index'
+
+import styles from '../../styles/main.module.css'
 
 function Locations() {
   return (<div className={styles.main}>
-    <div className={styles.bg}>
+    <div className={styles.boxLocation}>
       <BackButtonUI />
       
-      <div className={styles.box}>
       <h1>LOCATIONS</h1>
       <h4>Select a sector below to find the "Address, Hours, and Phone Number" of each organization</h4>
        <ButtonUI title= "Shelter" routeTo="/Locations/Shelter" type="shadow" />
@@ -21,7 +21,7 @@ function Locations() {
        <br></br><br></br><br></br>
        <NavbarUI />
 
-       </div>
+
     </div>
   </div>
 

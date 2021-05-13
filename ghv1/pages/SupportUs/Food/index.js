@@ -1,15 +1,13 @@
 import ButtonUI from '../../../Comps/ButtonUI'
-import Button4UI from '../../../Comps/CustomComponent2/Button4'
+
 import SupportUs from '../../../Comps/SupportUs/index'
 import styles from '../../../styles/SupportUs.module.css'
-import BackButtonUI from '../../../Comps/BackButton/index'
-import HomeSvgUI from '../../../Comps/Homesvg'
+import TopNavUI from '../../../Comps/TopNavUI'
 
 function Home() {
   return (<div className={styles.SupportUs}>
     <div className={styles.bg}>
-       <BackButtonUI routeTo="/SupportUs/Sector" />
-       <HomeSvgUI />
+       <TopNavUI routeTo="/SupportUs/Sector" />
        <SupportUs 
        header="Support Us"
        subheader="Which Organization do you want to help?"
@@ -19,12 +17,12 @@ function Home() {
        
         
     
-       <ButtonUI title= "Helping Families in Need Society" type="shadow" routeTo="/Organization" />
-       <ButtonUI  title= "Greater Vancouver Food Bank" type="shadow" routeTo="/Organization" />
-       <ButtonUI  title= "Quest Food Exchange" type="shadow" routeTo="/Organization" />
-       <ButtonUI  title= "Aboriginal Front Door Society" type="shadow" routeTo="/Organization" />
+       <ButtonUI title= "Helping Families in Need Society" type="shadow" routeTo="/OverlayFood1" />
+       <ButtonUI  title= "Greater Vancouver Food Bank" type="shadow" routeTo="/OverlayFood2" />
+       <ButtonUI  title= "Quest Food Exchange" type="shadow" routeTo="/OverlayFood3" />
+       <ButtonUI  title= "Aboriginal Front Door Society" type="shadow" routeTo="/OverlayFood4" />
        <br></br><br></br> 
-       <ButtonUI title="Continue" type="start" routeTo="/Organization" />
+       <ButtonUI title="Continue" type="start" routeTo="/ThankYou" />
        <br></br>
     </div>
   </div>
