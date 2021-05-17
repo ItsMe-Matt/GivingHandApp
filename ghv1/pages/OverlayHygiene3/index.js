@@ -24,9 +24,6 @@ function Home() {
        <ButtonUI  title= "Wish Drop in Centre" type="shadow" />
        <ButtonUI  title= "Directions Youth Services" type="shadow" />
        <ButtonUI  title= "Union Gospel Mission" type="shadow" />
-       <br></br><br></br>
-       <ButtonUI title="Continue" type="start" routeTo="/ThankYou" />
-       <br></br>
       </div>
     </div>
   </div>
