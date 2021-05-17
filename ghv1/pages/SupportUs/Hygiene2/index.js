@@ -11,7 +11,7 @@ function Home() {
        <TopNavUI routeTo="/SupportUs/Sector2" />
       <SupportUs 
        header="Support Us"
-       infotext="Which Organization would you like to help?"
+       infoheader="Which Organization would you like to help?"
        subheader="Donation Type: Money"
        supportingtext="(please select one)"
        page="FourthSupport"
