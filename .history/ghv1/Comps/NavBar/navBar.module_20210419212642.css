@@ -1,0 +1,32 @@
+.bar {
+    height: 100px;
+    width: 100%;
+    background-color: white;
+
+    border-radius: 24px 24px 0px 0px;
+    
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.icon {
+    width: 40px;
+
+    margin: 0px 16px;
+}
+
+.donate {
+    width: 75px;
+
+    margin: 0px 16px;
+
+}
+
+.container {
+    display: flex;
+    align-items: center;
+}
+
