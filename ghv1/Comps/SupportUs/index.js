@@ -33,6 +33,7 @@ background-color: ${props=>props.boxC5};
 function SupportUI({
   header="Support Us",
   subheader="",
+  infotext="",
   supportingtext="",
   boxC1="#DFDFDF",
   boxC2="#DFDFDF",
@@ -52,6 +53,7 @@ function SupportUI({
         <Box5 boxC5="#FFFFFF"/>
     </div> 
         <div className={styles.h2}>{subheader}</div>
+        <div className={styles.info}>{infotext}</div>
         <div className={styles.h3}>{supportingtext}</div>
    </div>
   }
@@ -66,6 +68,7 @@ function SupportUI({
       <Box5 boxC5="#FFFFFF"/>
     </div> 
     <div className={styles.h2}>{subheader}</div>
+    <div className={styles.info}>{infotext}</div>
       <div className={styles.h3}>{supportingtext}</div>
     </div>
   }
@@ -80,6 +83,7 @@ function SupportUI({
       <Box5 boxC5="#FFFFFF"/>
     </div> 
     <div className={styles.h2}>{subheader}</div>
+    <div className={styles.info}>{infotext}</div>
       <div className={styles.h3}>{supportingtext}</div>
     </div>
   }
@@ -94,6 +98,7 @@ function SupportUI({
       <Box5 boxC5="#FFFFFF"/>
     </div> 
     <div className={styles.h2}>{subheader}</div>
+    <div className={styles.info}>{infotext}</div>
       <div className={styles.h3}>{supportingtext}</div>
     </div>
   }
@@ -108,6 +113,7 @@ function SupportUI({
       <Box5 boxC5="#C4C4C4"/>
     </div> 
     <div className={styles.h2}>{subheader}</div>
+    <div className={styles.info}>{infotext}</div>
       <div className={styles.h3}>{supportingtext}</div>
     </div>
   }
