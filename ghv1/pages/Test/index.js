@@ -24,6 +24,18 @@ export default function Home() {
             <Image />
             
           </Modal>
+
+          <button onClick={() => setShowModal(true)}>Open Modal</button>
+          <Modal
+            onClose={() => setShowModal(false)}
+            show={showModal}
+          >
+            Hello from the modal!
+            Giving hand is fun
+            <ButtonUI routeTo="/" />
+            <Image />
+            
+          </Modal>
       </div>
     )
   }
