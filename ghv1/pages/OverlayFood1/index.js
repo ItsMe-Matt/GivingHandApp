@@ -25,8 +25,6 @@ function Home() {
        <ButtonUI  title= "Quest Food Exchange" type="shadow" />
        <ButtonUI  title= "Aboriginal Front Door Society" type="shadow" />
        <br></br><br></br>
-       <ButtonUI title="Continue" type="start" routeTo="/ThankYou" />
-       <br></br>
       </div>
     </div>
   </div>
