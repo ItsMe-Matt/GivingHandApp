@@ -12,8 +12,8 @@ function Home() {
 
     <SupportUs 
        header="Support Us"
-       subheader="Donation Type: Time"
-       infotext="Choose a sector to help"
+       subheader="Donation Type: "
+       infoheader="Choose a sector to help"
        supportingtext="(please select one)"
        page="ThirdSupport"
        />  
