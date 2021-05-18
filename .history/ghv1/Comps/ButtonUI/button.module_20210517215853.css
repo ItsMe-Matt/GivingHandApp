@@ -1,0 +1,120 @@
+.support {
+    width: 250px;
+    padding: 16px 0px;
+    margin: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+    border-radius: 15px;
+    background-color: #f5f5f5;
+
+    font-family: Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #096;
+}
+
+.continue {
+    width: 300px;
+    padding: 16px 0px;
+    margin: 8px;
+
+    text-align: center;
+    border-radius: 15px;
+    background-color: white;
+    border: solid 2px #009966;
+    outline: none;
+
+    font-family: Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #009966;
+}
+
+.select {
+    width: 201px;
+    padding: 16px 0px;
+    margin: 8px;
+    box-shadow: 0px 5px 5px grey ;
+
+    text-align: center;
+    border-radius: 15px;
+    background-color: #F5F5F5;
+
+    font-family: Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #009966;
+}
+
+.mission {
+    width: 300px;
+    padding: 16px 0px;
+    margin: 4px;
+  
+    text-align: center;
+    border-radius: 15px;
+    border: solid 2px #FFFFFF;
+  
+    font-family: Helvetica, sans-serif;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+.start {
+    width: 300px;
+    padding: 16px 0px;
+    margin: 4px;
+
+    text-align: center;
+    border-radius: 15px;
+    background-color: #009966;
+
+    font-family: Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+.next {
+    width: 60px;
+    height: 20px;
+    padding: 12px 24px;
+    margin: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+    border-radius: 5px;
+    background-color: #f5f5f5;
+
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #009966;
+    border: solid 1px #009966;
+    box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.25);
+}
+
+.shadow {
+    width: 275px;
+    height: 60px;
+    padding: 5px 0px;
+    margin: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+    border-radius: 15px;
+    background-color: green;
+
+    font-family: Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #009966;
+    box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.25);
+}
