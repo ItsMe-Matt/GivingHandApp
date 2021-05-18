@@ -1,17 +1,17 @@
 import ButtonUI from '../../../Comps/ButtonUI'
 import SupportUs from '../../../Comps/SupportUs/index'
-import styles from '../../../styles/supportUs.module.css'
+import styles from '../../../styles/SupportUs.module.css'
 import TopNavUI from '../../../Comps/TopNavUI'
 
 function Home() {
   return (<div className={styles.SupportUs}>
     <div className={styles.bg}>
-       <TopNavUI routeTo="/SupportUs/Sector" />
+       <TopNavUI routeTo="/SupportUs/Sector2" />
 
     <SupportUs 
        header="Support Us"
-       subheader="Donation Type: Time"
-       infoheader="Which Organization do you want to help?"
+       subheader="Donation Type: Money"
+       infoheader="Which Organization would you like to help?"
        supportingtext="(please select one)"
        page="FourthSupport"
        />

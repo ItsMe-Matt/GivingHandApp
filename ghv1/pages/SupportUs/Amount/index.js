@@ -9,16 +9,17 @@ function Home() {
     <TopNavUI routeTo="/SupportUs"/>  
      <SupportUs 
        header="Support Us"
-       subheader="Select an amount"
+       subheader="Donation Type: Money"
+       infoheader="Select an amount"
        supportingtext="(please select one)"
        page="SecondSupport"
        />
     
 
-       <ButtonUI title= "$10" routeTo="/SupportUs/Sector" type="shadow" />
-       <ButtonUI  title= "$25" routeTo="/SupportUs/Sector" type="shadow" />
-       <ButtonUI  title= "$50" routeTo="/SupportUs/Sector" type="shadow" />
-       <ButtonUI  title= "Other" routeTo="/SupportUs/Sector" type="shadow" />
+       <ButtonUI title= "$10" routeTo="/SupportUs/Sector2" type="shadow" />
+       <ButtonUI  title= "$25" routeTo="/SupportUs/Sector2" type="shadow" />
+       <ButtonUI  title= "$50" routeTo="/SupportUs/Sector2" type="shadow" />
+       <ButtonUI  title= "Other" routeTo="/SupportUs/Sector2" type="shadow" />
 
        <br></br><br></br><br></br><br></br>
     </div>
