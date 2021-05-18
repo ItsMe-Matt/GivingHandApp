@@ -1,6 +1,6 @@
 import NavbarUI from '../../../Comps/NavBar'
 import styles from '../../../styles/main.module.css'
-import LocationUI from '../../../Comps/location/index.js'
+import LocationUI from '../../../Comps/Location/index.js'
 import BackButtonUI from '../../../Comps/BackButton/index'
 
 function Locations() {
@@ -38,6 +38,8 @@ function Locations() {
       status="Opens 8 a.m. - 4 p.m."
       status2="(604) 697-5662"
       />
+
+      
 
       
       <br></br><br></br><br></br>

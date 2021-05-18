@@ -1,6 +1,6 @@
 import NavbarUI from '../../../Comps/NavBar'
 import styles from '../../../styles/main.module.css'
-import LocationUI from '../../../Comps/location/index.js'
+import LocationUI from '../../../Comps/Location/index.js'
 import BackButtonUI from '../../../Comps/BackButton/index'
 
 function Locations() {

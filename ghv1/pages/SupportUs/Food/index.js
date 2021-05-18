@@ -1,7 +1,7 @@
 import ButtonUI from '../../../Comps/ButtonUI'
 
 import SupportUs from '../../../Comps/SupportUs/index'
-import styles from '../../../styles/SupportUs.module.css'
+import styles from '../../../styles/supportUs.module.css'
 import TopNavUI from '../../../Comps/TopNavUI'
 
 function Home() {
