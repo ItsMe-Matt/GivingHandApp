@@ -11,7 +11,7 @@ function Home() {
     <div className={styles.bg}>
       <div className={styles.overlay}>
        <div className={styles.OrganizationCards}>
-           <OrganizationCards organizationText="Lookout Emergency Aid " />
+           <OrganizationCards organizationText="We provide housing and a range of support services to adults with low or no income who have few, if any, housing or support options. Because the people we serve have challenges meeting basic needs and goals, we place minimal barriers between them and our services.." supportText="" url="/static/Lookout.png" routeTo="/ThankYou15" />
        </div>
        <TopNavUI routeTo="/SupportUs/Shelter" />
     <SupportUs 

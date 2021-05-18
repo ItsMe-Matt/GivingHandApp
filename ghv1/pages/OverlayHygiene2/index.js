@@ -11,7 +11,7 @@ function Home() {
     <div className={styles.bg}>
       <div className={styles.overlay}>
        <div className={styles.OrganizationCards}>
-           <OrganizationCards organizationText="The Drop-In Centre is a safe, welcoming and non-judgemental space for all self-identified women, including trans women, who are current or former sex workers." supportText="" url="/static/Wish.png" />
+           <OrganizationCards organizationText="The Drop-In Centre is a safe, welcoming and non-judgemental space for all self-identified women, including trans women, who are current or former sex workers." supportText="" url="/static/Wish.png" routeTo="/ThankYou6" />
        </div>
        <TopNavUI routeTo="/SupportUs/Hygiene" />
     <SupportUs 

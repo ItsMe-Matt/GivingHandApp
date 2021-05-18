@@ -11,7 +11,7 @@ function Home() {
     <div className={styles.bg}>
       <div className={styles.overlay}>
        <div className={styles.OrganizationCards}>
-           <OrganizationCards organizationText="Downtown Eastside Women's Centre " />
+           <OrganizationCards organizationText="The mission of the Downtown Eastside Women’s Centre is to provide a safe, non-judgmental environment for women from all walks of life, who live and/or work in the Downtown Eastside." supportText="To achieve this goal, the Centre provides supportive surroundings with meals, counseling, advocacy and programs which nurture and empower members." url="/static/DowntownEastside.png" routeTo="/ThankYou11"/>
        </div>
        <TopNavUI routeTo="/SupportUs/Clothing" />
     <SupportUs 

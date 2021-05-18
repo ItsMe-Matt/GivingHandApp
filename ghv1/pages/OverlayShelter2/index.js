@@ -11,7 +11,7 @@ function Home() {
     <div className={styles.bg}>
       <div className={styles.overlay}>
        <div className={styles.OrganizationCards}>
-           <OrganizationCards organizationText="Aboriginal Shelter Vancouver " />
+           <OrganizationCards organizationText="VAFCS is a charitable organization and emphasizes the philosophies and values of varied Aboriginal culture and traditions. " supportText="" url="/static/Aboriginal.png" routeTo="/ThankYou14" />
        </div>
        <TopNavUI routeTo="/SupportUs/Shelter" />
     <SupportUs 

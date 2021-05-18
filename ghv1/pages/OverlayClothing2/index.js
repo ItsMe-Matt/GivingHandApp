@@ -11,7 +11,7 @@ function Home() {
     <div className={styles.bg}>
       <div className={styles.overlay}>
        <div className={styles.OrganizationCards}>
-           <OrganizationCards organizationText="Big Brothers Vancouver " />
+           <OrganizationCards organizationText="Big Brothers belong in the Greater Vancouver area." supportText="Their mission is to enable impactful mentoring relationships where children and youth can discover their power and potential, in collaboration with our local communities." url="/static/BigBrother.png" routeTo="/ThankYou10" />
        </div>
        <TopNavUI routeTo="/SupportUs/Clothing" />
     <SupportUs 

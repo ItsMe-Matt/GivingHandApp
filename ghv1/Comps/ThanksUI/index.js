@@ -4,9 +4,7 @@ function ThanksUI({
   header="Support Us",
   subheader="Thank you for choosing",
   supportingtext="Big Brothers Vancouver",
-  url="https://miro.medium.com/max/1200/1*mk1-6aYaf_Bes1E3Imhc0A.jpeg",
-  description="With your money donation, you’re able to help clothe an estimated  ______ people with this company.",
-  givethanks="Thank you so much!"
+  url="https://miro.medium.com/max/1200/1*mk1-6aYaf_Bes1E3Imhc0A.jpeg"
 }){
     return <div className={styles.container}>
         <div className={styles.header}>{header}</div>
@@ -20,8 +18,6 @@ function ThanksUI({
     <img src = {url} className={styles.image}></img> 
         <div className={styles.h2}>{subheader}</div>
         <div className={styles.h3}>{supportingtext}</div>
-        <p className={styles.description}>{description}</p>
-        <p className={styles.givethanks}>{givethanks}</p>
    </div>
 }
 
