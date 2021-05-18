@@ -2,7 +2,7 @@
 import ThanksUI from '../../Comps/ThanksUI'
 import ButtonUI from '../../Comps/ButtonUI'
 
-import styles from '../../styles/main.module.css'
+import styles from '../../styles/thankyou.module.css'
 import TopNavUI from '../../Comps/TopNavUI';
 
 function ThankYou() 
