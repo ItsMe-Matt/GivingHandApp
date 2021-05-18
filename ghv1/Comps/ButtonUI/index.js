@@ -74,8 +74,7 @@ const router = useRouter();
         userSelect: "none"
       }}>{title}
         <form>
-          <label for="other">Other</label>
-          <input type="text" id="other"></input>
+          <input className={styles.other} type="text" id="other" placeholder="Other"></input>
         </form>
         <div onClick={()=>router.push(routeTo)} className={styles.confirm} style={{
         userSelect: "none"
