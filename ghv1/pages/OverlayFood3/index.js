@@ -11,9 +11,9 @@ function Home() {
     <div className={styles.bg}>
       <div className={styles.overlay}>
        <div className={styles.OrganizationCards}>
-           <OrganizationCards organizationText="Quest Food Exchange " />
+           <OrganizationCards organizationText="Quest’s Food Recovery and Redistribution model is an innovative idea in which Quest recovers quality surplus food and necessities from suppliers at all levels of the supply chain and redistributes these goods to clients of social service agencies, government and non-government programs, churches, schools and hospitals in a traditional grocery market setting." supportText="" url="/static/QuestFood.png" routeTo="/ThankYou3" />
        </div>
-       <TopNavUI routeTo="/SupportUs" />
+       <TopNavUI routeTo="/SupportUs/Food" />
     <SupportUs 
        header="Support Us"
        subheader="Which Organization do you want to help?"

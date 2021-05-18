@@ -11,9 +11,9 @@ function ThankYou()
   return (<div className={styles.main}>
     <div className={styles.bg}>
 
-      <TopNavUI routeTo="/SupportUs" />
+      <TopNavUI routeTo="/OverlayFood1" />
 
-      <ThanksUI/>
+      <ThanksUI supportingtext="Helping Families in Need Society" url="/static/HelpingFamilies.png" />
       <ButtonUI title="Donate Again" type="start" routeTo="/SupportUs" />
       <ButtonUI title="Go to Home" type="continue" routeTo="/HomePage" />
       <br></br>

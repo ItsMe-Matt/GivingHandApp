@@ -11,9 +11,9 @@ function Home() {
     <div className={styles.bg}>
       <div className={styles.overlay}>
        <div className={styles.OrganizationCards}>
-           <OrganizationCards organizationText="Greater Vancouver Food Bank " />
+           <OrganizationCards organizationText="The Greater Vancouver Food Bank was set up as a temporary relief to the hunger crisis in 1983 and has grown significantly in the three decades since then." supportText="Today the GVFB provides assistance to around 8,500 individuals and families monthly across Vancouver, Burnaby, New Westminster, and the North Shore." url="/static/GreaterVancouver.png" routeTo="/ThankYou2"/>
        </div>
-       <TopNavUI routeTo="/SupportUs" />
+       <TopNavUI routeTo="/SupportUs/Food" />
     <SupportUs 
        header="Support Us"
        subheader="Which Organization do you want to help?"

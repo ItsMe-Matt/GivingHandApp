@@ -69,6 +69,21 @@ const router = useRouter();
        {title}
       </div>
     }
+    else if (type == "input") {
+      return <div className={styles.input} style={{
+        userSelect: "none"
+      }}>{title}
+        <form>
+          <label for="other">Other</label>
+          <input type="text" id="other"></input>
+        </form>
+        <div onClick={()=>router.push(routeTo)} className={styles.confirm} style={{
+        userSelect: "none"
+      }}>
+       Confirm
+      </div>
+      </div>
+    }
 }
 
 export default buttonUI;

@@ -11,9 +11,9 @@ function Home() {
     <div className={styles.bg}>
       <div className={styles.overlay}>
        <div className={styles.OrganizationCards}>
-           <OrganizationCards organizationText="Dress for Success " />
+           <OrganizationCards organizationText="Dress for Success Vancouver is a community empowering women into the workforce by providing them with professional attire, career services, and skills development programs." supportText="" url="/static/Dress.png" routeTo="/ThankYou9" />
        </div>
-       <TopNavUI routeTo="/SupportUs" />
+       <TopNavUI routeTo="/SupportUs/Clothing" />
     <SupportUs 
        header="Support Us"
        subheader="Which Organization do you want to help?"
@@ -24,7 +24,6 @@ function Home() {
        <ButtonUI  title= "Big Brothers Vancouver" type="shadow" />
        <ButtonUI  title= "Downtown Eastside Women's Centre" type="shadow" />
        <ButtonUI  title= "Union Gospel Mission" type="shadow" />
-       <br></br>
       </div>
     </div>
   </div>

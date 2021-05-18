@@ -11,9 +11,9 @@ function Home() {
     <div className={styles.bg}>
       <div className={styles.overlay}>
        <div className={styles.OrganizationCards}>
-           <OrganizationCards organizationText="Aboriginal Shelter Vancouver " />
+           <OrganizationCards organizationText="VAFCS is a charitable organization and emphasizes the philosophies and values of varied Aboriginal culture and traditions. " supportText="" url="/static/Aboriginal.png" routeTo="/ThankYou14" />
        </div>
-       <TopNavUI routeTo="/SupportUs" />
+       <TopNavUI routeTo="/SupportUs/Shelter" />
     <SupportUs 
        header="Support Us"
        subheader="Which Organization do you want to help?"
@@ -23,7 +23,7 @@ function Home() {
        <ButtonUI title= "Covenant House Vancouver" type="shadow" />
        <ButtonUI  title= "Aboriginal Shelter Vancouver" type="shadow" />
        <ButtonUI  title= "Lookout Emergency Aid" type="shadow" />
-       <ButtonUI  title= "Rancity Housing & Support Society" type="shadow" />
+       <ButtonUI  title= "Raincity Housing & Support Society" type="shadow" />
       </div>
     </div>
   </div>

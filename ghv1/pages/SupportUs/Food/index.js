@@ -21,9 +21,6 @@ function Home() {
        <ButtonUI  title= "Greater Vancouver Food Bank" type="shadow" routeTo="/OverlayFood2" />
        <ButtonUI  title= "Quest Food Exchange" type="shadow" routeTo="/OverlayFood3" />
        <ButtonUI  title= "Aboriginal Front Door Society" type="shadow" routeTo="/OverlayFood4" />
-       <br></br><br></br> 
-       <ButtonUI title="Continue" type="start" routeTo="/ThankYou" />
-       <br></br>
     </div>
   </div>
 

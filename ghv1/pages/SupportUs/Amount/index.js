@@ -18,7 +18,7 @@ function Home() {
        <ButtonUI title= "$10" routeTo="/SupportUs/Sector" type="shadow" />
        <ButtonUI  title= "$25" routeTo="/SupportUs/Sector" type="shadow" />
        <ButtonUI  title= "$50" routeTo="/SupportUs/Sector" type="shadow" />
-       <ButtonUI  title= "Other" routeTo="/SupportUs/Sector" type="shadow" />
+       <ButtonUI  title= "" type="input" routeTo="/SupportUs/Sector" />
 
        <br></br><br></br><br></br><br></br>
     </div>

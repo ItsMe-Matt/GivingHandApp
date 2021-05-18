@@ -19,9 +19,6 @@ function Home() {
        <ButtonUI  title= "Big Brothers Vancouver" type="shadow" routeTo="/OverlayClothing2" />
        <ButtonUI  title= "Downtown Eastside Women’s Centre" type="shadow" routeTo="/OverlayClothing3" />
        <ButtonUI  title= "Union Gospel Mission" type="shadow" routeTo="/OverlayClothing4" />
-       <br></br><br></br>
-       <ButtonUI title="Continue" type="start" routeTo="/ThankYou" />
-       <br></br>
     </div>
   </div>
 
