@@ -1,44 +1,22 @@
-import React, { useEffect, useRef, useState } from "react"
-import ReactDOM from "react-dom"
-import Modal from '../../Comps/Modal'
 
-import Image from '../../Comps/Image'
 
-import ButtonUI from '../../Comps/ButtonUI'
-import Demo from '../../Comps/Demo'
+import styles from './test.module.css'
 
 
 
 export default function Home() {
-    const [showModal, setShowModal] = useState(false);
   
     return (
       <div>
-          <button onClick={() => setShowModal(true)}>Open Modal</button>
-          <Modal
-            onClose={() => setShowModal(false)}
-            show={showModal}
-          >
-            Hello from the modal!
-            Giving hand is fun
-            <ButtonUI routeTo="/" />
-            <Image />
-            
-          </Modal>
+        
 
-          <button onClick={() => setShowModal(true)}>Open Modal</button>
-          <Modal
-            onClose={() => setShowModal(false)}
-            show={showModal}
-          >
-            Hello from the modal!
-            Giving hand is fun
-            <ButtonUI routeTo="/" />
-            <Image />
-            <Demo />
-          </Modal>
+          <p className={styles.sans}>
+          Almost before we knew it, we had left the ground
+          </p>
 
-
+          <p className={styles.font}>
+          Almost before we knew it, we had left the ground
+          </p>
 
 
       </div>

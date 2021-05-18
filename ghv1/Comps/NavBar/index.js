@@ -13,7 +13,7 @@ function NavBarUI({
       <div className={styles.container}>
         <img src="/static/home.svg" className={styles.icon} onClick={()=>router.push(routeTo="/HomePage")} />
         <img src="/static/donate.svg" className={styles.donate} onClick={()=>router.push(routeTo="/SupportUs")} />
-        <img src="/static/location.svg" className={styles.icon} onClick={()=>router.push(routeTo="/ButtonTest")} />
+        <img src="/static/location.svg" className={styles.icon} onClick={()=>router.push(routeTo="/Locations")} />
       </div>
    </div>
 }
