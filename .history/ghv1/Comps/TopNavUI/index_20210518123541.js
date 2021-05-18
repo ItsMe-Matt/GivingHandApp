@@ -11,7 +11,8 @@ function TopNavUI({
             backgroundColor: "transparent",
             border: "none",
             outline: "none",
-            paddingLeft: "24px",
+            position: "absolute",
+            Left: "24px",
             paddingTop: "8px"
         }}>
         <img src="/static/back.png" height="20px" width="20px"/>

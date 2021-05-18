@@ -5,7 +5,7 @@ function ImageButton({
 
     header = "placeholder",
     routeTo="/",
-    src="/public/money.svg/",
+    src="mon",
     body="the fitness gram pacer test is a multistage aerobic capacity test"
 
 }){

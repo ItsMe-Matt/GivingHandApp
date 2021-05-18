@@ -12,7 +12,7 @@ function TopNavUI({
             border: "none",
             outline: "none",
             paddingLeft: "24px",
-            paddingTop: "8px"
+            paddingTop: "10px"
         }}>
         <img src="/static/back.png" height="20px" width="20px"/>
         </button>

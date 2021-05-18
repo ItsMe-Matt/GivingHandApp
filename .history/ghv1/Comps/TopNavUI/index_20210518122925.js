@@ -12,7 +12,7 @@ function TopNavUI({
             border: "none",
             outline: "none",
             paddingLeft: "24px",
-            paddingTop: "8px"
+            paddingBottom: "50px"
         }}>
         <img src="/static/back.png" height="20px" width="20px"/>
         </button>
@@ -26,7 +26,7 @@ function TopNavUI({
             border: "none",
             outline: "none",
             paddingRight: "24px",
-            paddingTop: "1px"
+            paddingBottom: "50px"
         }}>
         <img src="/static/home.svg" />
         </button>

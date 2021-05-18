@@ -11,8 +11,9 @@ function TopNavUI({
             backgroundColor: "transparent",
             border: "none",
             outline: "none",
-            paddingLeft: "24px",
-            paddingTop: "8px"
+            position: "absolute",
+            right:"625px",
+            bottom: "800px"
         }}>
         <img src="/static/back.png" height="20px" width="20px"/>
         </button>
@@ -25,6 +26,7 @@ function TopNavUI({
             backgroundColor: "transparent",
             border: "none",
             outline: "none",
+            position:
             paddingRight: "24px",
             paddingTop: "1px"
         }}>

@@ -10,7 +10,7 @@ function OurMission() {
   return (<div className={styles.main}>
     <div className={styles.bg}>
 
-    <TopNavUI routeTo="/OurMission1"/>
+      <TopNavUI routeTo="/OurMission1"/>
       <br/>
 
       <MissionUI header="Choose a Category" url="/static/categoryPic.svg" body="Select which sector you would like to volunteer at, or the category of items you want to donate."/>

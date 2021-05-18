@@ -11,6 +11,7 @@ function TopNavUI({
             backgroundColor: "transparent",
             border: "none",
             outline: "none",
+            position:
             paddingLeft: "24px",
             paddingTop: "8px"
         }}>
