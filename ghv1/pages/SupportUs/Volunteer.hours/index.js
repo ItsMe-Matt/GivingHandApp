@@ -1,5 +1,5 @@
 import ButtonUI from '../../../Comps/ButtonUI'
-import styles from '../../../styles/SupportUs.module.css'
+import styles from '../../../styles/supportUs.module.css'
 import SupportUs from '../../../Comps/SupportUs/index'
 import BackButtonUI from '../../../Comps/BackButton/index'
 import TopNavUI from '../../../Comps/TopNavUI'

@@ -24,9 +24,6 @@ function Home() {
        <ButtonUI  title= "Aboriginal Shelter Vancouver" type="shadow" />
        <ButtonUI  title= "Lookout Emergency Aid" type="shadow" />
        <ButtonUI  title= "Rancity Housing & Support Society" type="shadow" />
-       <br></br><br></br>
-       <ButtonUI title="Continue" type="start" routeTo="/ThankYou" />
-       <br></br>
       </div>
     </div>
   </div>
