@@ -31,8 +31,11 @@ animation-iteration-count: 1;
       opacity:1;
     }
   }
-  animation: fadeIn ease 5s;
-  -webkit-animation: fadeIn ease 5s;
+  animation: fadeIn ease 10s;
+  -webkit-animation: fadeIn ease 10s;
+  
+opacity:${props=> props.opText};
+ transition: all 1s;
 `;
 //PROPS
 const Heading = ({

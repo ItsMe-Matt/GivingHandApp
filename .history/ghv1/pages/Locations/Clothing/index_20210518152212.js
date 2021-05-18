@@ -11,7 +11,11 @@ function TestButton() {
       <div className={styles.box}>
         <BackButton routeTo="/Locations"/>
         
-        <Bouncing text="CLOTHING"/>
+        <h1 style={{
+            color:"#6B5DA9",
+            borderBottom: "2px solid black",
+            display: 'block'
+        }}>Clothing</h1>
 
         <br></br>
         <AnimatedDropdown 

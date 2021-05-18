@@ -22,7 +22,6 @@ export default class ReactAnimations extends Component {
 
 const HeadingCont = styled.h1`
 color: '#6B5DA9';
-animation-iteration-count: 1;
 @keyframes fadeIn {
     0% {
       opacity:0;
@@ -31,8 +30,11 @@ animation-iteration-count: 1;
       opacity:1;
     }
   }
-  animation: fadeIn ease 5s;
-  -webkit-animation: fadeIn ease 5s;
+  animation: fadeIn ease 10s;
+  -webkit-animation: fadeIn ease 10s;
+  animation-iteration-count: 2;
+opacity:${props=> props.opText};
+ transition: all 1s;
 `;
 //PROPS
 const Heading = ({

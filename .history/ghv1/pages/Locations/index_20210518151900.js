@@ -20,9 +20,9 @@ function Locations({
       <h4 style={{
         color:"#6B5DA9"
       }}>Select a sector below to find the "Address, Hours, and Phone Number" of each organization</h4>
-       <ButtonUI title= "Shelter" routeTo="/Locations/Shelter" type="shadow" />
+       <ButtonUI title= "Shelter" routeTo="/Location/Shelter" type="shadow" />
        <br></br>
-       <ButtonUI  title= "Clothing" routeTo="/Locations/Clothing" type="shadow" />
+       <ButtonUI  title= "Clothing" routeTo="/Location/Clothing" type="shadow" />
        <br></br>
        <ButtonUI  title= "Hygiene Products" routeTo="/Locations/Hygiene" type="shadow" />
        <br></br>

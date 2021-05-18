@@ -32,7 +32,10 @@ animation-iteration-count: 1;
     }
   }
   animation: fadeIn ease 5s;
-  -webkit-animation: fadeIn ease 5s;
+  -webkit-animation: fadeIn ease 10s;
+  
+opacity:${props=> props.opText};
+ transition: all 1s;
 `;
 //PROPS
 const Heading = ({

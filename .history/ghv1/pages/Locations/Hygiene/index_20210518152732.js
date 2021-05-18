@@ -9,45 +9,49 @@ function TestButton() {
       <div className={styles.bg}>
       
       <div className={styles.box}>
-        <BackButton routeTo="/Locations"/>
+       <BackButton routeTo="/Locations"/>
         
-        <Bouncing text="CLOTHING"/>
+        <Bouncing text="Hygiene"/>
+      
+        
 
+        
         <br></br>
         <AnimatedDropdown 
-        Text="Dress for Success"
-        Address="Address: 675 W Hastings St, Vancouver, BC V6B 1N9"
-        Hours="Hours: Open 9 a.m. - 5 p.m."
-        Phone="Phone: (604) 408-7923"
+        Text="Donation Circle Society"
+        Address="Address: 2487 Adanac St, Vancouver, BC V5K 2M3"
+        Hours="Hours: 24 Hours"
+        Phone="Phone:  (604) 253-7898"
         />
         <br></br><br></br>
         <br></br>
         <AnimatedDropdown 
-        Text="Big Brothers Vancouver"
-        Address=" Address: 1193 Kingsway Unit 102, Vancouver, BC V5V 3C9"
-        Hours=" Hours: Open 9 a.m. - 5 p.m."
-        Phone=" Phone: (604) 876-2447"
+        Text="Wish Drop In Centre"
+        Address=" Address: 334 Alexander St, Vancouver, BC V6A 1C3"
+        Hours=" Hours:  Opens 12 a.m. - 6 p.m."
+        Phone=" Phone:  (604) 669-9474"
         />
         <br></br><br></br>
         <br></br>
         <AnimatedDropdown 
-        Text="Downtown Eastside Women’s Centre"
-        Address=" Address: 302 Columbia St, Vancouver, BC V6A 4J1"
+        Text="Directions Youth Services"
+        Address=" Address: 1138 Burrard St, Vancouver, BC"
         Hours=" Hours: 24 hours"
-        Phone=" Phone:  (604) 681-8480"
+        Phone=" Phone: (604) 669-1472"
         />
         <br></br><br></br>
         <br></br>
         <AnimatedDropdown 
         Text="Union Gospel Mission"
         Address=" Address: 601 E Hastings St, Vancouver, BC V6A 1J7"
-        Hours=" Hours: Open 24 hours"
+        Hours=" Hours:  Open 24 hours"
         Phone=" Phone: (604) 253-3323"
         />
         <br></br><br></br>
         <br></br><br></br>
         <br></br><br></br><br></br>
-      
+        
+        
         <NavbarUI />
       
       

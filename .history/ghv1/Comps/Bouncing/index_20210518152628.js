@@ -33,6 +33,9 @@ animation-iteration-count: 1;
   }
   animation: fadeIn ease 5s;
   -webkit-animation: fadeIn ease 5s;
+  
+
+ 
 `;
 //PROPS
 const Heading = ({
