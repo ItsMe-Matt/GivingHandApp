@@ -1,0 +1,27 @@
+
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.header {
+    font-family: Helvetica, sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    color: #6B5DA9;
+    max-width: 300px;
+    text-align: center;
+
+    margin: 32px;
+}
+
+.body {
+    font-family: Helvetica, sans-serif;
+    font-size: 14px;
+    color: rgb(53, 53, 53);
+
+    margin: 16px;
+    width: 260px;
+}
