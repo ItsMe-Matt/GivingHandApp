@@ -11,7 +11,7 @@ function Home() {
     <div className={styles.bg}>
       <div className={styles.overlay}>
        <div className={styles.OrganizationCards}>
-           <OrganizationCards organizationText="Rancity Housing & Support Society " />
+           <OrganizationCards organizationText="Raincity Housing & Support Society " />
        </div>
        <TopNavUI routeTo="/SupportUs/Shelter" />
     <SupportUs 
@@ -23,7 +23,7 @@ function Home() {
        <ButtonUI title= "Covenant House Vancouver" type="shadow" />
        <ButtonUI  title= "Aboriginal Shelter Vancouver" type="shadow" />
        <ButtonUI  title= "Lookout Emergency Aid" type="shadow" />
-       <ButtonUI  title= "Rancity Housing & Support Society" type="shadow" />
+       <ButtonUI  title= "Raincity Housing & Support Society" type="shadow" />
       </div>
     </div>
   </div>

@@ -23,7 +23,7 @@ function Home() {
        <ButtonUI title= "Covenant House Vancouver" type="shadow" />
        <ButtonUI  title= "Aboriginal Shelter Vancouver" type="shadow" />
        <ButtonUI  title= "Lookout Emergency Aid" type="shadow" />
-       <ButtonUI  title= "Rancity Housing & Support Society" type="shadow" />
+       <ButtonUI  title= "Raincity Housing & Support Society" type="shadow" />
       </div>
     </div>
   </div>

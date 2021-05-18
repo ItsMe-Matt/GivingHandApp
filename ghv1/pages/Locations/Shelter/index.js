@@ -33,7 +33,7 @@ function Locations() {
        />
        <br></br>
        <LocationUI 
-       header="Rancity Housing & Support Society"
+       header="Raincity Housing & Support Society"
        address="1648 Commercial Dr, Vancouver, BC V5N 4A4"
        status="Open 24 hours"
        status2="(604) 428-8252"

@@ -11,7 +11,7 @@ function Home() {
     <div className={styles.bg}>
       <div className={styles.overlay}>
        <div className={styles.OrganizationCards}>
-           <OrganizationCards organizationText="Direction Youth Services " />
+           <OrganizationCards organizationText="Directions Youth Services (a division of Family Services of Greater Vancouver) offers low-barrier programs and services to support youth under the age of 25 who are in crisis or experiencing homelessness as a result of abuse, neglect, substance use, or mental health challenges. We welcome and serve all youth." supportText="" url="/static/Wish.png" />
        </div>
        <TopNavUI routeTo="/SupportUs/Hygiene" />
     <SupportUs 
