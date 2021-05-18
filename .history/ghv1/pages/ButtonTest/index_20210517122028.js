@@ -1,0 +1,26 @@
+import styles from '../../styles/styles.module.css'
+import UnopDropdown from "unop-react-dropdown";
+import AnimatedDropdown from "../../Comps/ButtonTest/index";
+
+export default function App() {
+  return (
+    <div className="App">
+      <header>
+        <h1>unop-react-dropdown</h1>
+      </header>
+      <div>
+        <h3>Default dropdown</h3>
+        <UnopDropdown trigger={<button>Big Brother</button>}>
+          <div>Hour:</div>
+          <div>I am random</div>
+          <div>I am random</div>
+        </UnopDropdown>
+      </div>
+
+      <div style={{ marginTop: "120px" }}>
+        <h3>With custom css</h3>
+        <AnimatedDropdown />
+      </div>
+    </div>
+  );
+}
