@@ -5,6 +5,7 @@ import Modal from '../../Comps/Modal'
 import Image from '../../Comps/Image'
 
 import ButtonUI from '../../Comps/ButtonUI'
+import Demo from '../../Comps/Demo'
 
 
 
@@ -34,8 +35,12 @@ export default function Home() {
             Giving hand is fun
             <ButtonUI routeTo="/" />
             <Image />
-            
+            <Demo />
           </Modal>
+
+
+
+
       </div>
     )
   }
