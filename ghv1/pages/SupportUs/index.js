@@ -6,7 +6,7 @@ import OrganizationCardsUI from '../../Comps/OrganizationCards'
 import VolunteerButtonUI from '../../Comps/CustomComponent4/volunteer'
 import TopNavUI from '../../Comps/TopNavUI'
 
-import styles from '../../styles/SupportUs.module.css'
+import styles from '../../styles/supportUs.module.css'
 
 
 function SupportUs() {
