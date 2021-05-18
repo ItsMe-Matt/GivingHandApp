@@ -16,10 +16,14 @@ function ImageButton({
         height: 150,
         borderRadius: 15,
         color: "#009966",
-        backgroundColor: "#DFDEDE",
+        backgroundColor: "#F5F5F5",
+        border: "solid",
+        borderColor: 'lightgrey',
         fontSize: 18,
         margin: 10,
-        padding: 10
+        padding: 10,
+        justifyContent: "center",
+
     }}>
         <div className={styles.center}>
             <img src={src} width="100px"></img>
@@ -33,7 +37,8 @@ function ImageButton({
                 color: "#686666",
                 fontSize: 12,
                 position: "relative",
-                top:40,
+                top:50,
+                left:5,
             }}
             > {body} </span>
             </div>

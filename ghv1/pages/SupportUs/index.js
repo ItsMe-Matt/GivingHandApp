@@ -20,11 +20,18 @@ function SupportUs() {
        <br></br>
       <ImageButton  
       header="(Time) Volunteer"
-      routeTo="/SupportUs/Volunteer.hours" />
+      routeTo="/SupportUs/Volunteer.hours" 
+      body="Volunteer a few hours of your time to help out an organization of your choice"
+      src="/ghv1/public/static/volunteer.png"
+      />
 
       <ImageButton 
       header="(Money) Donation"
-      routeTo="/SupportUs/Amount" />
+      routeTo="/SupportUs/Amount" 
+      body="Donate money to support those at your chosen organization"
+      src="/ghv1/public/static/money.png"
+      />
+      
 
 
 
