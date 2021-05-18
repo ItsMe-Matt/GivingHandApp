@@ -1,0 +1,95 @@
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #444f42;
+    padding: 100px;
+}
+
+.bg {
+    background-color: #fff;
+
+    max-width: 375px;
+    max-height: 1280px;
+
+    min-width: 375px;
+    min-height: 667px;
+
+    margin: 0px;
+    padding: 0px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.landingPage {
+    background-color: rgb(245, 245, 245);
+    background-image: url("/static/bgimages/buildings.svg");
+    max-width: 720px;
+    max-height: 1280px;
+
+    min-width: 375px;
+    min-height: 667px;
+
+    margin: 0;
+    padding: 0;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.box {
+    padding-top: 16px;
+    position: absolute;
+    width: 375px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #DAD4E5;
+    text-align: center;
+    font-size: 14px;
+}
+
+.caption {
+    color: white;
+    font-size: 18px;
+    max-width: 250px;
+    margin-bottom: 32px;
+    text-align: center;
+    font-family: 'Rajdhani', sans-serif;
+
+}
+
+.subtitle {
+    font-family: sans-serif;
+}
+
+.postCont {
+    width: 356px;
+}
+
+.nav {
+    width: 100%;
+    position: sticky;
+    bottom: 0px;
+}
+
+
+@media screen and (max-width: 500px) {
+    .main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #444f42;
+        padding: 0px;
+    }
+}
+
+.FONTS {
+    color: purple;
+}

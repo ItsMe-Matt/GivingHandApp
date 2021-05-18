@@ -100,7 +100,7 @@
 }
 
 .shadow {
-    width: 200px;
+    width: 275px;
     height: 60px;
     padding: 5px 0px;
     margin: 8px;
@@ -111,6 +111,7 @@
     text-align: center;
     border-radius: 15px;
     background-color: #f5f5f5;
+    border: solid lightgrey;
 
     font-family: Helvetica, sans-serif;
     font-size: 18px;
