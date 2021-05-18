@@ -1,4 +1,3 @@
-import HeaderBlockUI from '../../Comps/CustomComponent3'
 import ButtonUI from '../../Comps/ButtonUI'
 import MissionUI from '../../Comps/MissionUI'
 import NavbarUI from '../../Comps/NavBar'
