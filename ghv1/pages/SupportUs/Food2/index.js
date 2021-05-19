@@ -1,10 +1,21 @@
 import ButtonUI from '../../../Comps/ButtonUI'
-
 import SupportUs from '../../../Comps/SupportUs/index'
 import styles from '../../../styles/SupportUs.module.css'
 import TopNavUI from '../../../Comps/TopNavUI'
 
+import React, { useEffect, useRef, useState } from "react";
+import ReactDOM from "react-dom";
+import Modal from '../../../Comps/Modal'
+import Modal2 from '../../../Comps/Modal2'
+import Modal3 from '../../../Comps/Modal3'
+import Modal4 from '../../../Comps/Modal4'
+
 function Home() {
+  const [showModal, setShowModal] = useState(false);
+  const [showModal2, setShowModal2] = useState(false);
+  const [showModal3, setShowModal3] = useState(false);
+  const [showModal4, setShowModal4] = useState(false);
+
   return (<div className={styles.SupportUs}>
     <div className={styles.bg}>
        <TopNavUI routeTo="/SupportUs/Sector2" />

@@ -5,12 +5,17 @@ import ButtonUI from '../../../Comps/ButtonUI'
 import SupportUs from '../../../Comps/SupportUs/index'
 import TopNavUI from '../../../Comps/TopNavUI'
 import Modal from '../../../Comps/Modal'
-import Image from '../../../Comps/Image'
+import Modal2 from '../../../Comps/Modal2'
+import Modal3 from '../../../Comps/Modal3'
+import Modal4 from '../../../Comps/Modal4'
 
 import styles from '../../../styles/supportUs.module.css'
 
 function Home() {
   const [showModal, setShowModal] = useState(false);
+  const [showModal2, setShowModal2] = useState(false);
+  const [showModal3, setShowModal3] = useState(false);
+  const [showModal4, setShowModal4] = useState(false);
 
   return (<div className={styles.SupportUs}>
     <div className={styles.bg}>
@@ -42,35 +47,49 @@ function Home() {
 
         <button 
         className={styles.supportBtn}
-        onClick={() => setShowModal(true)}
+        onClick={() => setShowModal2(true)}
         >Greater Vancouver<br/> Food Bank</button>
-        <Modal
-          onClose={() => setShowModal(false)}
-          show={showModal}
+        <Modal2
+          onClose={() => setShowModal2(false)}
+          show={showModal2}
         >
           <p className={styles.popP}>
-          We’re a small group of dedicated volunteers who, for the last 38 years, have been picking up and distributing used household items to single Moms and Dads in need.
-
-          We work with over 85 community, government and charitable organizations to directly help more than 1,300 families each year. Our community stretches across the Lower Mainland.
+          The Greater Vancouver Food Bank was set up as a temporary relief to the hunger crisis in 1983 and has grown significantly in the three decades since then.
+          Today the GVFB provides assistance to around 8,500 individuals and families monthly across Vancouver, Burnaby, New Westminster, and the North Shore.
           </p>
           <br></br>
           <ButtonUI  title= "Select" type="start" routeTo="/ThankYou2" />
-        </Modal>
+        </Modal2>
 
         <button 
         className={styles.supportBtn}
-        onClick={() => setShowModal(true)}
+        onClick={() => setShowModal3(true)}
         >Quest Food Exchange</button>
-        <Modal
-          onClose={() => setShowModal(false)}
-          show={showModal}
+        <Modal3
+          onClose={() => setShowModal3(false)}
+          show={showModal3}
         >
           <p className={styles.popP}>
-            pens
+          Quest’s Food Recovery and Redistribution model is an innovative idea in which Quest recovers quality surplus food and necessities from suppliers at all levels of the supply chain and redistributes these goods to clients of social service agencies, government and non-government programs, churches, schools and hospitals in a traditional grocery market setting
           </p>
           <br></br>
           <ButtonUI  title= "Select" type="start" routeTo="/ThankYou2" />
-        </Modal>
+        </Modal3>
+
+        <button 
+        className={styles.supportBtn}
+        onClick={() => setShowModal4(true)}
+        >Aboriginal Front Door <br />Society</button>
+        <Modal4
+          onClose={() => setShowModal4(false)}
+          show={showModal4}
+        >
+          <p className={styles.popP}>
+          The Vision of Aboriginal Front Door Society is composed of Aboriginal people that are able to walk through life with love, honor, respect, and compassion for all things in creation, including themselves.
+          </p>
+          <br></br>
+          <ButtonUI  title= "Select" type="start" routeTo="/ThankYou2" />
+        </Modal4>
 
 
 
