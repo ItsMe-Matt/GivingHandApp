@@ -8,7 +8,7 @@ import styled, { keyframes } from 'styled-components';
 
 
 const HeadingCont = styled.h1`
-color: #6B5DA9; font-family: Rajdhani;
+color: #6B5DA9; font-family: ra
 animation-iteration-count: 1;
 @keyframes fadeIn {
     0% {
