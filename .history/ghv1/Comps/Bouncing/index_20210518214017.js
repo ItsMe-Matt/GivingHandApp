@@ -7,8 +7,8 @@ import styled, { keyframes } from 'styled-components';
 
 
 
-const HeadingCont = styled.h1`
-Color: '#6B5DA9';
+const HeadingCont = styled.headeranimation`
+color: '#6B5DA9';
 animation-iteration-count: 1;
 @keyframes fadeIn {
     0% {
