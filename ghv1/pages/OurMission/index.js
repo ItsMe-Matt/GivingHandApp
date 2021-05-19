@@ -17,7 +17,7 @@ function OurMission() {
         height="119px"
         body="The mission of Giving Hand is to end homelessness for the people of vancouver by providing a safe, temporary refuge and critical services to support them in healing, rebuilding their lives and integrating them back into a community. There are four simple steps."/>
 
-      <ButtonUI title="Continue" type="next" routeTo="/OurMission1" />
+      <ButtonUI title="Continue" type="continue" routeTo="/OurMission1" />
     </div>
   </div>
 

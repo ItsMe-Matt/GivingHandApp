@@ -15,7 +15,7 @@ function OurMission1() {
         url="/static/donationPic.svg"
         body="Choose between donating time (volunteer hours) and a money donation!"/>
 
-      <ButtonUI title="Continue" type="next" routeTo="/OurMission2" /> 
+      <ButtonUI title="Continue" type="continue" routeTo="/OurMission2" /> 
 
 
 
