@@ -47,6 +47,14 @@ function Home() {
           We’re a small group of dedicated volunteers who, for the last 38 years, have been picking up and distributing used household items to single Moms and Dads in need.
 
           We work with over 85 community, government and charitable organizations to directly help more than 1,300 families each year. Our community stretches across the Lower Mainland.
+
+          <br /><br />
+
+          <b>Address:</b> 1679 Gilmore Ave, Burnaby
+          <br/>
+          <b>Hours:</b> 24 hours
+          <br />
+          <b>Phone:</b> (604) 294-3087
           </p>
           <br></br>
           <ButtonUI title="Select" type="start" routeTo="/ThankYou" />
@@ -69,6 +77,13 @@ function Home() {
           <p className={styles.popP}>
           The Greater Vancouver Food Bank was set up as a temporary relief to the hunger crisis in 1983 and has grown significantly in the three decades since then.
           Today the GVFB provides assistance to around 8,500 individuals and families monthly across Vancouver, Burnaby, New Westminster, and the North Shore.
+          <br /> <br />
+          <b>Address:</b> 1428 Charles St, Vancouver
+          <br/>
+          <b>Hours:</b> Opens at 7pm
+          <br />
+          <b>Phone:</b> (604) 876-3601
+          
           </p>
           <br></br>
           <ButtonUI  title= "Select" type="start" routeTo="/ThankYou2" />
@@ -88,7 +103,14 @@ function Home() {
             height="100%"
           />
           <p className={styles.popP}>
-          Quest’s Food Recovery and Redistribution model is an innovative idea in which Quest recovers quality surplus food and necessities from suppliers at all levels of the supply chain and redistributes these goods to clients of social service agencies, government and non-government programs, churches, schools and hospitals in a traditional grocery market setting
+          Quest’s Food Recovery and Redistribution model is an innovative idea in which Quest recovers quality surplus food and necessities from suppliers at all levels of the supply chain and redistributes these goods to clients of social service agencies, government and non-government programs, churches, schools and hospitals in a traditional grocery market setting.
+          
+          <br /> <br />
+          <b>Address:</b> 2020 Dundas St, Vancouver
+          <br/>
+          <b>Hours:</b> Open 9am - 5:45pm
+          <br />
+          <b>Phone:</b> (604) 602-0186
           </p>
           <br></br>
           <ButtonUI  title= "Select" type="start" routeTo="/ThankYou3" />
@@ -110,6 +132,13 @@ function Home() {
 
           <p className={styles.popP}>
           The Vision of Aboriginal Front Door Society is composed of Aboriginal people that are able to walk through life with love, honor, respect, and compassion for all things in creation, including themselves.
+
+          <br /> <br />
+          <b>Address:</b> 384 Main St, Vancouver
+          <br/>
+          <b>Hours:</b> Open 8am - 4pm
+          <br />
+          <b>Phone:</b> (604) 697-5662
           </p>
           <br></br>
           <ButtonUI  title= "Select" type="start" routeTo="/ThankYou4" />

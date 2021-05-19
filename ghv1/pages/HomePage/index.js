@@ -16,7 +16,7 @@ function HomePage() {
         <p className={styles.subtitle}>"Ending Vancouver's homelessness one step at a time."</p>
 
         <ButtonUI title="Donate Now!" type="start" routeTo="/SupportUs"/>
-        <ButtonUI title="Our Mission" type="shadow" routeTo="/OurMission"/>
+        <ButtonUI title="Our Mission" type="select" routeTo="/OurMission"/>
 
 
 
