@@ -36,8 +36,8 @@ function Home() {
           onClose={() => setShowModal(false)}
           show={showModal}
         >
-          <img src="/static/Dress.png"></img>
-          <p>
+          <img src="/static/Dress.png" width="100%"></img>
+          <p className={styles.popP}>
           Dress for Success Vancouver is a community empowering women into the workforce by providing them with professional attire, career services, and skills development programs.
           </p>
           <br></br>
@@ -47,14 +47,14 @@ function Home() {
         <button 
         className={styles.supportBtn}
         onClick={() => setShowModal2(true)}
-        >Dress for Success</button>
+        >Big Brothers Vancouver</button>
         <Modal2
           onClose={() => setShowModal2(false)}
           show={showModal2}
         >
-          <img src="/static/Dress.png"></img>
-          <p>
-          hi hi
+          <img src="/static/BigBrother.png" width="100%"></img>
+          <p className={styles.popP}>
+          Big Brothers belong in the Greater Vancouver area. Their mission is to enable impactful mentoring relationships where children and youth can discover their power and potential, in collaboration with our local communities.
           </p>
           <br></br>
           <ButtonUI title="Select" type="start" routeTo="/ThankYou10" />
@@ -63,38 +63,34 @@ function Home() {
         <button 
         className={styles.supportBtn}
         onClick={() => setShowModal3(true)}
-        >Dress for Success</button>
+        >Downtown Eastside Women’s Centre</button>
         <Modal3
           onClose={() => setShowModal3(false)}
           show={showModal3}
         >
-          <img src="/static/Dress.png"></img>
-          <p>
-          hi hi
+          <img src="/static/DowntownEastside.png" width="100%"></img>
+          <p className={styles.popP}>
+          The mission of the Downtown Eastside Women’s Centre is to provide a safe, non-judgmental environment for women from all walks of life, who live and/or work in the Downtown Eastside. To achieve this goal, the Centre provides supportive surroundings with meals, counseling, advocacy and programs which nurture and empower members.
           </p>
           <br></br>
-          <ButtonUI title="Select" type="start" routeTo="/ThankYou10" />
+          <ButtonUI title="Select" type="start" routeTo="/ThankYou11" />
         </Modal3>
 
         <button 
         className={styles.supportBtn}
         onClick={() => setShowModal4(true)}
-        >Dress for Success</button>
+        >Union Gospel Mission</button>
         <Modal4
           onClose={() => setShowModal4(false)}
           show={showModal4}
         >
-          <img src="/static/Dress.png"></img>
-          <p>
-          hi hi
+          <img src="/static/UnionGospel.png" width="100%"></img>
+          <p className={styles.popP}>
+          In a world that’s broken by poverty and addiction, we are determined to offer restoration to those in need. We do this by coming alongside men, women, and children to provide a hand up towards hope and recovery.
           </p>
           <br></br>
-          <ButtonUI title="Select" type="start" routeTo="/ThankYou10" />
+          <ButtonUI title="Select" type="start" routeTo="/ThankYou12" />
         </Modal4>
-
-       <ButtonUI  title= "Big Brothers Vancouver" type="shadow" routeTo="/OverlayClothing2" />
-       <ButtonUI  title= "Downtown Eastside Women’s Centre" type="shadow" routeTo="/OverlayClothing3" />
-       <ButtonUI  title= "Union Gospel Mission" type="shadow" routeTo="/OverlayClothing4" />
     </div>
   </div>
 
