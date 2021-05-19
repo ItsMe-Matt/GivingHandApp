@@ -1,19 +1,12 @@
-import React, { useEffect, useRef, useState } from "react";
-import ReactDOM from "react-dom";
-
-import Modal from '../../Comps/Modal'
-
-function Home(){
-    const [showModal, setShowModal] = useState(false);
-    
+function Home(){    
     return (<div>
-        <button onClick={() => setShowModal(true)}>Open Modal</button>
-        <Modal
-          onClose={() => setShowModal(false)}
-          show={showModal}
-        >
-          Hello from the modal!
-        </Modal>
+        <p style={{
+          fontFamily: "Roboto"
+        }}>
+          lol
+        </p>
+
+        lol
     </div>)
 }
 

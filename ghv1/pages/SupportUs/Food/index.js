@@ -5,6 +5,7 @@ import ButtonUI from '../../../Comps/ButtonUI'
 import SupportUs from '../../../Comps/SupportUs/index'
 import TopNavUI from '../../../Comps/TopNavUI'
 import Modal from '../../../Comps/Modal'
+import Image from '../../../Comps/Image'
 
 import styles from '../../../styles/supportUs.module.css'
 
@@ -21,10 +22,6 @@ function Home() {
        supportingtext="(please select one)"
        page="FourthSupport"
        />
-       
-        
-    
-       
 
        <button 
         className={styles.supportBtn}
@@ -34,7 +31,7 @@ function Home() {
           onClose={() => setShowModal(false)}
           show={showModal}
         >
-          <p>
+          <p className={styles.popP}>
           We’re a small group of dedicated volunteers who, for the last 38 years, have been picking up and distributing used household items to single Moms and Dads in need.
 
           We work with over 85 community, government and charitable organizations to directly help more than 1,300 families each year. Our community stretches across the Lower Mainland.
@@ -46,15 +43,30 @@ function Home() {
         <button 
         className={styles.supportBtn}
         onClick={() => setShowModal(true)}
-        >Greater Vancouver Food bank</button>
+        >Greater Vancouver<br/> Food Bank</button>
         <Modal
           onClose={() => setShowModal(false)}
           show={showModal}
         >
-          <p>
+          <p className={styles.popP}>
           We’re a small group of dedicated volunteers who, for the last 38 years, have been picking up and distributing used household items to single Moms and Dads in need.
 
           We work with over 85 community, government and charitable organizations to directly help more than 1,300 families each year. Our community stretches across the Lower Mainland.
+          </p>
+          <br></br>
+          <ButtonUI  title= "Select" type="start" routeTo="/ThankYou2" />
+        </Modal>
+
+        <button 
+        className={styles.supportBtn}
+        onClick={() => setShowModal(true)}
+        >Quest Food Exchange</button>
+        <Modal
+          onClose={() => setShowModal(false)}
+          show={showModal}
+        >
+          <p className={styles.popP}>
+            pens
           </p>
           <br></br>
           <ButtonUI  title= "Select" type="start" routeTo="/ThankYou2" />
