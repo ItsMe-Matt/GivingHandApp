@@ -5,15 +5,15 @@ import TopNavUI from '../../Comps/TopNavUI'
 import styles from '../../styles/ourMission.module.css'
 
 
-function OurMission() {
+function OurMission1() {
   return (<div className={styles.main}>
     <div className={styles.bg}>
-
       <TopNavUI routeTo="/OurMission"/>
 
-      <br/>
-
-      <MissionUI header="Select Donation" url="/static/donationPic.svg" body="Choose between donating time (volunteer hours) and a money donation!"/>
+      <MissionUI 
+        header="Select Donation" 
+        url="/static/donationPic.svg"
+        body="Choose between donating time (volunteer hours) and a money donation!"/>
 
       <ButtonUI title="Continue" type="next" routeTo="/OurMission2" /> 
 
@@ -26,4 +26,4 @@ function OurMission() {
   )
   }
 
-export default OurMission;
+export default OurMission1;

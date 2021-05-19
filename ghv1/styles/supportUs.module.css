@@ -40,6 +40,26 @@
     border: black 2px solid;
 }
 
+.supportBtn {
+    width: 275px;
+    padding: 1rem 0rem;
+    margin: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+    border-radius: 15px;
+    background-color: #f5f5f5;
+    border: none;
+    box-shadow: 0px 4px 8px grey;
+
+    font-family: Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #009966;
+}
+
 @media screen and (max-width: 500px) {
     .SupportUs {
         display: flex;

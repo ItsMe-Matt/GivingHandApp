@@ -8,7 +8,7 @@ function TestButton() {
       <div className={styles.bg}>
       
       <div className={styles.box}>
-       <BackButton routeTo="/ButtonTest"/>
+       <BackButton routeTo="/Locations"/>
         
         <h1 style={{
             color:"#6B5DA9",

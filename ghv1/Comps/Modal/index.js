@@ -12,10 +12,11 @@ justify-content: flex-end;
 font-size: 25px;
 `;
 
+
+//Change this to change the size of the pop up
 const StyledModal = styled.div`
 background: white;
-width: 500px;
-height: 600px;
+width: 20rem;
 border-radius: 15px;
 padding: 15px;
 `;
