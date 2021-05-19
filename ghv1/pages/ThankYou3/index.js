@@ -11,7 +11,7 @@ function ThankYou()
   return (<div className={styles.main}>
     <div className={styles.bg}>
 
-      <TopNavUI routeTo="/OverlayFood3" />
+      <TopNavUI routeTo="/LandingPage" />
 
       <ThanksUI supportingtext="Quest Food Exchange" url="/static/QuestFood.png" />
       <ButtonUI title="Donate Again" type="start" routeTo="/SupportUs" />

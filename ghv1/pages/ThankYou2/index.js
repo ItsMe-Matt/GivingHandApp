@@ -11,7 +11,7 @@ function ThankYou()
   return (<div className={styles.main}>
     <div className={styles.bg}>
 
-      <TopNavUI routeTo="/OverlayFood2" />
+      <TopNavUI routeTo="/LandingPage" />
 
       <ThanksUI supportingtext="Greater Vancouver Food Bank" url="/static/GreaterVancouver.png" />
       <ButtonUI title="Donate Again" type="start" routeTo="/SupportUs" />
