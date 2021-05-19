@@ -47,13 +47,13 @@ function Home() {
           We work with over 85 community, government and charitable organizations to directly help more than 1,300 families each year. Our community stretches across the Lower Mainland.
           </p>
           <br></br>
-          <ButtonUI title="Select" type="start" routeTo="/ThankYou1" />
+          <ButtonUI title="Select" type="start" routeTo="/ThankYou" />
         </Modal>
 
         <button 
         className={styles.supportBtn}
         onClick={() => setShowModal2(true)}
-        >Greater Vancouver<br/> Food Bank</button>
+        >Greater Vancouver Food <br/> Bank</button>
         <Modal2
           onClose={() => setShowModal2(false)}
           show={showModal2}

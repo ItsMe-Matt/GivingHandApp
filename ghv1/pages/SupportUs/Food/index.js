@@ -49,7 +49,7 @@ function Home() {
           We work with over 85 community, government and charitable organizations to directly help more than 1,300 families each year. Our community stretches across the Lower Mainland.
           </p>
           <br></br>
-          <ButtonUI title="Select" type="start" routeTo="/ThankYou1" />
+          <ButtonUI title="Select" type="start" routeTo="/ThankYou" />
         </Modal>
 
         <button 
