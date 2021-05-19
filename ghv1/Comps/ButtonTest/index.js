@@ -42,9 +42,10 @@ Phone=""
       style={{
         backgroundColor: 'white',
         borderRadius: '10px',
-        border:"black 2px solid",
+        border: 'lightgrey 3px solid',
         height: '80px',
         padding: '1px',
+        paddingTop: '10px',
         margin: '1px',
         width: '325px',
         justifyContent: 'center',
@@ -52,7 +53,9 @@ Phone=""
         position: "absolute",
         right: -165,
         textAlign: 'center',
-        fontSize: '13px'
+        fontSize: '12px',
+        fontFamily: 'helvetica',
+        boxShadow: "1px 3px 1px #9E9E9E"
       }}
       
     > 
