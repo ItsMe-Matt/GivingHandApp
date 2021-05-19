@@ -10,6 +10,7 @@ const StyledModalHeader = styled.div`
 display: flex;
 justify-content: flex-end;
 font-size: 25px;
+
 `;
 
 
@@ -49,7 +50,7 @@ const Modal = ({ show, onClose, children, title }) => {
         <StyledModal>
           <StyledModalHeader>
             <a href="#" onClick={handleCloseClick}>
-              x
+              <img src="/static/close.png" width="20px"></img>
             </a>
           </StyledModalHeader>
           {title && <StyledModalTitle>{title}</StyledModalTitle>}

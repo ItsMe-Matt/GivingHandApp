@@ -2,7 +2,7 @@ import React, { useEffect, useRef, useState } from "react";
 import ReactDOM from "react-dom";
 import ButtonUI from '../../../Comps/ButtonUI'
 import SupportUs from '../../../Comps/SupportUs/index'
-import styles from '../../../styles/SupportUs.module.css'
+import styles from '../../../styles/supportUs.module.css'
 import Modal from '../../../Comps/Modal'
 import Modal2 from '../../../Comps/Modal2'
 import Modal3 from '../../../Comps/Modal3'
