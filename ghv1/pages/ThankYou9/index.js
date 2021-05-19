@@ -13,7 +13,7 @@ function ThankYou()
 
       <TopNavUI routeTo="/OverlayClothing1" />
 
-      <ThanksUI supportingtext="Union Gospel Mission" url="/static/Dress.png" />
+      <ThanksUI supportingtext="Dress for Success" url="/static/Dress.png" />
       <ButtonUI title="Donate Again" type="start" routeTo="/SupportUs" />
       <ButtonUI title="Go to Home" type="continue" routeTo="/HomePage" />
       <br></br>
