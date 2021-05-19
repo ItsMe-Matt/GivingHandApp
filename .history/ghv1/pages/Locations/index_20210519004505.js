@@ -17,8 +17,8 @@ function Locations({
         <Bouncing text="LOCATION"
         />
       <h4 style={{
-        color:"#6B5DA9",
-        fontFamily:"Helvetica"
+        color:"#6B5DA9"
+        
       }}>Select a sector below to find the "Address, Hours, and Phone Number" of each organization</h4>
        <ButtonUI title= "Shelter" routeTo="/Locations/Shelter" type="shadow" />
        <br></br>
