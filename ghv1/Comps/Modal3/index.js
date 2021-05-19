@@ -49,7 +49,7 @@ const Modal3 = ({ show, onClose, children, title }) => {
         <StyledModal>
           <StyledModalHeader>
             <a href="#" onClick={handleCloseClick}>
-              x
+            <img src="/static/close.png" width="20px"></img>
             </a>
           </StyledModalHeader>
           {title && <StyledModalTitle>{title}</StyledModalTitle>}
