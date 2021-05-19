@@ -1,24 +1,20 @@
+import React, { useEffect, useRef, useState } from "react";
+import ReactDOM from "react-dom";
 
+import Modal from '../../Comps/Modal'
 
-import styles from './test.module.css'
+function Home(){
+    const [showModal, setShowModal] = useState(false);
+    
+    return (<div>
+        <button onClick={() => setShowModal(true)}>Open Modal</button>
+        <Modal
+          onClose={() => setShowModal(false)}
+          show={showModal}
+        >
+          Hello from the modal!
+        </Modal>
+    </div>)
+}
 
-
-
-export default function Home() {
-  
-    return (
-      <div>
-        
-
-          <p className={styles.sans}>
-          Almost before we knew it, we had left the ground
-          </p>
-
-          <p className={styles.font}>
-          Almost before we knew it, we had left the ground
-          </p>
-
-
-      </div>
-    )
-  }
+export default Home;
