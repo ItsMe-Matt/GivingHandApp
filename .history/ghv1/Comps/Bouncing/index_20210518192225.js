@@ -18,7 +18,7 @@ animation-iteration-count: 1;
       opacity:1;
     }
   }
-  animation: fadeIn ease 3 s;
+  animation: fadeIn ease 3s;
   -webkit-animation: fadeIn ease 3s;
 `;
 //PROPS

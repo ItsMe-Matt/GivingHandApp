@@ -1,14 +1,8 @@
 import React from 'react'
 import styled, { keyframes } from 'styled-components';
 
-
-
-
-
-
-
 const HeadingCont = styled.h1`
-color: '#6B5DA9';
+color: 'white';
 animation-iteration-count: 1;
 @keyframes fadeIn {
     0% {
@@ -18,7 +12,7 @@ animation-iteration-count: 1;
       opacity:1;
     }
   }
-  animation: fadeIn ease 3 s;
+  animation: fadeIn ease 3s;
   -webkit-animation: fadeIn ease 3s;
 `;
 //PROPS

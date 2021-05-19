@@ -9,43 +9,43 @@ function TestButton() {
       <div className={styles.bg}>
       
       <div className={styles.box}>
-      <BackButton routeTo="/Locations"/>
+       <BackButton routeTo="/Locations"/>
         
-        <Bouncing text="SHELTER"/>
+        <Bouncing text="HYGIENE"/>
       
         
 
         
         <br></br>
         <AnimatedDropdown 
-        Text="Covenant House Vancouver"
-        Address="Address:  326 W Pender St, Vancouver, BC V6B 1T1"
+        Text="Donation Circle Society"
+        Address="Address: 2487 Adanac St, Vancouver, BC V5K 2M3"
         Hours="Hours: 24 Hours"
-        Phone="Phone: (604) 685-7474"
+        Phone="Phone:  (604) 253-7898"
         />
         <br></br><br></br>
-        <br></br><br></br>
+        <br></br>
         <AnimatedDropdown 
-        Text="Aboriginal Shelter Vancouver"
-        Address=" Address: 201 Central St, Vancouver, BC V6A 4A9"
-        Hours=" Hours: Opens 4:30 p.m. - 10 am"
-        Phone=" Phone: (604) 682-5556"
+        Text="Wish Drop In Centre"
+        Address=" Address: 334 Alexander St, Vancouver, BC V6A 1C3"
+        Hours=" Hours:  Opens 12 a.m. - 6 p.m."
+        Phone=" Phone:  (604) 669-9474"
         />
         <br></br><br></br>
-        <br></br><br></br>
+        <br></br>
         <AnimatedDropdown 
-        Text="Lookout Emergency Aid"
-        Address=" Address: 832 E Pender St, Vancouver, BC V6A 1W1"
-        Hours=" Hours: Open 24 hours"
-        Phone=" Phone: (604) 215-2445"
+        Text="Directions Youth Services"
+        Address=" Address: 1138 Burrard St, Vancouver, BC"
+        Hours=" Hours: 24 hours"
+        Phone=" Phone: (604) 669-1472"
         />
         <br></br><br></br>
-        <br></br><br></br>
+        <br></br>
         <AnimatedDropdown 
-        Text="Rancity Housing & Support Society"
-        Address=" Address: 1648 Commercial Dr, Vancouver, BC V5N 4A4"
+        Text="Union Gospel Mission"
+        Address=" Address: 601 E Hastings St, Vancouver, BC V6A 1J7"
         Hours=" Hours:  Open 24 hours"
-        Phone=" Phone: (604) 428-8252"
+        Phone=" Phone: (604) 253-3323"
         />
         <br></br><br></br>
         <br></br><br></br>

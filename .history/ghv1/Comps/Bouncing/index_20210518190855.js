@@ -1,8 +1,21 @@
 import React from 'react'
 import styled, { keyframes } from 'styled-components';
+import { fadeIn } from 'react-animations';
+import { Component } from 'react';
 
+/*const Fadein = styled.div`animation: 5s ${keyframes`${fadeIn}`} `;
 
-
+export default class ReactAnimations extends Component {
+    
+    render() {
+        return (
+            <Fadein><h1 style={{
+                color: '#6B5DA9'
+            }}>LOCATION</h1></Fadein>
+        )  
+    }
+ 
+}*/
 
 
 
@@ -18,12 +31,13 @@ animation-iteration-count: 1;
       opacity:1;
     }
   }
-  animation: fadeIn ease 3 s;
+  animation: fadeIn ease 3s;
   -webkit-animation: fadeIn ease 3s;
 `;
 //PROPS
 const Heading = ({
     text="", 
+    textOp= 0
 }) => {
     
     return <HeadingCont>

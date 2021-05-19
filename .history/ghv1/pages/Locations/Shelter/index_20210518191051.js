@@ -32,7 +32,7 @@ function TestButton() {
         Phone=" Phone: (604) 682-5556"
         />
         <br></br><br></br>
-        <br></br><br></br>
+        <br></br>
         <AnimatedDropdown 
         Text="Lookout Emergency Aid"
         Address=" Address: 832 E Pender St, Vancouver, BC V6A 1W1"
@@ -40,7 +40,7 @@ function TestButton() {
         Phone=" Phone: (604) 215-2445"
         />
         <br></br><br></br>
-        <br></br><br></br>
+        <br></br>
         <AnimatedDropdown 
         Text="Rancity Housing & Support Society"
         Address=" Address: 1648 Commercial Dr, Vancouver, BC V5N 4A4"

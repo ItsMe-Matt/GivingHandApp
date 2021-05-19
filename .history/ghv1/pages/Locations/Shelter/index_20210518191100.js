@@ -40,7 +40,7 @@ function TestButton() {
         Phone=" Phone: (604) 215-2445"
         />
         <br></br><br></br>
-        <br></br><br></br>
+        <br></br>
         <AnimatedDropdown 
         Text="Rancity Housing & Support Society"
         Address=" Address: 1648 Commercial Dr, Vancouver, BC V5N 4A4"
