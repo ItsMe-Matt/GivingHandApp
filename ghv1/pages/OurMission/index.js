@@ -10,7 +10,7 @@ function OurMission() {
     <div className={styles.bg}>
       <TopNavUI />
 
-      <MissionUI 
+      <MissionUI
         header="Ending Vancouver's homelessness one step at a time."
         url="/static/mission0Pic.png"
         width="250px"

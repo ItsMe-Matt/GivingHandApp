@@ -26,14 +26,18 @@ function ImageButton({
 
     }}>
         <div className={styles.center}>
-            <img src={src} width="100px"></img>
+            <img src={src} style={{
+                width: 100,
+                height: 80,
+                paddingTop: 15,
+            }}></img>
         </div>
         <div className={styles.header}>
             {header} 
         </div>
         <br></br>
         <div>
-            <span style = {{
+            <span className={styles.information} style = {{
                 color: "#686666",
                 fontSize: 12,
                 position: "relative",
