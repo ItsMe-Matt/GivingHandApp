@@ -18,10 +18,10 @@ function Home() {
        page="ThirdSupport"
        />  
 
-       <ButtonUI title= "Food" type="shadow" routeTo="/SupportUs/Food" />
+       <ButtonUI title= "Food/Kitchen" type="shadow" routeTo="/SupportUs/Food" />
        <ButtonUI title= "Hygiene Products" type="shadow" routeTo="/SupportUs/Hygiene" />
-       <ButtonUI title= "Clothing" type="shadow" routeTo="/SupportUs/Clothing" />
-       <ButtonUI title= "Shelter" type="shadow" routeTo="/SupportUs/Shelter" />
+       <ButtonUI title= "Clothing Sorting" type="shadow" routeTo="/SupportUs/Clothing" />
+       <ButtonUI title= "Shelter Maintenance" type="shadow" routeTo="/SupportUs/Shelter" />
     </div>
   </div>
 
