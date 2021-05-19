@@ -36,8 +36,8 @@ function Home() {
           onClose={() => setShowModal(false)}
           show={showModal}
         >
-          <img src="/static/DonationCircle.png" width="100%" ></img>
-          <p className={styles.popP}>
+          <img src="/static/Dress.png"></img>
+          <p>
             We connect donors to local charitable organizations supporting those in need: 
             families, seniors, homeless, people with disabilities/mental health issues, the most vulnerable as well as 
             organizing food rescue projects that benefit local communities.
@@ -54,9 +54,9 @@ function Home() {
           onClose={() => setShowModal2(false)}
           show={showModal2}
         >
-          <img src="/static/Wish.png"></img>
-          <p className={styles.popP}>
-          The Drop-In Centre is a safe, welcoming and non-judgemental space for all self-identified women, including trans women, who are current or former sex workers. 
+          <img src="/static/Dress.png"></img>
+          <p>
+          milk
           </p>
           <br></br>
           <ButtonUI title="Select" type="start" routeTo="/ThankYou6" />
@@ -70,11 +70,9 @@ function Home() {
           onClose={() => setShowModal3(false)}
           show={showModal3}
         >
-          <img src="/static/Direction.png" width="100%"></img>
-          <p className={styles.popP}>
-            Directions Youth Services (a division of Family Services of Greater Vancouver) offers low-barrier programs 
-            and services to support youth under the age of 25 who are in crisis or experiencing homelessness as a result of abuse, 
-            neglect, substance use, or mental health challenges. We welcome and serve all youth.
+          <img src="/static/Dress.png"></img>
+          <p>
+          hi hi
           </p>
           <br></br>
           <ButtonUI title="Select" type="start" routeTo="/ThankYou7" />
@@ -88,16 +86,17 @@ function Home() {
           onClose={() => setShowModal4(false)}
           show={showModal4}
         >
-          <img src="/static/UnionGospel.png" width="100%"></img>
-          <p className={styles.popP}>
-            In a world that’s broken by poverty and addiction, we are determined to offer restoration to those in need.
-            We do this by coming alongside men, women, and children to provide a hand up towards hope and recovery.
+          <img src="/static/Dress.png"></img>
+          <p>
+          donald
           </p>
           <br></br>
           <ButtonUI title="Select" type="start" routeTo="/ThankYou8" />
         </Modal4>
 
-       
+       <ButtonUI  title= "Big Brothers Vancouver" type="shadow" routeTo="/OverlayClothing2" />
+       <ButtonUI  title= "Downtown Eastside Women’s Centre" type="shadow" routeTo="/OverlayClothing3" />
+       <ButtonUI  title= "Union Gospel Mission" type="shadow" routeTo="/OverlayClothing4" />
     </div>
   </div>
 

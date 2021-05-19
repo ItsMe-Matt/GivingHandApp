@@ -1,14 +1,14 @@
 import React from 'react'
 import styled, { keyframes } from 'styled-components';
+import styles from '../../styles/ourMission.module.css'
 
 
 
 
 
 
-
-const HeadingCont = styled.h1`
-Color: '#6B5DA9';
+const HeadingCont = styles.headeranimation`
+color: '#6B5DA9';
 animation-iteration-count: 1;
 @keyframes fadeIn {
     0% {
