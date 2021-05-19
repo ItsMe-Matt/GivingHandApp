@@ -36,7 +36,7 @@ function Home() {
           onClose={() => setShowModal(false)}
           show={showModal}
         >
-          <img src="/static/DonationCircle.png" width="100%" ></img>
+          <img src="/static/DonationCircle.png" display="block" margin-left="auto" margin-right="auto" width="100%" ></img>
           <p className={styles.popP}>
             We connect donors to local charitable organizations supporting those in need: 
             families, seniors, homeless, people with disabilities/mental health issues, the most vulnerable as well as 
@@ -70,7 +70,7 @@ function Home() {
           onClose={() => setShowModal3(false)}
           show={showModal3}
         >
-          <img src="/static/Direction.png" width="100%"></img>
+          <img src="/static/Direction.png" display="block" margin="auto" width="100%"></img>
           <p className={styles.popP}>
             Directions Youth Services (a division of Family Services of Greater Vancouver) offers low-barrier programs 
             and services to support youth under the age of 25 who are in crisis or experiencing homelessness as a result of abuse, 
@@ -88,7 +88,7 @@ function Home() {
           onClose={() => setShowModal4(false)}
           show={showModal4}
         >
-          <img src="/static/UnionGospel.png" width="100%"></img>
+          <img src="/static/UnionGospel.png"margin-left></img>
           <p className={styles.popP}>
             In a world that’s broken by poverty and addiction, we are determined to offer restoration to those in need.
             We do this by coming alongside men, women, and children to provide a hand up towards hope and recovery.
@@ -97,7 +97,9 @@ function Home() {
           <ButtonUI title="Select" type="start" routeTo="/ThankYou8" />
         </Modal4>
 
-       
+       <ButtonUI  title= "Big Brothers Vancouver" type="shadow" routeTo="/OverlayClothing2" />
+       <ButtonUI  title= "Downtown Eastside Women’s Centre" type="shadow" routeTo="/OverlayClothing3" />
+       <ButtonUI  title= "Union Gospel Mission" type="shadow" routeTo="/OverlayClothing4" />
     </div>
   </div>
 

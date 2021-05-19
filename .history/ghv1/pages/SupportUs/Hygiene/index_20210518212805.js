@@ -97,7 +97,9 @@ function Home() {
           <ButtonUI title="Select" type="start" routeTo="/ThankYou8" />
         </Modal4>
 
-       
+       <ButtonUI  title= "Big Brothers Vancouver" type="shadow" routeTo="/OverlayClothing2" />
+       <ButtonUI  title= "Downtown Eastside Women’s Centre" type="shadow" routeTo="/OverlayClothing3" />
+       <ButtonUI  title= "Union Gospel Mission" type="shadow" routeTo="/OverlayClothing4" />
     </div>
   </div>
 
