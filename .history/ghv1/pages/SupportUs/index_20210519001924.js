@@ -1,7 +1,7 @@
 import SupportUI from '../../Comps/SupportUs'
 import TopNavUI from '../../Comps/TopNavUI'
 import ImageButton from '../../Comps/ImageButton'
-import Bouncing from '../../Comps/Bouncing/index'
+import Bouncing from '../../Comps/b'
 import styles from '../../styles/supportUs.module.css'
 
 
@@ -9,7 +9,6 @@ function SupportUs() {
   return (<div className={styles.SupportUs}>
     <div className={styles.bg}>
       <TopNavUI routeTo="/HomePage" />
-      
 
       <SupportUI 
        header="Support Us"

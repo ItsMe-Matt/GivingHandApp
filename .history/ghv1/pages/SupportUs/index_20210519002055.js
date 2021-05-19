@@ -9,10 +9,12 @@ function SupportUs() {
   return (<div className={styles.SupportUs}>
     <div className={styles.bg}>
       <TopNavUI routeTo="/HomePage" />
-      
+
+      <Bouncing text="SUPPORT US" style={color}/>
+
 
       <SupportUI 
-       header="Support Us"
+       header=""
        subheader="How would you like to help?"
        supportingtext="(please select one)"
        page="FirstSupport"

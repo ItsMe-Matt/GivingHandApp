@@ -11,8 +11,9 @@ function SupportUs() {
       <TopNavUI routeTo="/HomePage" />
       
 
+
       <SupportUI 
-       header="Support Us"
+       header=""
        subheader="How would you like to help?"
        supportingtext="(please select one)"
        page="FirstSupport"

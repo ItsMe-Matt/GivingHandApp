@@ -13,7 +13,7 @@ function Locations({
   return (<div className={styles.main}>
     <div className={styles.bg}>
       <div className={styles.box}>
-        <BackButtonUI />
+        
         <Bouncing text="LOCATION"
         />
       <h4 style={{
