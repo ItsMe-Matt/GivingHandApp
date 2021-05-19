@@ -61,15 +61,6 @@
     color: #009966;
 }
 
-.popP {
-
-    font-family: Helvetica;
-    text-align: center;
-    font-size: 14px;
-
-
-}
-
 @media screen and (max-width: 500px) {
     .SupportUs {
         display: flex;
