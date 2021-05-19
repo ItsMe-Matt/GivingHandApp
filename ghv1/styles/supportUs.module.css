@@ -62,7 +62,7 @@
 }
 
 .popP {
-    font-family: "Roboto";
+    font-family: "Roboto", sans-serif;
 }
 
 @media screen and (max-width: 500px) {
