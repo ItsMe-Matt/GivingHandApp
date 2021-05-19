@@ -33,7 +33,7 @@ function Home() {
        <button 
         className={styles.supportBtn}
         onClick={() => setShowModal(true)}
-        >Helping Families in Need Society</button>
+        >Helping Families in <br /> Need Society</button>
         <Modal
           onClose={() => setShowModal(false)}
           show={showModal}
