@@ -2,7 +2,7 @@
 import ThanksUI from '../../Comps/ThanksUI'
 import ButtonUI from '../../Comps/ButtonUI'
 
-import styles from '../../styles/main.module.css'
+import styles from '../../styles/thankyou.module.css'
 import TopNavUI from '../../Comps/TopNavUI';
 
 function ThankYou() 
@@ -11,7 +11,7 @@ function ThankYou()
   return (<div className={styles.main}>
     <div className={styles.bg}>
 
-      <TopNavUI routeTo="/OverlayHygiene3" />
+      <TopNavUI routeTo="/HomePage" />
 
       <ThanksUI supportingtext="Direction Youth Services" url="/static/Direction.png" />
       <ButtonUI title="Donate Again" type="start" routeTo="/SupportUs" />

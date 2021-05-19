@@ -7,7 +7,7 @@
 
 .header {
     justify-content: flex-start;
-    font-family: Helvetica, sans-serif;
+    font-family: 'Rajdhani', sans-serif;
     font-size: 36px;
     font-weight: 700;
     color: #6B5DA9;
@@ -19,7 +19,7 @@
 .h2 {
     display: flex;
     align-items: center;
-    font-family: Helvetica, sans-serif;
+    font-family: 'Rajdhani', sans-serif;
     font-weight: 700;
     font-size: 18px;
     color: #6B5DA9;
@@ -52,7 +52,7 @@
     font-family: Helvetica, sans-serif;
     font-size: 12px;
     color: grey;
-    padding-bottom: 20px;
+    padding-bottom: 15px;
 }
 
 .bar {

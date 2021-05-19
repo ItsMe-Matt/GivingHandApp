@@ -6,37 +6,33 @@ import Bouncing from '../../Comps/Bouncing/index'
 
 
 function Locations({
-  textOpCarry=0
+
 }) {
 
-  if(process.browser){
-    // alert("people equal shit")
-   setTimeout(function()
-   {
-     textOpCarry =1
-   },5000)
-  }
+ 
   return (<div className={styles.main}>
     <div className={styles.bg}>
-      <BackButtonUI />
-      
       <div className={styles.box}>
+        <BackButtonUI />
         <Bouncing text="LOCATION"
-        textOp={textOpCarry}/>
+        />
       <h4 style={{
         color:"#6B5DA9"
       }}>Select a sector below to find the "Address, Hours, and Phone Number" of each organization</h4>
-       <ButtonUI title= "Shelter" routeTo="/ButtonTest/Shelter" type="shadow" />
+       <ButtonUI title= "Shelter" routeTo="/Locations/Shelter" type="shadow" />
        <br></br>
-       <ButtonUI  title= "Clothing" routeTo="/ButtonTest/Clothing" type="shadow" />
+       <ButtonUI  title= "Clothing" routeTo="/Locations/Clothing" type="shadow" />
        <br></br>
-       <ButtonUI  title= "Hygiene Products" routeTo="/ButtonTest/Hygiene" type="shadow" />
+       <ButtonUI  title= "Hygiene Products" routeTo="/Locations/Hygiene" type="shadow" />
        <br></br>
-       <ButtonUI  title= "Food" routeTo="/ButtonTest/Food" type="shadow" />
-       <br></br><br></br><br></br>
-       <NavbarUI />
-
+       <ButtonUI  title= "Food" routeTo="/Locations/Food" type="shadow" />
        </div>
+
+       <div className={styles.nav}>
+          <NavbarUI />
+        </div>
+
+
     </div>
   </div>
 

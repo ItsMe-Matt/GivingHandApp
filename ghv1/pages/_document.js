@@ -10,9 +10,7 @@ class MyDocument extends Document {
     return (
       <Html>
         <Head />
-        <body style={{
-          margin: "0"
-        }}>
+        <body>
           <Main />
           <NextScript />
           <div id="modal-root"></div>

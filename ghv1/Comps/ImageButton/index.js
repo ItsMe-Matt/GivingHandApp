@@ -5,7 +5,7 @@ function ImageButton({
 
     header = "placeholder",
     routeTo="/",
-    src="https://wallpapercave.com/wp/wp7151807.jpg",
+    src="/public/money.svg/",
     body="the fitness gram pacer test is a multistage aerobic capacity test"
 
 }){
@@ -16,24 +16,33 @@ function ImageButton({
         height: 150,
         borderRadius: 15,
         color: "#009966",
-        backgroundColor: "#DFDEDE",
+        backgroundColor: "#F5F5F5",
+        border: "solid",
+        borderColor: 'lightgrey',
         fontSize: 18,
         margin: 10,
-        padding: 10
+        padding: 10,
+        justifyContent: "center",
+
     }}>
         <div className={styles.center}>
-            <img src={src} width="100px"></img>
+            <img src={src} style={{
+                width: 100,
+                height: 80,
+                paddingTop: 15,
+            }}></img>
         </div>
         <div className={styles.header}>
             {header} 
         </div>
         <br></br>
         <div>
-            <span style = {{
+            <span className={styles.information} style = {{
                 color: "#686666",
                 fontSize: 12,
                 position: "relative",
-                top:40,
+                top:50,
+                left:5,
             }}
             > {body} </span>
             </div>
