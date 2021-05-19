@@ -27,13 +27,10 @@ function Locations({
        <ButtonUI  title= "Hygiene Products" routeTo="/Locations/Hygiene" type="shadow" />
        <br></br><br></br>
        <ButtonUI  title= "Food" routeTo="/Locations/Food" type="shadow" />
+       <br></br><br></br><br></br><br></br><br></br>
+       <NavbarUI />
+
        </div>
-
-       <div className={styles.nav}>
-          <NavbarUI />
-        </div>
-
-
     </div>
   </div>
 
