@@ -28,7 +28,6 @@ function Locations({
        <br></br><br></br>
        <ButtonUI  title= "Food" routeTo="/Locations/Food" type="shadow" />
        <br></br><br></br><br></br>
-       <NavbarUI />
 
        </div>
     </div>
