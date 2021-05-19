@@ -61,6 +61,10 @@
     color: #009966;
 }
 
+.popP {
+    font-family: "Roboto", sans-serif;
+}
+
 @media screen and (max-width: 500px) {
     .SupportUs {
         display: flex;

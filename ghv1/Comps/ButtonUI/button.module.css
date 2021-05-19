@@ -34,19 +34,20 @@
 }
 
 .select {
-    width: 201px;
+    width: 300px;
     padding: 16px 0px;
-    margin: 8px;
-    box-shadow: 0px 5px 5px grey ;
+    margin: 4px;
 
     text-align: center;
     border-radius: 15px;
-    background-color: #F5F5F5;
+    background-color: #FFFFFF;
 
     font-family: Helvetica, sans-serif;
-    font-size: 18px;
     font-weight: 700;
+    font-size: 18px;
     color: #009966;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
 }
 
 .mission {
@@ -61,6 +62,7 @@
     font-family: Helvetica, sans-serif;
     font-size: 18px;
     color: #FFFFFF;
+    
 }
 
 .start {
@@ -76,6 +78,8 @@
     font-weight: 700;
     font-size: 18px;
     color: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
 }
 
 .next {
@@ -101,8 +105,8 @@
 
 .shadow {
     width: 275px;
-    height: 60px;
-    padding: 5px 0px;
+    min-height: 60px;
+    padding: 0.5rem 0rem;
     margin: 8px;
     display: flex;
     justify-content: center;
@@ -111,13 +115,13 @@
     text-align: center;
     border-radius: 15px;
     background-color: #f5f5f5;
-    border: solid lightgrey;
+    border: none;
+    box-shadow: 0px 4px 8px grey;
 
     font-family: Helvetica, sans-serif;
     font-size: 18px;
     font-weight: 700;
     color: #009966;
-    box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.25);
 }
 
 .input {
